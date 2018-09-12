@@ -1,15 +1,29 @@
 /* ---------- 全局样式 ---------- */
+:root {
+    --bgd-color: #cbe9f4;
 
+}
 body {
+    background-color: var(--bgd-color);
+
+}
+.blogs_container{
     width: 1100px;
-    height: 100%;
+    /*height: 100%;*/
     margin: 0 auto;
     padding-top: 40px;
 }
-
 a:hover {
     border-bottom: 3px solid #4fc08d;
 }
+/*#box{*/
+    /*overflow:hidden;*/
+    /*text-overflow:ellipsis;*/
+    /*display:-webkit-box;*/
+    /*-webkit-box-orient:vertical;*/
+    /*-webkit-line-clamp:3;*/
+/*}*/
+
 
 .button {
     background-color: #4fc08d !important;
@@ -48,7 +62,7 @@ a:hover {
 
 .nav-setting .ui.dropdown.button {
     padding: 10px 10px 0 10px;
-    background-color: #fff !important;
+    background-color: rgba(255, 255, 255, 0) !important;
 }
 
 .nav-setting .icon.bars {
@@ -57,6 +71,11 @@ a:hover {
 }
 
 /* ---------- post-content ---------- */
+.post-content{
+
+}
+
+
 
 .post-content h3 a {
     color: #4fc08d !important;
@@ -75,4 +94,13 @@ a:hover {
 
 .post-content .tag.right a {
     color: #999;
+}
+.iframe_box{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.ui.segment.a_bg{
+    background-color: rgba(255,255,255,0.1);
 }

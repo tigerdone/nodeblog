@@ -1,5 +1,10 @@
 <%- include('header') %>
+
 <% posts.forEach(function (post) { %>
+    <%if (posts.length != 1){
+        post.content = post.content.slice(0,40);
+    }%>
     <%- include('components/post-content', { post: post }) %>
 <% }) %>
+
 <%- include('footer') %>

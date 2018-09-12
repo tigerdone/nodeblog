@@ -3,6 +3,7 @@ const router = express.Router()
 
 const checkLogin = require('../middlewares/check').checkLogin
 const CommentModel = require('../models/comments')
+const PostModel = require('../models/posts')
 
 // POST /comments 创建一条留言
 router.post('/', checkLogin, function (req, res, next) {
@@ -28,6 +29,8 @@ router.post('/', checkLogin, function (req, res, next) {
 
     CommentModel.create(comment)
         .then(function () {
+            PostModel.incComments(postId)// pv 加 1
+
             req.flash('success', '留言成功')
             // 留言成功后跳转到上一页
             res.redirect('back')

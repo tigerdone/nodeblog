@@ -1,5 +1,6 @@
 const marked = require('marked')
 const Comment = require('../lib/mongo').Comment
+// const Post = require('../lib/mongo').Post
 
 // 将 comment 的 content 从 markdown 转换成 html
 Comment.plugin('contentToHtml', {

@@ -1,5 +1,5 @@
 <div class="post-content">
-    <div class="ui grid">
+    <div class="ui grid a_bg">
         <div class="four wide column">
             <a class="avatar avatar-link"
                href="/posts?author=<%= post.author._id %>"
@@ -10,25 +10,28 @@
         </div>
 
         <div class="eight wide column">
-            <div class="ui segment">
-                <h3><a href="/posts/<%= post._id %>"><%= post.title %></a></h3>
-                <pre><%- post.content %></pre>
+            <div class="ui segment a_bg">
+                <h3>
+                    <a href="/posts/<%= post._id %>"><%= post.title %></a>
+                </h3>
+
+                <!--<script type="text/javascript" src="/js/box.js"></script>-->
+                <pre id="box"><%- post.content %></pre>
                 <div>
                     <span class="tag"><%= post.created_at %></span>
                     <span class="tag right">
-            <span>浏览(<%= post.pv || 0 %>)</span>
-            <span>留言(<%= post.commentsCount || 0 %>)</span>
-
-                        <% if (user && post.author._id && user._id.toString() === post.author._id.toString()) { %>
+                    <span>浏览(<%= post.pv || 0 %>)</span>
+                    <span>留言(<%= post.commentsCount || 0 %>)</span>
+                    <% if (user && post.author._id && user._id.toString() === post.author._id.toString()) { %>
                         <div class="ui inline dropdown">
-                <div class="text"></div>
-                <i class="dropdown icon"></i>
-                <div class="menu">
-                  <div class="item"><a href="/posts/<%= post._id %>/edit">编辑</a></div>
-                  <div class="item"><a href="/posts/<%= post._id %>/remove">删除</a></div>
-                </div>
-              </div>
-                        <% } %>
+                            <div class="text"></div>
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <div class="item"><a href="/posts/<%= post._id %>/edit">编辑</a></div>
+                                <div class="item"><a href="/posts/<%= post._id %>/remove">删除</a></div>
+                            </div>
+                        </div>
+                    <% } %>
 
                     </span>
                 </div>

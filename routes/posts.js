@@ -12,6 +12,8 @@ router.get('/', function (req, res, next) {
     // res.render('posts')
     const author = req.query.author
 
+    console.log(author);
+
     PostModel.getPosts(author)
         .then(function (posts) {
             res.render('posts', {
@@ -66,11 +68,12 @@ router.get('/create', checkLogin, function (req, res, next) {
 // GET /posts/:postId 单独一篇的文章页
 router.get('/:postId', function (req, res, next) {
     const postId = req.params.postId
-
+    // console.log("ijij");
     Promise.all([
         PostModel.getPostById(postId), // 获取文章信息
         CommentModel.getComments(postId), // 获取该文章所有留言
         PostModel.incPv(postId)// pv 加 1
+
     ])
         .then(function (result) {
             const post = result[0]
@@ -83,6 +86,7 @@ router.get('/:postId', function (req, res, next) {
                 post: post,
                 comments: comments
             })
+
         })
         .catch(next)
 })
@@ -92,6 +96,7 @@ router.get('/:postId', function (req, res, next) {
 router.get('/:postId/edit', checkLogin, function (req, res, next) {
     const postId = req.params.postId
     const author = req.session.user._id
+
 
     PostModel.getRawPostById(postId)
         .then(function (post) {
