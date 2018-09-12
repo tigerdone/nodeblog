@@ -3,6 +3,10 @@ module.exports = function (app) {
         // res.redirect('/posts')
         res.render('index')
     })
+    app.get('/secbit', function (req, res) {
+        // res.redirect('/posts')
+        res.render('secbit')
+    })
 
     app.use('/signup', require('./signup'))
     app.use('/signin', require('./signin'))
