@@ -71,6 +71,7 @@ app.use(expressWinston.logger({
 // 路由
 routes(app)
 // 错误请求的日志
+//test
 app.use(expressWinston.errorLogger({
     transports: [
         new winston.transports.Console({

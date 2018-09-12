@@ -6,7 +6,6 @@
   "scripts": {
     "test": "istanbul cover _mocha",
     "start": "cross-env pm2 start index.js --name 'myblog'"
-
   },
   "author": "",
   "license": "ISC",
