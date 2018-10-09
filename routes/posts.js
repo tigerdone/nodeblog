@@ -38,6 +38,7 @@ router.post('/create', checkLogin, function (req, res, next) {
             throw new Error('请填写内容')
         }
     } catch (e) {
+
         req.flash('error', e.message)
         return res.redirect('back')
     }
@@ -62,6 +63,8 @@ router.post('/create', checkLogin, function (req, res, next) {
 // GET /posts/create 发表文章页
 router.get('/create', checkLogin, function (req, res, next) {
     // res.send('发表文章页')
+    console.log(" res.render('create')");
+
     res.render('create')
 })
 

@@ -8,6 +8,9 @@ module.exports = function (app) {
         res.render('secbit')
     })
 
+
+    app.use('/message', require('./message'))
+
     app.use('/signup', require('./signup'))
     app.use('/signin', require('./signin'))
     app.use('/signout', require('./signout'))

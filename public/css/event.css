@@ -1,0 +1,162 @@
+
+
+
+.container{
+    margin: 170px auto;
+    width: 900px;
+    padding: 0 225px 0 135px;
+}
+
+.event_main_container{
+    margin: 170px auto;
+    width: 900px;
+    padding: 0 225px;
+}
+
+.back a{
+    font-size: 20px;
+    font-weight: bold;
+    border: solid #000 2px;
+    padding: 8px 40px;
+    transition: all 1s;
+}
+.back a:hover{
+    background-color: rgba(243, 89, 94, 0.67);
+
+}
+.title_container{
+    margin: 80px 0 0 0;
+    /* width: 300px; */
+}
+.title{
+    font-size: 21px;
+    font-weight: 700;
+    /* width: 1080px; */
+    line-height: 27px;
+}
+.time{
+    margin: 10px 0;
+}
+.event_content{
+    font-size: 12px;
+}
+.event_content p{
+    margin: 11px 0;
+    /*text-align:justify;*/
+}
+
+.event_content img{
+
+    width: 290px;
+}
+
+.event_container{
+    width: 300px;
+    padding: 10px 0 0 10px;
+    position: relative;
+}
+.tuige{
+    text-indent: 25px;
+}
+
+.other_linker{
+    position: absolute;
+    top: 10px;
+    right: -218px;
+}
+
+.paper_img{
+    width: 20px;
+}
+.link{
+    margin: 0 0 20px 0;
+}
+.link a{
+    font-weight: 600;
+    color: #aaa;
+
+}
+.last{
+    position: absolute;
+    bottom: -80px;
+    right: -140px;
+}
+.next{
+    position: absolute;
+    bottom: -80px;
+    right: -210px;
+}
+
+.last img{
+    width: 20px;
+    transform:rotate(-90deg);
+
+}
+.next img{
+    width: 20px;
+    transform:rotate(90deg);
+
+}
+.other_arrow{
+    border: solid #000 2px;
+    padding: 7px;
+    transition: all 1s;
+}
+
+/*********************program*********************/
+
+.container{
+    margin: 170px auto;
+    width: 900px;
+    padding: 0 225px 0 135px;
+}
+.program_title {
+    margin: 60px 0 50px 0;
+}
+.program_title a{
+    padding: 0 0 5px 0;
+    border-bottom: solid #a2a2a2 2px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.other_linker_program{
+    position: absolute;
+    top: 280px;
+    /* right: 0; */
+    text-align: left;
+    /* left:  10px; */
+    width: 90px;
+}
+.program_container{
+    width: 410px;
+    padding: 10px 0 0 10px;
+    position: relative;
+}
+.program_content img{
+    width: 396px;
+    margin: 0 0 50px 0;
+}
+.writer_detial{
+    position: absolute;
+    /* top: 0; */
+    /* right: 0; */
+    /* left:  10px; */
+    width: 150px;
+}
+.writer_detial p{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+.writer_detial h1{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 8px 0;
+    color: #aaa;
+}
+
+.pro_other{
+    position: absolute;
+    top: 0;
+    right: -100px;
+}
