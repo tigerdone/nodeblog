@@ -16,21 +16,15 @@
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 
         <script>
-
             var viewport = document.querySelector("meta[name=viewport]");
             var viewport_scale = 1/window.devicePixelRatio
-
             //        var x = 1/viewport_x;
             if(viewport_scale < 0.5){
                 viewport_scale = 0.5;
             }
-            //        console.log(viewport_scale)
-
             viewport.setAttribute("content", "width=device-width, " +
                 "initial-scale=" + viewport_scale + ", maximum-scale=1.0, user-scalable=no")
-
         </script>
-
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -40,8 +34,8 @@
 
         <!--<div class="stair1_box">-->
         <div id="the_header" class="stair1">
-                <a id="logo" class="stair1_left logo_top">
-                    <img class="my_fadein" src="img/logo.png" alt="logo">
+                <a href="#" id="logo" class="stair1_left logo_top">
+                    <img class="my_fadein" src="img/ims.png" alt="logo">
                 </a>
                 <nav id="header_nav"  class="header_items my_fadein header_items_pien">
                     <a id="div1Link" class="choose" href="javascript:">
@@ -74,9 +68,6 @@
                             $("#header_nav").removeClass("header_items_pien");
                             $("#the_header").addClass("stair1_pine");
                         }
-
-//                        console.log($("#div2").offset().top)
-
                     }
                 </script>
             </div>
@@ -86,10 +77,12 @@
                 <div id="wrapper" class="stair2 my_fadein">
                     <h1>
                         Interactive Media Studio
+                        <div class="border"></div>
                     </h1>
                 </div>
             </div>
         </div>
+
         <div class="main_body">
             <div class="body1">
                 <div class="body1_stair1 title">
@@ -102,15 +95,8 @@
                         <p>
                             The Interactive Media Studio  in Chengdu University of Information Technology is an interdisciplinary 
                             research lab that aims to create future media technologies and friendly interfaces.
-
                         </p>
                     </div>
-                    <!---->
-                    <!--<div  class="font_weith">-->
-                        <!--<p>-->
-                        <!--</p>-->
-                    <!--</div>-->
-
                     <div  class="font_weith">
                         <p>
                             Not only lie in the augmented reality ,gestural interfaces , wearable computing, intelligence hardware and other technologies, but also focus on how to combine them with unique and meaningful themes to create unique experience of human-computer interactions.
@@ -134,7 +120,6 @@
                                 </div>
                                 <div class="research_item">
                                     <img src="img/in02.png" alt="User Interface">
-
                                     <p>
                                         Light&Shadow
                                     </p>
@@ -143,14 +128,12 @@
                             <div class="research_stair research_items box">
                                 <div class="research_item">
                                     <img src="img/in03.png" alt="User Interface">
-
                                     <p>
                                         Intelligence Hardware
                                     </p>
                                 </div>
                                 <div class="research_item">
                                     <img src="img/in04.png" alt="User Interface">
-
                                     <p>
                                         HCI
                                     </p>
@@ -158,7 +141,7 @@
                             </div>
                         </div>
                         <div class="img_box">
-                            <img class="prepare_fadein" src="img/members.jpg" alt="">
+                            <!--<img class="prepare_fadein" src="img/members.jpg" alt="">-->
 
                         </div>
                     </div>
@@ -171,96 +154,144 @@
                     </p>
                 </h1>
                 <div class="body2_container clearfix">
-
-                    <a class="" href="program1.html">
+                    <a class="" target="_blank" href="program/program1.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
-                            <img src="img/shibi.jpg" alt="magicpaper">
-                            <p class="program_card_title">
-                                The Legend of ‘Shi-Bi’
-                            </p>
+                            <img src="img/program/shibi.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    The Legend of ‘Shi-Bi’
+                                </p>
+                            </div>
                         </div>
                     </a>
-                    <a class="" href="program1.html">
+                    <a class="" target="_blank" href="program/program2.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
-                            <img src="img/magicpaper.jpg" alt="magicpaper">
-                            <p class="program_card_title">
-                                MagicPAPER
-                            </p>
+                            <img src="img/program/MagicPAPERs.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    MagicPAPERs
+                                </p>
+                            </div>
                         </div>
                     </a>
-                    <a class="" href="program1.html">
+                    <a class="" target="_blank" href="program/program3.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
-                            <img src="img/magicpaper.jpg" alt="magicpaper">
-                            <p class="program_card_title">
-                                See your voice
-                            </p>
+                            <img src="img/program/Hexamusics.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    Hexamusics
+                                </p>
+                            </div>
                         </div>
                     </a>
-                    <a class="" href="program1.html">
+                    <a class="" target="_blank" href="program/program4.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
-                            <img src="img/object.jpg" alt="magicpaper">
-                            <p class="program_card_title">
-                                Object Recognition
-                            </p>
+                            <img src="img/program/Object-Recognitions.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    Object-Recognitions
+                                </p>
+                            </div>
                         </div>
                     </a>
-                    <a class="" href="program1.html">
-                        <div class="program_mobile program_mobile2">
-                            <img src="img/magicpaper.jpg" alt="magicpaper">
-                            <p class="program_card_title">
-                                Table War
-                            </p>
+                    <a class="" target="_blank" href="program/program5.html">
+                        <div class="program_mobile program_mobile2 prepare_fadein">
+                            <img src="img/program/Qiangs.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    Qiang
+                                </p>
+                            </div>
                         </div>
                     </a>
-                    <a class="" href="program1.html">
-                        <div class="program_mobile program_mobile2">
-                            <img src="img/magicpaper.jpg" alt="magicpaper">
-                            <p class="program_card_title">
-                                Intelligent Smoke Alarm System with Wireless
-                                Sensor Network using ZigBee
-                            </p>
-
+                    <a class="" target="_blank" href="program/program6.html">
+                        <div class="program_mobile program_mobile2 prepare_fadein">
+                            <img src="img/program/ZigBees.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    ZigBee
+                                </p>
+                            </div>
                         </div>
                     </a>
-                    <a class="" href="program1.html">
-                        <div class="program_mobile program_mobile2">
-                            <img class="prepare_fadein" src="img/magicpaper.jpg" alt="magicpaper">
-                            <p class="program_card_title">
-                                Table War
-                            </p>
-                        </div>
-                    </a>
-                    <a class="" href="program1.html">
-                        <div class="program_mobile program_mobile2">
-                            <img src="img/magicpaper.jpg" alt="magicpaper">
-                            <p class="program_card_title">
-                                Intelligent Smoke Alarm System with Wireless
-                                Sensor Network using ZigBee
-                            </p>
-
-                        </div>
-                    </a>
-                    <a class="" href="program1.html">
-                        <div class="program_mobile">
-                            <img src="img/magicpaper.jpg" alt="magicpaper">
-                            <p class="program_card_title">
-                                Table War
-                            </p>
-                        </div>
-                    </a>
-                    <a class="" href="program1.html">
-                        <div class="program_mobile">
-                            <img src="img/magicpaper.jpg" alt="magicpaper">
-                            <p class="program_card_title">
-                                Intelligent Smoke Alarm System with Wireless
-                                Sensor Network using ZigBee
-                            </p>
-
-                        </div>
-                    </a>
+                    <!--<a class="" href="program1.html">-->
+                        <!--<div class="program_mobile program_mobile2 prepare_fadein">-->
+                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
+                            <!--<p class="program_card_title">-->
+                                <!--MagicPAPER-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                    <!--<a class="" href="program1.html">-->
+                        <!--<div class="program_mobile program_mobile2 prepare_fadein">-->
+                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
+                            <!--<p class="program_card_title">-->
+                                <!--See your voice-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                    <!--<a class="" href="program1.html">-->
+                        <!--<div class="program_mobile program_mobile2 prepare_fadein">-->
+                            <!--<img src="img/object.jpg" alt="magicpaper">-->
+                            <!--<p class="program_card_title">-->
+                                <!--Object Recognition-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                    <!--<a class="" href="program1.html">-->
+                        <!--<div class="program_mobile program_mobile2">-->
+                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
+                            <!--<p class="program_card_title">-->
+                                <!--Table War-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                    <!--<a class="" href="program1.html">-->
+                        <!--<div class="program_mobile program_mobile2">-->
+                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
+                            <!--<p class="program_card_title">-->
+                                <!--Intelligent Smoke Alarm System with Wireless-->
+                                <!--Sensor Network using ZigBee-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                    <!--<a class="" href="program1.html">-->
+                        <!--<div class="program_mobile program_mobile2">-->
+                            <!--<img class="prepare_fadein" src="img/magicpaper.jpg" alt="magicpaper">-->
+                            <!--<p class="program_card_title">-->
+                                <!--Table War-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                    <!--<a class="" href="program1.html">-->
+                        <!--<div class="program_mobile program_mobile2">-->
+                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
+                            <!--<p class="program_card_title">-->
+                                <!--Intelligent Smoke Alarm System with Wireless-->
+                                <!--Sensor Network using ZigBee-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                    <!--<a class="" href="program1.html">-->
+                        <!--<div class="program_mobile">-->
+                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
+                            <!--<p class="program_card_title">-->
+                                <!--Table War-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                    <!--<a class="" href="program1.html">-->
+                        <!--<div class="program_mobile">-->
+                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
+                            <!--<p class="program_card_title">-->
+                                <!--Intelligent Smoke Alarm System with Wireless-->
+                                <!--Sensor Network using ZigBee-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    <!--</a>-->
                 </div>
                 <h1 class="body2_stair2 button ">
-                    <a id="program_more" class="prepare_fadein" href="javascript:">
+                    <a id="program_more" class="prepare_fadein display" href="javascript:">
                         Learn more
                     </a>
                     <script>
@@ -556,17 +587,17 @@
                     <div id="Publications2" class="display">
                         <div class="body3_list prominent">
                             <div class="list_container">
-                                成都信息工程大学计算机学院官方网站
+                                The official website of the School of Computer Science, Chengdu University of Information Science and Technology
                             </div>
                         </div>
                         <div class="body3_list">
                             <div class="list_container">
-                                弘扬羌族文化——羌族神话故事手游App
+                                Carrying forward the Yi culture - the Yi people's mythology mobile game App
                             </div>
                         </div>
                         <div class="body3_list prominent">
                             <div class="list_container">
-                                Video Go - 短视频社交应用App
+                                Video Go - Short Video Social App App
                             </div>
                         </div>
 
@@ -632,8 +663,12 @@
                                 Publications_num += 1;
                                 $("#Publications0 > .body3_list").eq(Publications_num).removeClass("display")
                                     .addClass("prepare_fadein").animate({opacity:1,filter:'Alpha(opacity=90)'},500);
+                                if($("#Publications0 > .body3_list").length <= Publications_num+1){
+                                    $("#Publications_more").hide()
 
+                                }
                             });
+
                         });
                     </script>
                 </h1>
@@ -663,7 +698,7 @@
                         </div>
                         <div class="events_stair1_right">
                             <div class="event_item">
-                                <a href="event.html">
+                                <a href="event2.html">
                                     <p class="event_title">
                                         UIST Student Innovation Contest
                                     </p>
@@ -673,7 +708,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a href="event2.html">
+                                <a href="event3.html">
                                     <p class="event_title">
                                         SUI &UIST Demonstration
                                     </p>
@@ -683,7 +718,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a href="event3.html">
+                                <a href="event4.html">
                                     <p class="event_title">
                                         ISS Demonstration
                                     </p>
@@ -693,7 +728,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a href="event4.html">
+                                <a href="event5.html">
                                     <p class="event_title">
                                         UXPA China Full paper
                                     </p>
@@ -770,11 +805,9 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
                 <h1 class="body2_stair2 button prepare_fadein">
-                    <a id="Events_more" href="javascript:">
+                    <a id="Events_more" class="display" href="javascript:">
                         View more
                     </a>
                     <script>
@@ -784,8 +817,12 @@
                                 Events_num += 1;
                                 $(".body4_main_container").eq(Events_num).removeClass("display")
                                     .addClass("prepare_fadein").animate({opacity:1,filter:'Alpha(opacity=90)'},500);
+                                if($(".body4_main_container").length <= Events_num+1){
+                                    $("#Events_more").hide()
 
+                                }
                             });
+
                         });
                     </script>
                 </h1>
@@ -799,7 +836,7 @@
                 <div class="video prepare_fadein">
                     <img src="img/video.jpg" alt="video">
                 </div>
-                <div class="body5_stair1 prepare_fadein">
+                <div class="body5_stair1 prepare_fadein clearfix">
                     <div class="leader_img">
                         <img src="img/leader.jpg" alt="leader">
                     </div>
@@ -810,7 +847,7 @@
                             </p>
                         </h1>
                         <p class="leader_name">
-                            Wu Qin
+                            Qin Wu
                         </p>
                         <h1 class="leader_detial">
                             Wu Qin received the B.A. degree in art design from the Chengdu University of Information Technology, China, in 2012,the M.F.A. degree in information arts and design from the Tsinghua University, Beijing, China, in 2016. She is currently a Lecturer with the Department of Computer Science, Chengdu University of Information Technology, China. She is also currently a Research Assistant with the Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China. Her research interests include human-computer interaction, user experience, and interactive design.
@@ -826,207 +863,593 @@
                         </h1>
                         <div class="member_container prepare_fadein">
                             <div class="program_card member_card">
-                                <img src="img/person/111.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Jiashuo Cao(Grade 2014)
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
+                                <div class="card_img">
+                                    <img src="img/person/余陈美.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Chenmei Yu（Group Leader）                                    </p>
+                                    <p class="person_card_content">
+                                        Mastermind/ Designer
+                                    </p>
+                                </div>
                             </div>
                             <div class="program_card member_card">
-                                <img src="img/person/112.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Xueming Li(Grade 2016)
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
+                                <div class="card_img">
+                                    <img src="img/person/何芳芳.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Fangfang He (Group Leader)
+                                    </p>
+                                    <p class="person_card_content">
+                                        Mastermind/ Designer                                    </p>
+                                </div>
                             </div>
                             <div class="program_card member_card">
-                                <img src="img/person/113.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    XingRu Chen(Grade 2016)
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
+                                <div class="card_img">
+                                    <img src="img/person/黄吉.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Ji Huang (Group Leader)
+                                    </p>
+                                    <p class="person_card_content">
+                                        Hardware Developer/ Software Developer/ Mastermind
+                                    </p>
+                                </div>
                             </div>
                             <div class="program_card member_card">
-                                <img src="img/person/114.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Yuwei Li
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
+                                <div class="card_img">
+                                    <img src="img/person/陈聪.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Cong Chen
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer/ Photographer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card">
+                                <div class="card_img">
+                                    <img src="img/person/曹家硕.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Jiashuo Cao
+                                    </p>
+                                    <p class="person_card_content">
+                                        Hardware Developer/ Software Developer/ Mastermind
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card">
+                                <div class="card_img">
+                                    <img src="img/person/王思睿.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Sirui Wang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Software Developer/ Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card">
+                                <div class="card_img">
+                                    <img src="img/person/邓超.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Chao Deng
+                                    </p>
+                                    <p class="person_card_content">
+                                        Mastermind
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card">
+                                <div class="card_img">
+                                    <img src="img/person/阳佳琦.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Jiaqi Yang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card">
+                                <div class="card_img">
+                                    <img src="img/person/王嘉元.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Jiayuan Wang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Photographer/Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card">
+                                <div class="card_img">
+                                    <img src="img/person/王梦婷.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Mengting Wang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer/Mastermind
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card">
+                                <div class="card_img">
+                                    <img src="img/person/苟民婵.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Minchan Gou
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card">
+                                <div class="card_img">
+                                    <img src="img/person/徐娆.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Rao Xu
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/周思含.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Sihan Zhou
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer/Mastermind
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/赵雅兰.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yalan Zhao
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer/Mastermind
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/尹杨茂竹.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yangmaozhu Yin
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer/Mastermind
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/黄英杰.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yingjie Huang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Mastermind/Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/王钰.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yu Wang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/常玉婷.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yuting Chang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/李雨薇.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yuwei Li
+                                    </p>
+                                    <p class="person_card_content">
+                                        Mastermind/Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/聂哲.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Zhe Nie
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/杨震.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Zhen Yang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Software Developer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/翟福谊.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Fuyi Zhai
+                                    </p>
+                                    <p class="person_card_content">
+                                        Hardware Developer/ Software Developer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/李虎.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Hu Li
+                                    </p>
+                                    <p class="person_card_content">
+                                        Hardware Developer/ Software Developer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/王敬.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Jing Wang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Mastermind/Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/邓倩.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Qian Deng
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/苏彤.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Tong Su
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/谭舒平.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Shuping Tan
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/吴玮璇.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Weixuan Wu
+                                    </p>
+                                    <p class="person_card_content">
+                                        Mastermind
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/陈心茹.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Xinru Chen
+                                    </p>
+                                    <p class="person_card_content">
+                                        Mastermind
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/栗雪敏.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Xuemin Li
+                                    </p>
+                                    <p class="person_card_content">
+                                        Mastermind
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/陈彦君.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yanjun Chen
+                                    </p>
+                                    <p class="person_card_content">
+                                        Hardware Developer/ Software Developer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/骆宇.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yu Luo
+                                    </p>
+                                    <p class="person_card_content">
+                                        Software Developer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/赵宇.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yu Zhao
+                                    </p>
+                                    <p class="person_card_content">
+                                        Hardware Developer/ Software Developer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/秦悦豪.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yuehao Qin
+                                    </p>
+                                    <p class="person_card_content">
+                                        Msatermind/ Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/姜昱名.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yumin Jiang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/蒋周宏.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Zhouhong Jiang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Hardware Developer/ Software Developer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/秦子雄.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Zixiong Qin
+                                    </p>
+                                    <p class="person_card_content">
+                                        Hardware Developer/ Software Developer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/姚嘉玉.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Jiayu Yao
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/杨景云.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Jingyun Yang
+                                    </p>
+                                    <p class="person_card_content">
+                                        Hardware Developer/ Software Developer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/徐睿.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Rui Xu
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/曾尧.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Wei Zeng
+                                    </p>
+                                    <p class="person_card_content">
+                                        Mastermind
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/陈欣雨.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Xinyu Chen
+                                    </p>
+                                    <p class="person_card_content">
+                                        Designer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/卢钰.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Yu Lu
+                                    </p>
+                                    <p class="person_card_content">
+                                        Hardware Developer/ Software Developer
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="program_card member_card display">
+                                <div class="card_img">
+                                    <img src="img/person/陈子贤.jpg" alt="magicpaper">
+                                </div>
+                                <div class="intro">
+                                    <p class="person_card_title">
+                                        Zixian Chen
+                                    </p>
+                                    <p class="person_card_content">
+                                        Software Developer
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="member_container prepare_fadein">
-                            <div class="program_card member_card">
-                                <img src="img/person/115.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Yanjun Chen
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person/116.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Yanlan Zhao
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person/117.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Yinjie Huang
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person/118.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Yu wang
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                        </div>
-                        <div class="member_container prepare_fadein">
-                            <div class="program_card member_card">
-                                <img src="img/person/119.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Mengting Wang
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person/120.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Rao Xu
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person/121.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Tong Su
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person//122.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Yuming jiang
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                        </div>
-                        <div class="display member_container">
-                            <div class="program_card member_card">
-                                <img src="img/person/123.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Ji Huang
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person/124.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Zixiong Qin
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person/125.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    YuTing Chang
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person//126.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Fuyi Cui
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                        </div>
-                        <div class="display member_container">
-                            <div class="program_card member_card">
-                                <img src="img/person/127.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Lunyu Shang
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person/128.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Yao Ceng
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person/129.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Jingyun Yang
-
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                            <div class="program_card member_card">
-                                <img src="img/person//130.jpg" alt="magicpaper">
-                                <p class="person_card_title">
-                                    Rui Xu
-                                </p>
-                                <p class="person_card_content">
-                                    afdgafdgadfg
-                                </p>
-                            </div>
-                        </div>
-
                         <h1 class="body2_stair2 button prepare_fadein">
                             <a id="member_container" href="javascript:">
                                 View more
                             </a>
                             <script>
                                 $(document).ready(function(){
-                                    var member_num = 2;
+                                    var member_num = 12;
                                     $("#member_container").on("click", function () {
-                                        member_num += 1;
-                                        $(".member_container").eq(member_num).removeClass("display")
-                                            .addClass("prepare_fadein").animate({opacity:1,filter:'Alpha(opacity=90)'},500);
+                                        for(var i = 1; i < 7;i++){
+                                            member_num += 1;
+                                            $(".member_card").eq(member_num).removeClass("display")
+                                                .addClass("prepare_fadein").animate({opacity:1,filter:'Alpha(opacity=90)'},500);
+                                            if($(".member_card").length <= member_num+1){
+                                                $("#member_container").hide()
+
+                                            }
+                                        }
                                     });
                                 });
                             </script>
@@ -1056,7 +1479,7 @@
                             <img src="img/activity2.jpg" alt="">
                             <p class="meeting">
                                 <span>
-                                   BRAINS STRMING
+                                   BRAIN STORMING
                                 </span>
                             </p>
                         </div>
@@ -1101,10 +1524,10 @@
                         Business Cooperation: wuqin@cuit.edu.cn
                     </h1>
                     <h2>
-                        Address:N0.24 Block 1,Xuefu Road,Chengdu,China
+                        Address: N0.24 Block 1, Xuefu Road, Chengdu, China
                     </h2>
                     <h3>
-                        Office:No304 Room,Electronic computing center building
+                        Office: No304 Room, Electronic computing center building
                     </h3>
                 </div>
                 <div class="footer_stair2">

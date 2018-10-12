@@ -17,17 +17,17 @@
         </div>
         <div class="title_container">
             <p class="title">
-                ISS Demonstration
+                UXPA China Full paper
             </p>
             <p class="time">
-                2018-09-03
+                2018-09-08
             </p>
         </div>
         <div class="event_container">
             <div class="event_content_container clearfix">
                 <div class="event_content">
                     <p class="tuige">
-                        The 2018 ACM International Conference on ISS taking place from November 25to28 in Tokyo, Japan. And the MagicPAPER has been accepted the demonstration!
+                        The UXPA China 2018 taking place from November 30 to December 2 in Shanghai, China. The Paper of “See your voice” and the paper of “The tone of Qiang” has been accepted to UXPA China 2018. And the most exciting, the first author Chenmei Yu and Fangfang He will have a specisal speech about 20 to 30 minutes at the conference in November 30th.Such a good way to share our ideas with the attendees! We look forward to the November very much!
                     </p>
                 </div>
                 <div class="right_box">
@@ -67,10 +67,10 @@
             </div>
 
             <div class="other other2">
-                <a class="other_arrow last" href="event3.html">
+                <a class="other_arrow last" href="event4.html">
                     <img src="img/arrow.png" alt="last">
                 </a>
-                <a class="other_arrow next" href="event5.html">
+                <a class="other_arrow next dispaly" href="#">
                     <img src="img/arrow.png" alt="next">
                 </a>
                 <script>
@@ -79,7 +79,8 @@
                         //判断当event.keyCode 为39时（即右方面键），执行函数to_right();
                         if(event.keyCode == 37){
                             //do somethings;
-                            $(".last").click();
+                            $(".last").trigger("click");
+                            console.log("OKOK");
                         }else if (event.keyCode == 39){
                             //do somethings;
                             $(".next").click();

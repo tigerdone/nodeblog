@@ -5,6 +5,7 @@
     <title>event</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/event.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 
 </head>
 <body>
@@ -23,45 +24,75 @@
             </p>
         </div>
         <div class="event_container">
-            <div class="event_content">
-                <img src="img/event1.jpg" alt="MagicPAPER">
-                <p class="tuige">
-                    The top conference Designing Interactive System(DIS) has organized in Hongkong,9-13 June in 2018. We have published a demonstration paper entitled "MagicPAPER: An Integrated Shadow-Art Hardware Device Enabling Touch Interaction on Paper" and reported the research results in the field of HCI in the DIS.
-                </p>
-                <img src="img/event12.jpg" alt="MagicPAPER">
-                <p>
-                    In addition, What is worth mentioning is that the leader Qin Wu, student Sirui Wang and Jiayuan Wang have demonstrated the system in the Experience Night ,11 June, which has attracted many attendees and got high praises！
-                    Let's take a look at the scene!
-                </p>
+            <div class="event_content_container clearfix">
+                <div class="event_content">
+                    <img src="img/event1.jpg" alt="MagicPAPER">
+                    <p class="tuige">
+                        The top conference Designing Interactive System(DIS) has organized in Hongkong,9-13 June in 2018. We have published a demonstration paper entitled "MagicPAPER: An Integrated Shadow-Art Hardware Device Enabling Touch Interaction on Paper" and reported the research results in the field of HCI in the DIS.
+                    </p>
+                    <img src="img/event12.jpg" alt="MagicPAPER">
+                    <p>
+                        In addition, What is worth mentioning is that the leader Qin Wu, student Sirui Wang and Jiayuan Wang have demonstrated the system in the Experience Night ,11 June, which has attracted many attendees and got high praises！
+                        Let's take a look at the scene!
+                    </p>
+                </div>
+                <div class="right_box">
+                    <div class="other_linker">
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="img/icon_detail.png" alt="icon_paper">
+                                Program detail
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
+                                Detail
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
+                                video
+                            </a>
+                        </div>
+                        <script type="text/javascript">
+                            window.onscroll = function() {
+                                var scrollY = window.scrollY;
+                                if(scrollY > 623){
+                                    $(".other_linker").addClass("other_linker2");
+                                }else {
+                                    $(".other_linker").removeClass("other_linker2");
+                                }
+                            }
+                        </script>
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="other_linker">
-                <div class="link">
-                    <a href="javascript:">
-                        <img class="paper_img" src="img/icon_detail.png" alt="icon_paper">
-                        Program detail
-                    </a>
-                </div>
-                <div class="link">
-                    <a href="javascript:">
-                        <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
-                        Detail
-                    </a>
-                </div>
-                <div class="link">
-                    <a href="javascript:">
-                        <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
-                        video
-                    </a>
-                </div>
-            </div>
-            <div class="other">
-                <a class="other_arrow last" href="#">
+            <div class="other other2">
+                <a class="other_arrow last dispaly" href="#">
                     <img src="img/arrow.png" alt="last">
                 </a>
-                <a class="other_arrow next" href="#">
+                <a class="other_arrow next" href="event2.html">
                     <img src="img/arrow.png" alt="next">
                 </a>
+                <script>
+                    $(document).keydown(function(event){
+                        //判断当event.keyCode 为37时（即左方面键），执行函数to_left();
+                        //判断当event.keyCode 为39时（即右方面键），执行函数to_right();
+                        if(event.keyCode == 37){
+                            //do somethings;
+                            $(".last").click();
+                        }else if (event.keyCode == 39){
+                            //do somethings;
+                            $(".next").click();
+
+                        }
+                    });
+                </script>
             </div>
         </div>
     </div>

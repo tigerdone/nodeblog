@@ -5,6 +5,7 @@
     <title>event</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/event.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 
 </head>
 <body>
@@ -16,52 +17,84 @@
         </div>
         <div class="title_container">
             <p class="title">
-                SUI &UIST Demonstration
+                UIST Student Innovation Contest
             </p>
             <p class="time">
-                2018-08-26
+                2018-08-04
             </p>
         </div>
         <div class="event_container">
-            <div class="event_content">
-                <!--<img src="img/event1.jpg" alt="MagicPAPER">-->
-                <p class="tuige">
-                    The MagicPAPER demo has been accepted to SUI 2018 in Berlin, Germany, so our MagicPAPER group will come to Berlin in October. In addition, SUI 2018 will be co-located with the ACM Conference on User Interface Software and Technology(UIST), and our demo is lucky enough to be selected to be presented at the demo session of the UIST 2018 conference! Such a great opportunity to show our system! More information, please pay attention to our website!
+            <div class="event_content_container clearfix">
+                <div class="event_content">
+                    <p class="tuige">
+                        The Anmoji-planning has been accepted to the 2018 UIST Student Innovation Contest. During the next two month, we will develop the system by using the own device and the make-block that provided by the UIST sponsor. And the most exciting, as the only team in China, we will demonstrate our anmoji system in the conference and compete with top100 universities around the world in Berlin 9-13 October in 2018.Such a wonderful chance! More information, please pay attention to the relevant details!
+                        Prototype video (waiting for link)
+                    </p>
 
-                </p>
+                </div>
+                <div class="right_box">
+                    <div class="other_linker">
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="img/icon_detail.png" alt="icon_paper">
+                                Program detail
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
+                                Detail
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
+                                video
+                            </a>
+                        </div>
+                        <script type="text/javascript">
+                            window.onscroll = function() {
+                                var scrollY = window.scrollY;
+                                if(scrollY > 623){
+                                    $(".other_linker").addClass("other_linker2");
+                                }else {
+                                    $(".other_linker").removeClass("other_linker2");
+                                }
+                            }
+                        </script>
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="other_linker">
-                <div class="link">
-                    <a href="javascript:">
-                        <img class="paper_img" src="img/icon_detail.png" alt="icon_paper">
-                        Program detail
-                    </a>
-                </div>
-                <div class="link">
-                    <a href="javascript:">
-                        <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
-                        Detail
-                    </a>
-                </div>
-                <div class="link">
-                    <a href="javascript:">
-                        <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
-                        video
-                    </a>
-                </div>
-            </div>
-            <div class="other">
-                <a class="other_arrow last" href="#">
+            <div class="other other2">
+                <a class="other_arrow last" href="event1.html">
                     <img src="img/arrow.png" alt="last">
                 </a>
-                <a class="other_arrow next" href="#">
+                <a class="other_arrow next" href="event3.html">
                     <img src="img/arrow.png" alt="next">
                 </a>
-            </div>
+                <script>
+                    $(document).keydown(function(event){
+                        //判断当event.keyCode 为37时（即左方面键），执行函数to_left();
+                        //判断当event.keyCode 为39时（即右方面键），执行函数to_right();
+                        if(event.keyCode == 37){
+                            //do somethings;
+                            $(".last").click();
+                        }else if (event.keyCode == 39){
+                            //do somethings;
+                            $(".next").click();
 
+                        }
+                    });
+                </script>
+            </div>
         </div>
     </div>
+    <script>
+
+    </script>
+
 </body>
 </html>

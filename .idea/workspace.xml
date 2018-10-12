@@ -2,69 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76959e8b-58bb-4cef-8e4a-45afe9b19fe4" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/blogs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/foundation-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/foundation-icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/foundation-icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/foundation-icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/style_footer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/style_menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/anime.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/box.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/iconfont.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/index_footer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/index_menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery-1.11.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/css/base_secbit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/css/iconfont.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/css/index_secbit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/css/mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/360ioc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/animate1_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/animate1_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/animate1_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/animate1_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/animate1_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/ball_nebula2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/codeframe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/coq.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/design_report.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/logo_b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/reentrancy_sol.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/reentrancy_spec.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/secbit_m.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/social_con1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/social_con2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/social_con3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/social_con4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/sol.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/spec.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/vault_sol.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/vault_sol.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/vault_spec.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/images/vault_spec.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/js/animate1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/js/animate2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/js/jquery-3.3.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/js/jquery.rotate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/js/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/tigerdone/secbit_m.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/event.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/TIM截图20181001214016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/hex.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/magicpaper.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/111.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/112.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/113.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/114.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/115.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/116.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/117.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/118.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/119.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/121.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/122.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/123.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/124.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/125.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/126.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/127.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/129.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/130.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/131.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/132.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/133.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/134.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/135.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/136.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/137.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/138.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/139.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/140.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/141.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/142.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/143.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/144.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/146.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/147.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/148.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/149.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/151.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/152.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/153.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/person/154.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/shibi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/table_war.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/古羌.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/program1.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/default.js" afterPath="$PROJECT_DIR$/config/default.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/base.css" afterPath="$PROJECT_DIR$/public/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/event.css" afterPath="$PROJECT_DIR$/public/css/event.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/index.css" afterPath="$PROJECT_DIR$/public/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/.gitignore" afterPath="$PROJECT_DIR$/public/img/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/message.js" afterPath="$PROJECT_DIR$/routes/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/posts.js" afterPath="$PROJECT_DIR$/routes/posts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/event1.html" afterPath="$PROJECT_DIR$/public/event1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/event2.html" afterPath="$PROJECT_DIR$/public/event2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/event3.html" afterPath="$PROJECT_DIR$/public/event3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/event4.html" afterPath="$PROJECT_DIR$/public/event4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ex_tab.js" afterPath="$PROJECT_DIR$/public/js/ex_tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/fadein.js" afterPath="$PROJECT_DIR$/public/js/fadein.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,7 +85,7 @@
       <file leaf-file-name="default.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/default.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="88">
               <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding />
             </state>
@@ -91,8 +95,8 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="159" column="45" lean-forward="true" selection-start-line="159" selection-start-column="45" selection-end-line="159" selection-end-column="45" />
+            <state relative-caret-position="176">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -185,8 +189,8 @@
         <option value="$PROJECT_DIR$/routes/message.js" />
         <option value="$PROJECT_DIR$/config/default.js" />
         <option value="$PROJECT_DIR$/views/index2.ejs" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -230,8 +234,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,12 +346,14 @@
       <workItem from="1536979876993" duration="8326000" />
       <workItem from="1537085174226" duration="82000" />
       <workItem from="1539069627662" duration="2674000" />
-      <workItem from="1539080183779" duration="927000" />
+      <workItem from="1539080183779" duration="1526000" />
+      <workItem from="1539167621371" duration="903000" />
+      <workItem from="1539361537096" duration="321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112812000" />
+    <option name="totallyTimeSpent" value="114635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="334" y="48" width="1571" height="989" extended-state="0" />
@@ -495,7 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
           <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3256">
           <caret line="148" column="13" lean-forward="false" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,13 +537,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="65" lean-forward="false" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/default.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="88">
           <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
@@ -552,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,14 +560,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="159" column="45" lean-forward="true" selection-start-line="159" selection-start-column="45" selection-end-line="159" selection-end-column="45" />
+        <state relative-caret-position="176">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -25,10 +25,6 @@ window.onload = function () {
             $("#Publications_more").hide()
         }
 
-
-
-
-
     })
 
 
