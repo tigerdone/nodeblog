@@ -56,6 +56,7 @@
     background-size: cover;
     min-width: 1080px;
 }
+
 .main_header{
     margin: 0 auto;
     width: 1080px;
@@ -667,7 +668,7 @@
     display: flex;
     justify-content: space-between;
     margin: 40px auto;
-    padding: 0 7%;
+    padding: 0 9%;
     width:  100%;
     flex-wrap: wrap;
 }
@@ -758,9 +759,9 @@
 }
 .video{
     margin: 0 auto;
-    width: 1280px;
-    height: 832px;
-    text-align:  center;
+    width: 70%;
+    text-align: center;
+    max-width: 1280px;
 }
 
 .video img{

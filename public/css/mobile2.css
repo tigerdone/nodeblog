@@ -20,9 +20,9 @@
     top:10px;
 }
 /*#wrapper {*/
-    /*animation: fade-in;!*动画名称*!*/
-    /*animation-duration: 1.5s;!*动画持续时间*!*/
-    /*-webkit-animation:fade-in 1.5s;!*针对webkit内核*!*/
+/*animation: fade-in;!*动画名称*!*/
+/*animation-duration: 1.5s;!*动画持续时间*!*/
+/*-webkit-animation:fade-in 1.5s;!*针对webkit内核*!*/
 /*}*/
 
 .my_fadein{
@@ -47,7 +47,7 @@
 }
 
 .main_box{
-    min-width: 680px;
+    min-width: 640px;
     /*background: url("../img/bg1.jpg") no-repeat 100% 100%;*/
     background: url("../img/banner01.jpg") no-repeat center;
     background-size: cover;
@@ -55,7 +55,7 @@
 }
 .main_header{
     margin: 0 auto;
-    width: 680px;
+    width: 640px;
     position: relative;
 }
 
@@ -114,7 +114,7 @@
     margin: 9px 0 0 0;
 }
 .logo_top img{
-     width: 150px;
+    width: 150px;
 }
 
 .header_items{
@@ -170,18 +170,18 @@
     right:  0px;
 }
 .container_box{
-     position: absolute;
+    position: absolute;
 
 }
 
 
 .main_body{
-    min-width: 680px;
+    min-width: 640px;
 }
 .body1{
     background-color: #fff;
-    min-width: 680px;
-    /*width: 680px;*/
+    min-width: 640px;
+    /*width: 640px;*/
     /*margin: 0 auto;*/
 }
 .body1_stair1{
@@ -231,7 +231,7 @@
 }
 .body1_stair3_container{
     position: relative;
-    width: 680px;
+    width: 640px;
     margin: 0 auto;
     /* display: flex; */
     /* justify-content: space-around; */
@@ -261,10 +261,10 @@
     padding: 12px 0 45px 0;
 }
 /*.body1_stair3 img{*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*right: 0;*/
-    /**/
+/*position: absolute;*/
+/*top: 0;*/
+/*right: 0;*/
+/**/
 /*}*/
 .research_stair{
     padding: 5px 0;
@@ -280,7 +280,7 @@
 }
 
 .img_box img{
-    max-width: 680px;
+    max-width: 640px;
     /*max-height: 350px;*/
     padding: 30px 0;
 }
@@ -341,9 +341,10 @@
 
 .body2{
     background-color: #eee;
+    min-width: 640px;
 }
 .body2_container{
-    /*width: 680px;*/
+    /*width: 640px;*/
     /*display: flex;*/
     /*justify-content: space-around;*/
     /*margin: 0 auto;*/
@@ -394,7 +395,7 @@
     transition: 0.5s;
     /*position: relative;*/
     cursor:pointer;
-    margin: 17px 30px;
+    margin: 17px 20px;
     /* width: 180px; */
     display:  inline-block;
 }
@@ -433,11 +434,11 @@
 }
 .body3{
     background-color: #fff;
-    min-width: 680px;
+    min-width: 640px;
 }
 
 .body3_item{
-    width: 680px;
+    width: 640px;
     /* padding: 0 153px 20px 153px; */
     margin: 30px auto;
     padding: 0 40px 0 18px;
@@ -459,10 +460,10 @@
 }
 
 .button{
-     font-weight:bold;
-     color: #979797;
-     padding: 80px 30px;
- }
+    font-weight:bold;
+    color: #979797;
+    padding: 80px 30px;
+}
 .prominent{
     background-color: #dddddd;
 }
@@ -476,7 +477,7 @@
     padding: 20px 100px 20px 20px;
     font-size: 15px;
     font-weight: 700;
-    width: 680px;
+    width: 640px;
     margin: 0 auto;
     color: rgba(0,0,0,0.8);
     position: relative;
@@ -513,11 +514,11 @@
     line-height: 30px;
 }
 .paper_img{
-     width: 30px;
-     position: relative;
-     top: -1px;
-     /* left: 26px; */
- }
+    width: 30px;
+    position: relative;
+    top: -1px;
+    /* left: 26px; */
+}
 .body4_title{
     color: #fff;
 }
@@ -529,7 +530,7 @@
 }
 
 .body4_main{
-    /* width: 680px; */
+    /* width: 640px; */
     margin: 0 auto;
 }
 .body4_main_container{
@@ -583,7 +584,7 @@
 
 }
 .body5_stair1{
-    /* width: 680px; */
+    /* width: 640px; */
     margin: 40px auto;
     position: relative;
     /* padding: 0 20px 110px 20px; */
@@ -645,7 +646,7 @@
     /*color: #fff;*/
     /*text-align: center;*/
     padding: 45px 80px;
-    width: 680px;
+    width: 640px;
     margin: 0 auto;
     position: relative;
 }
@@ -673,9 +674,8 @@
 
 .activities{
     margin: 0 auto;
-    width: 680px;
-    padding: 0 0 60px 0;
-
+    width: 640px;
+    padding: 0 0 60px 130px;
 }
 .activities_container{
     position: relative;
@@ -749,16 +749,16 @@
 }
 .video{
     margin: 0 auto;
-    /* width: 680px; */
+    /* width: 640px; */
     text-align: center;
     /* padding: 20px 0; */
 }
 
 .video img{
 
-/* max-height: 700px; */
+    /* max-height: 700px; */
 
-max-width: 100%;
+    max-width: 100%;
 }
 
 .video_intro{
@@ -781,7 +781,7 @@ max-width: 100%;
 .footer_stair1{
     padding: 70px 0 0 0;
     margin: 0 auto;
-    width: 680px;
+    width: 640px;
     color: #a9a9a9;
     text-align: center;
     font-size: 12px;
@@ -790,7 +790,7 @@ max-width: 100%;
 .footer_stair2{
     padding: 50px 0;
     margin: 0 auto;
-    width: 680px;
+    width: 640px;
     color: #878787;
     text-align: center;
     font-size: 12px;
