@@ -20,7 +20,7 @@
     top:10px;
 }
 .stair2{
-
+/* margin: 30px; */
 }
 
 /*#wrapper {*/
@@ -144,6 +144,7 @@
     transition: all .4s ease-in-out;
     padding: 10px 25px;
     display:  inline-block;
+    margin: 0 20px;
 }
 .header_items_pien{
     /* height: 83px; */
@@ -173,7 +174,8 @@
     font-size: 72px;
     color: #fff;
     position: absolute;
-    top: 43%;
+    top: 50%;
+    font-weight:  bold;
     line-height: 45px;
     /* margin: 200px auto; */
     left:  0px;
@@ -183,10 +185,10 @@
 }
 .border{
     border-bottom: 6px solid #FFF;
-    width: 64px;
+    width: 96px;
     position:  relative;
-    left: 500px;
-    top: 45px;
+    left: 490px;
+    top: 55px;
 }
 .container_box{
      position: absolute;
@@ -230,17 +232,17 @@
     font-size: 42px;
 }
 .button a{
-    font-size: 24pt;
+    font-size: 22pt;
     font-weight:bold;
-    border: solid #000 2px;
-    padding: 27px 50px;
+    border: solid #000 4px;
+    padding: 27px 0;
     transition: all .5s;
-    /* width: 252px; */
-    /* display:  inline-block; */
+    width: 252px;
     height:  75px;
+    display:  inline-block;
 }
 .button a:hover{
-    background-color: rgb(125, 125, 125);
+    background-color: rgb(125, 125, 125, 0.5);
 }
 
 
@@ -277,7 +279,7 @@
     padding: 0 0 67px 0;
 }
 .stair1_title{
-    padding: 90px 0 0 0;
+    padding: 90px 0 40px 0;
 }
 /*.body1_stair3 img{*/
     /*position: absolute;*/
@@ -287,7 +289,7 @@
 /*}*/
 
 .research_stair{
-    padding: 67px 0 0 0;
+    padding: 77px 0 0 0;
     width: 80%;
     margin:   0 auto;
 }
@@ -325,7 +327,7 @@
 }
 .research_item img{
     position: relative;
-    width: 42px;
+    width: 62px;
 }
 
 .research_item i{
@@ -334,7 +336,7 @@
 }
 .research_item p{
     color: #fff;
-    margin: 12px 0 0 0;
+    margin: 32px 0 0 0;
     font-size:  24px;
 }
 
@@ -370,7 +372,7 @@
     /* width: 80%; */
     display: flex;
     margin: 0 auto;
-    /* padding: 21px 130px; */
+    padding: 0 0 200px 0;
     transition: 1s;
     flex-wrap: wrap;
     flex-flow: row wrap;
@@ -433,7 +435,7 @@
     /* height: 130px; */
     width: 668px;
     font-size: 24pt;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     height: 130px;
     display:  flex;
     align-items: center;
@@ -443,6 +445,7 @@
 .program_card_title p{
     width:  100%;
     display:  inline-block;
+    line-height: 40px;
 }
 .intro{
     padding: 22px 28px;
@@ -462,6 +465,7 @@
 .body3{
     background-color: #fff;
     min-width: 1080px;
+    padding: 0 0 240px 0;
 }
 
 .body3_item{
@@ -501,14 +505,20 @@
     display: none;
 }
 .list_container{
-    padding: 20px 280px 20px 20px;
-    font-size: 16pt;
-    font-weight: 700;
-    max-width: 1400px;
-    margin: 0 auto;
-    color: #333;
-    position: relative;
-    line-height: 34px;
+     padding: 20px 380px 20px 50px;
+     font-size: 16pt;
+     max-width: 1400px;
+     margin: 0 auto;
+     color: #333;
+     position: relative;
+     line-height: 34px;
+     height: 122px;
+     vertical-align: middle;
+     display: flex;
+     align-items: center;
+ }
+.list_container p{
+    max-width: 1046px;
 }
 .pub_more2{
     position: absolute;
@@ -523,7 +533,7 @@
 .pub_more{
     position: absolute;
     right: 0px;
-    top: 20px;
+    top: 42px;
 }
 .paper_img{
     width: 40px;
@@ -581,6 +591,7 @@
 }
 .event_title{
     font-size: 23pt;
+    font-weight:  bold;
 }
 
 .events_stair1_left img{
@@ -595,7 +606,7 @@
 .body4{
     background-color: #a0a0a0;
     /*height: 500px;!*test*!*/
-
+    padding: 0 0 200px 0;
 }
 .body5_stair1{
     /* width: 1080px; */
@@ -627,12 +638,12 @@
     padding: 5px 0;
 }
 .body5_title p{
-    font-size: 24pt;
-    font-weight: bold;
-    padding: 0 0 2px 0;
-    border-bottom: solid #a8a8a8 2px;
-    display: inline;
     color:  #333;
+    font-size: 29pt;
+    font-weight: bold;
+    padding: 0 0 5px 0;
+    border-bottom: solid #b0b0b0 3px;
+    display: inline;
 }
 .leader_name{
     font-size: 32pt;
@@ -642,8 +653,8 @@
 
 .leader_detial{
     margin: 10px 0;
-    font-size: 19pt;
-    line-height: 43px;
+    font-size: 15pt;
+    line-height: 36px;
     color: #333;
 }
 
@@ -663,10 +674,10 @@
     padding: 0 0 5px 0;
     border-bottom: solid #b0b0b0 3px;
     display: inline;
+    color:  #333;
 }
 .member_container{
     display: flex;
-    justify-content: space-between;
     margin: 40px auto;
     padding: 0 9%;
     width:  100%;
@@ -726,9 +737,9 @@
     cursor:  pointer;
 }
 .meeting span{
-    font-size:  17px;
+    font-size: 27px;
     font-weight: 600;
-    padding: 36% 0;
+    padding: 33% 0;
     display:  inline-block;
 }
 
@@ -797,12 +808,12 @@ height:  100%;
     margin: 0 auto;
     color: #a9a9a9;
     text-align: center;
-    font-size: 28pt;
+    font-size: 24pt;
     line-height: 54px;
 }
 .footer_stair2{
     padding: 90px 0;
     color: #878787;
     text-align: center;
-    font-size: 20pt;
+    font-size: 16pt;
 }

@@ -20,9 +20,9 @@
     top:10px;
 }
 /*#wrapper {*/
-    /*animation: fade-in;!*动画名称*!*/
-    /*animation-duration: 1.5s;!*动画持续时间*!*/
-    /*-webkit-animation:fade-in 1.5s;!*针对webkit内核*!*/
+/*animation: fade-in;!*动画名称*!*/
+/*animation-duration: 1.5s;!*动画持续时间*!*/
+/*-webkit-animation:fade-in 1.5s;!*针对webkit内核*!*/
 /*}*/
 
 .my_fadein{
@@ -114,7 +114,7 @@
     margin: 9px 0 0 0;
 }
 .logo_top img{
-     width: 150px;
+    width: 150px;
 }
 
 .header_items{
@@ -144,7 +144,7 @@
     padding: 19px 0 0 0;
 }
 .header_items_pien a{
-    font-size: 16px;
+    font-size: 18px;
 }
 .header_items a.choose{
     color: #ffffff;
@@ -170,7 +170,7 @@
     right:  0px;
 }
 .container_box{
-     position: absolute;
+    position: absolute;
 
 }
 
@@ -241,10 +241,10 @@
     margin: 80px 0 0 0;
 }
 .font_weith{
-    width: 600px;
+    width: 610px;
     margin: 0 auto;
-    line-height: 30px;
-    font-size: 12px;
+    line-height: 40px;
+    font-size: 32px;
     font-weight: 600;
     color: #333;
 }
@@ -258,16 +258,16 @@
     padding: 30px 0;
 }
 .stair1_title{
-    padding: 12px 0 45px 0;
+    padding: 12px 0 75px 0;
 }
 /*.body1_stair3 img{*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*right: 0;*/
-    /**/
+/*position: absolute;*/
+/*top: 0;*/
+/*right: 0;*/
+/**/
 /*}*/
 .research_stair{
-    padding: 5px 0;
+    padding: 12px 0;
 }
 
 
@@ -312,7 +312,8 @@
 .research_item p{
     color: #fff;
     margin: 12px 0 0 0;
-    font-size: 12pt;
+    line-height:  29px;
+    font-size: 16pt;
 }
 
 .icon-container{
@@ -341,6 +342,8 @@
 
 .body2{
     background-color: #eee;
+    min-width: 680px;
+    padding: 0 0 100px 0;
 }
 .body2_container{
     /*width: 680px;*/
@@ -394,7 +397,7 @@
     transition: 0.5s;
     /*position: relative;*/
     cursor:pointer;
-    margin: 17px 30px;
+    margin: 17px 20px;
     /* width: 180px; */
     display:  inline-block;
 }
@@ -421,6 +424,11 @@
 .program_card_title{
     text-align: center;
     margin: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 240px;
+    justify-content:  space-around;
 }
 .person_card_title{
     /*text-align: center;*/
@@ -434,6 +442,7 @@
 .body3{
     background-color: #fff;
     min-width: 680px;
+    padding: 0 0 100px 0;
 }
 
 .body3_item{
@@ -459,10 +468,10 @@
 }
 
 .button{
-     font-weight:bold;
-     color: #979797;
-     padding: 80px 30px;
- }
+    font-weight:bold;
+    color: #979797;
+    padding: 80px 30px;
+}
 .prominent{
     background-color: #dddddd;
 }
@@ -513,11 +522,11 @@
     line-height: 30px;
 }
 .paper_img{
-     width: 30px;
-     position: relative;
-     top: -1px;
-     /* left: 26px; */
- }
+    width: 30px;
+    position: relative;
+    top: -1px;
+    /* left: 26px; */
+}
 .body4_title{
     color: #fff;
 }
@@ -533,7 +542,7 @@
     margin: 0 auto;
 }
 .body4_main_container{
-    padding: 20px 80px 0 80px;
+    padding: 20px 80px 80px 80px;
 }
 
 .events_stair1_left{
@@ -605,8 +614,7 @@
     top: -50px;
 }
 .leader_introduce{
-    padding: 0 110px;
-    /* width: 600px; */
+    padding: 0 110px 100px 110px;
 }
 .leader_introduce p{
     padding: 20px 0;
@@ -674,8 +682,7 @@
 .activities{
     margin: 0 auto;
     width: 680px;
-    padding: 0 0 60px 0;
-
+    padding: 0 0 60px 130px;
 }
 .activities_container{
     position: relative;
@@ -756,9 +763,9 @@
 
 .video img{
 
-/* max-height: 700px; */
+    /* max-height: 700px; */
 
-max-width: 100%;
+    max-width: 100%;
 }
 
 .video_intro{
@@ -795,3 +802,5 @@ max-width: 100%;
     text-align: center;
     font-size: 12px;
 }
+
+

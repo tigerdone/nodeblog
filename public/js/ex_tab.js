@@ -9,9 +9,9 @@ window.onload = function () {
     // var copyright = $("#copyright");
     // var Awards = $("#Awards");
 
-    $(".header_items a").click(function () {
-        $(this).addClass("choose").siblings().removeClass("choose");
-    })
+    // $(".header_items a").click(function () {
+    //     $(this).addClass("choose").siblings().removeClass("choose");
+    // })
 
     $(".body3_item div").click(function () {
         var i = $(this).index();

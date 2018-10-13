@@ -82,7 +82,7 @@
     z-index: 40;
     width: auto;
     padding: 0;
-    padding: 12px 40px 15px 50px;
+    padding: 12px 30px 15px 40px;
     /*box-shadow: 0px 0px 5px #333333;*/
     /*position: fixed;*/
     /*top: 0;*/
@@ -134,7 +134,7 @@
     color: #d0d0d0;
     font-size: 13px;
     transition: all .4s ease-in-out;
-    padding: 0 8px;
+    padding: 0 6px;
     /* margin: 10px 10px; */
     /* height: 40px; */
     line-height: 30px;
@@ -258,7 +258,7 @@
     padding: 30px 0;
 }
 .stair1_title{
-    padding: 12px 0 45px 0;
+    padding: 12px 0 85px 0;
 }
 /*.body1_stair3 img{*/
 /*position: absolute;*/
@@ -267,7 +267,7 @@
 /**/
 /*}*/
 .research_stair{
-    padding: 5px 0;
+    padding: 12px 0;
 }
 
 
@@ -311,8 +311,9 @@
 }
 .research_item p{
     color: #fff;
-    margin: 12px 0 0 0;
-    font-size: 12pt;
+    margin: 15px 0 0 0;
+    font-size: 15pt;
+    line-height: 30px;
 }
 
 .icon-container{
@@ -342,6 +343,7 @@
 .body2{
     background-color: #eee;
     min-width: 640px;
+    padding: 0 0 100px 0;
 }
 .body2_container{
     /*width: 640px;*/
@@ -422,6 +424,11 @@
 .program_card_title{
     text-align: center;
     margin: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 240px;
+    justify-content:  space-around;
 }
 .person_card_title{
     /*text-align: center;*/
@@ -444,7 +451,7 @@
     padding: 0 40px 0 18px;
 }
 .body3_get{
-    padding: 0 30px;
+    padding: 0 22px;
     display: inline;
 }
 .publication_choose a{
@@ -454,7 +461,7 @@
 }
 
 .publication_button{
-    font-size: 22px;
+    font-size: 23px;
     font-weight:bold;
     color: #979797;
 }
@@ -474,7 +481,7 @@
     display: none;
 }
 .list_container{
-    padding: 20px 100px 20px 20px;
+    padding: 20px 130px 20px 20px;
     font-size: 15px;
     font-weight: 700;
     width: 640px;
@@ -485,7 +492,7 @@
 .pub_more{
     position: absolute;
     right: 20px;
-    top: 19px;
+    top: 27px;
     width: 90px;
 }
 .pub_more span{
@@ -500,7 +507,7 @@
 }
 .pub_more2{
     position: absolute;
-    right: 20px;
+    right: -8px;
     top: 20px;
     width: 130px;
 }
@@ -534,7 +541,7 @@
     margin: 0 auto;
 }
 .body4_main_container{
-    padding: 20px 80px 0 80px;
+    padding: 20px 80px 80px 80px;
 }
 
 .events_stair1_left{
@@ -606,8 +613,7 @@
     top: -50px;
 }
 .leader_introduce{
-    padding: 0 110px;
-    /* width: 600px; */
+    padding: 0 110px 100px 110px;
 }
 .leader_introduce p{
     padding: 20px 0;
@@ -795,3 +801,5 @@
     text-align: center;
     font-size: 12px;
 }
+
+
