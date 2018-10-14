@@ -74,7 +74,7 @@
     /* position: absolute; */
     /* top: 10px; */
     /* right: 2px; */
-    float:  right;
+    /* float:  right; */
 }
 .other_linker2{
     position: fixed;
@@ -153,7 +153,7 @@
 }
 .program_title a{
     padding: 0 0 5px 0;
-    border-bottom: solid #b0b0b0 3px;
+    border-bottom: solid #b0b0b0 4px;
     font-size: 42pt;
     line-height: 100px;
     font-weight:  bold;

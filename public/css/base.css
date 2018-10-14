@@ -10,6 +10,23 @@ textarea { resize:none; } /*防止拖动*/
 img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
 table { border-collapse:collapse; }
 
+@font-face {
+    font-family: 'NotoSansHans';
+    src: url('fonts/NotoSansHans-Bold.otf');
+    src: url('fonts/NotoSansHans-Regular.otf');
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}/*初始状态 透明度为0*/
+    40% {opacity: 0;}/*过渡状态 透明度为0*/
+    100% {opacity: 1;}/*结束状态 透明度为1*/
+}
+@-webkit-keyframes fade-in {/*针对webkit内核*/
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 #header{
     background-color: #2f3e45;
     height: 80px;

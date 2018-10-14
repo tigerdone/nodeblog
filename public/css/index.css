@@ -1,19 +1,4 @@
-@font-face {
-    font-family: 'NotoSansHans';
-    src: url('fonts/NotoSansHans-Bold.otf');
-    src: url('fonts/NotoSansHans-Regular.otf');
-}
 
-@keyframes fade-in {
-    0% {opacity: 0;}/*初始状态 透明度为0*/
-    40% {opacity: 0;}/*过渡状态 透明度为0*/
-    100% {opacity: 1;}/*结束状态 透明度为1*/
-}
-@-webkit-keyframes fade-in {/*针对webkit内核*/
-    0% {opacity: 0;}
-    40% {opacity: 0;}
-    100% {opacity: 1;}
-}
 .prepare_fadein{
     opacity: 0;
     position: relative;
@@ -228,7 +213,7 @@
 }
 .title p{
     padding: 0 0 12px 0;
-    border-bottom: solid #b0b0b0 3px;
+    border-bottom: solid #b0b0b0 4px;
     display: inline;
     font-size: 42px;
 }
@@ -317,7 +302,7 @@
 
 }
 .Research_interests{
-    border-bottom: solid #fff 2px;
+    border-bottom: solid #fff 4px;
     color: #fff;
     padding: 0 0 12px 0;
     font-size: 42px;
@@ -446,15 +431,13 @@
 
 .program_card_title{
     text-align: center;
-    /* height: 130px; */
+    height: 110px;
     width: 500px;
-    font-size: 20pt;
-    /* vertical-align: middle; */
-    height: 130px;
-    display: flex;
+    font-size: 18pt;
     align-items: center;
     flex-flow: row wrap;
     padding: 24px 0;
+    display: flex;
 }
 .program_card_title p{
     width:  100%;
@@ -483,9 +466,10 @@
 }
 
 .body3_item{
-    width: 1080px;
-    padding: 0 0 50px 0;
+    /* width: 1080px; */
+    padding: 0 0 50px 20px;
     margin: 0 auto;
+    max-width: 1400px;
 }
 .body3_get{
     padding: 0 30px;
@@ -499,7 +483,7 @@
 }
 
 .publication_button{
-    font-size: 28pt;
+    font-size: 24pt;
     font-weight:bold;
     color: #979797;
 }
@@ -564,7 +548,7 @@
 }
 .body4_title p{
     padding: 0 0 5px 0;
-    border-bottom: solid #fff 2px;
+    border-bottom: solid #fff 4px;
     display: inline;
 }
 
@@ -657,7 +641,7 @@
     font-size: 29pt;
     font-weight: bold;
     padding: 0 0 5px 0;
-    border-bottom: solid #b0b0b0 3px;
+    border-bottom: solid #b0b0b0 4px;
     display: inline;
 }
 .leader_name{
@@ -687,7 +671,7 @@
     font-size: 29pt;
     font-weight: bold;
     padding: 0 0 5px 0;
-    border-bottom: solid #b0b0b0 3px;
+    border-bottom: solid #b0b0b0 4px;
     display: inline;
     color:  #333;
 }
