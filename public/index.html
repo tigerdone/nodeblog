@@ -26,6 +26,10 @@
             if(viewport_scale < 0.5){
                 viewport_scale = 0.5;
             }
+            if(screen.availWidth > 1900){
+                viewport_scale = 1;
+
+            }
             viewport.setAttribute("content", "width=device-width, " +
                 "initial-scale=" + viewport_scale + ", maximum-scale=1.0, user-scalable=no")
         </script>
