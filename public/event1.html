@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <title>event</title>
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/event.css">
+    <link id="b" rel="stylesheet" href="css/event.css">
+    <link id="a" rel="alternate" href="css/event_mac.css">
+
+
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/mac.js"></script>
 
 </head>
 <body>
@@ -72,20 +76,6 @@
                 <a class="other_arrow next" href="event2.html">
                     <img src="img/arrow.png" alt="next">
                 </a>
-                <script>
-                    $(document).keydown(function(event){
-                        //判断当event.keyCode 为37时（即左方面键），执行函数to_left();
-                        //判断当event.keyCode 为39时（即右方面键），执行函数to_right();
-                        if(event.keyCode == 37){
-                            //do somethings;
-                            $(".last").click();
-                        }else if (event.keyCode == 39){
-                            //do somethings;
-                            $(".next").click();
-
-                        }
-                    });
-                </script>
             </div>
         </div>
     </div>

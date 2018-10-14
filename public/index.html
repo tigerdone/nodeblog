@@ -6,18 +6,26 @@
             ims
         </title>
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/iconfont.css">
-        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/base.css"  title="a">
+        <link rel="stylesheet" href="css/iconfont.css"  title="a">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon"  title="a">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <!--<style type="text/css">body {zoom:0.5;}</style>-->
 
-        <link rel="stylesheet" media="screen and (max-width:828px) and (min-width:650px)" href="css/mobile.css" type="text/css">
-        <link rel="stylesheet" media="screen and (max-width:650px)" href="css/mobile2.css" type="text/css">
-        <link rel="stylesheet" media="screen and (min-width:829px)"  href="css/index.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+        <link id="c"rel="stylesheet" media="screen and (max-width:828px) and (min-width:650px)" href="css/mobile.css" type="text/css">
+        <link id="d" rel="stylesheet" media="screen and (max-width:650px)" href="css/mobile2.css" type="text/css">
+        <link id="b" rel="stylesheet" media="screen and (min-width:829px)"  href="css/index.css" type="text/css">
+
+        <link id="a" rel="alternate" href="css/index_mac.css" type="text/css">
 
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-
+        <!--<script>-->
+            <!--if(screen.availWidth > 1900&&window.devicePixelRatio > 1.5){-->
+                <!--$("#all").css("zoom","0.5");-->
+            <!--}-->
+        <!--</script>-->
         <script>
             console.log(screen.width+"*"+screen.height);
             var viewport = document.querySelector("meta[name=viewport]");
@@ -26,14 +34,43 @@
             if(viewport_scale < 0.5){
                 viewport_scale = 0.5;
             }
-            if(screen.availWidth > 1900){
-                viewport_scale = 1;
-            }
             viewport.setAttribute("content", "width=device-width, " +
                 "initial-scale=" + viewport_scale + ", maximum-scale=1.0, user-scalable=no")
+
+            if(screen.width > 1900&&window.devicePixelRatio >= 2){
+                setStyleSheet()
+            }
+//            function changeStyle4() {
+//                var obj = document.getElementById("css");
+//                obj.setAttribute("href","css2.css");
+//            }
+            function setStyleSheet(){
+//                console.log("stylesheetokok");
+                document.getElementById("a").setAttribute("rel","stylesheet");
+                document.getElementById("b").setAttribute("rel","alternate");
+                document.getElementById("c").setAttribute("rel","alternate");
+                document.getElementById("d").setAttribute("rel","alternate");
+
+
+//                $("#a").disable = true;
+//                $("#b").disable = false;
+
+//                var link_list = document.getElementsByTagName("link");
+//                if ( link_list ){
+//                    for ( var i=0;i<link_list.length;i++ ){
+//                        if ( link_list[i].getAttribute("rel").indexOf("style") != -1 ){
+//                            link_list[i].disabled = true;
+//                            if ( link_list[i].getAttribute("title") === title){
+//                                link_list[i].disabled = false;
+//                            }
+//                        }
+//                    }
+//                }
+            };
+
         </script>
     </head>
-    <body>
+    <body id="all">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -1548,5 +1585,6 @@
                     return false;});
             });
         </script>
+
     </body>
 </html>
