@@ -46,16 +46,13 @@
     float: left;
 }
 .event_content p{
-    margin: 35px 0;
+    margin: 15px 0;
     font-size: 20pt;
     line-height: 50px;
     color: #6c6c6c;
 }
 
-.event_content img{
-
-width: 100%;
-}
+.event_content img{width: 100%;margin: 20px 0;}
 
 .event_container{
     /* width: 300px; */

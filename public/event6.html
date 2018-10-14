@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>event</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+    <div class="event_main_container">
+        <div class="back">
+            <a href="index.html">
+                Back
+            </a>
+        </div>
+        <div class="title_container">
+            <p class="title">
+                MagicPAPER Group come to ACM SIGCHI DIS 2018!
+            </p>
+            <p class="time">
+                2018-06-13
+            </p>
+        </div>
+        <div class="event_container">
+            <div class="event_content_container clearfix">
+                <div class="event_content">
+                    <img src="img/event13.jpg" alt="MagicPAPER">
+                    <p class="tuige">
+                        The 6th ACM Symposium on Spatial User Interaction (SUI 2018) take place from October 13 to14 in Berlin, Germany. We have published a demonstration paper entitled " MagicPAPER: An Integrated Shadow-Art Hardware Device Enabling Touch Interaction on Kraft paper " and reported the research results in the field of HCI in the conference.
+                    </p>
+                    <img src="img/event14.jpg" alt="MagicPAPER">
+                    <p  class="tuige">
+                        What is worth mentioning is that during the Demo-tracking time in 13th,October, many attendees showed high praises to our program, not only about the system, but also about the UI design etc. So the program has been invited to show in the poster-tracking time again in 14th , October, such a good way to show more people about our program, so amazing!
+                    </p>
+                    <p  class="tuige">
+                        Let's take a look at the scene!
+                    </p>
+
+                </div>
+                <div class="right_box">
+                    <div class="other_linker">
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="img/icon_detail.png" alt="icon_paper">
+                                Program details
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
+                                Paper Link
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
+                                Video
+                            </a>
+                        </div>
+                        <script type="text/javascript">
+                            window.onscroll = function() {
+                                var scrollY = window.scrollY;
+                                if(scrollY > 623){
+                                    $(".other_linker").addClass("other_linker2");
+                                }else {
+                                    $(".other_linker").removeClass("other_linker2");
+                                }
+                            }
+                        </script>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="other other2">
+                <a class="other_arrow last dispaly" href="#">
+                    <img src="img/arrow.png" alt="last">
+                </a>
+                <a class="other_arrow next" href="event2.html">
+                    <img src="img/arrow.png" alt="next">
+                </a>
+                <script>
+                    $(document).keydown(function(event){
+                        //判断当event.keyCode 为37时（即左方面键），执行函数to_left();
+                        //判断当event.keyCode 为39时（即右方面键），执行函数to_right();
+                        if(event.keyCode == 37){
+                            //do somethings;
+                            $(".last").click();
+                        }else if (event.keyCode == 39){
+                            //do somethings;
+                            $(".next").click();
+
+                        }
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+
+</body>
+</html>
