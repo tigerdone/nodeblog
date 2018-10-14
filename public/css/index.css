@@ -421,8 +421,8 @@
 }
 
 .program_mobile img{
-    height: 260px;
-    width: 668px;
+    /* height: 260px; */
+    width: 500px;
     vertical-align:middle;
 }
 
@@ -434,11 +434,11 @@
 .program_card_title{
     text-align: center;
     /* height: 130px; */
-    width: 668px;
-    font-size: 24pt;
+    width: 500px;
+    font-size: 20pt;
     /* vertical-align: middle; */
     height: 130px;
-    display:  flex;
+    display: flex;
     align-items: center;
     flex-flow: row wrap;
     padding: 24px 0;
@@ -684,6 +684,7 @@
     padding: 0 9%;
     width:  100%;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .activities{
