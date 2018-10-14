@@ -230,7 +230,6 @@
                             </div>
                         </div>
                     </a>
-
                     <a class="" target="_blank" href="program/program8.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/Tone_of_Qiangs.jpg" alt="magicpaper">
@@ -242,81 +241,9 @@
                         </div>
                     </a>
 
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2 prepare_fadein">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--MagicPAPER-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2 prepare_fadein">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--See your voice-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2 prepare_fadein">-->
-                            <!--<img src="img/object.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Object Recognition-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Table War-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Intelligent Smoke Alarm System with Wireless-->
-                                <!--Sensor Network using ZigBee-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2">-->
-                            <!--<img class="prepare_fadein" src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Table War-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Intelligent Smoke Alarm System with Wireless-->
-                                <!--Sensor Network using ZigBee-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Table War-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Intelligent Smoke Alarm System with Wireless-->
-                                <!--Sensor Network using ZigBee-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
+                </div>
+                <div class="body2_container2 clearfix">
+
                 </div>
                 <div class="body2_stair2 button display">
                     <a id="program_more" class="prepare_fadein display" href="javascript:">
@@ -1471,8 +1398,17 @@
                             <script>
                                 $(document).ready(function(){
                                     var member_num = 12;
+                                    var add_num = 8;
                                     $("#member_container").on("click", function () {
-                                        for(var i = 1; i < 10;i++){
+                                        console.log("$(window).width()"+$(window).width())
+                                        if($(window).width() > 1800){
+                                            add_num = 8
+                                        }
+                                        if($(window).width() > 1300&&$(window).width() < 1800){
+                                            add_num = 9
+                                        }
+
+                                        for(var i = 0; i < add_num;i++){
                                             member_num += 1;
                                             $(".member_card").eq(member_num).removeClass("display")
                                                 .addClass("prepare_fadein").animate({opacity:1,filter:'Alpha(opacity=90)'},500);
