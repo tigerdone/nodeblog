@@ -19,6 +19,8 @@
         <link id="b" rel="stylesheet" media="screen and (min-width:829px)"  href="css/index.css" type="text/css">
 
         <link id="a" rel="alternate" href="css/index_mac.css" type="text/css">
+        <link id="a1" rel="alternate" href="css/index_mac1.css" type="text/css">
+        <link id="a2" rel="alternate" href="css/index_mac2.css" type="text/css">
 
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
         <!--<script>-->
@@ -40,6 +42,16 @@
             if(screen.width > 1900&&window.devicePixelRatio >= 2){
                 setStyleSheet()
             }
+            if(screen.width >= 1280 && screen.width < 1440&&window.devicePixelRatio >= 2){
+                document.getElementById("a1").setAttribute("rel","stylesheet");
+                document.getElementById("b").setAttribute("rel","alternate");
+                document.getElementById("c").setAttribute("rel","alternate");
+                document.getElementById("d").setAttribute("rel","alternate");
+
+            }
+//            if(screen.width > 1900&&window.devicePixelRatio >= 2){
+//                setStyleSheet()
+//            }
 //            function changeStyle4() {
 //                var obj = document.getElementById("css");
 //                obj.setAttribute("href","css2.css");
