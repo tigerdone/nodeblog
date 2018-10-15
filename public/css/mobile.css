@@ -132,7 +132,7 @@
 }
 .header_items a{
     color: #d0d0d0;
-    font-size: 13px;
+    font-size: 12pt;
     transition: all .4s ease-in-out;
     padding: 0 8px;
     /* margin: 10px 10px; */
@@ -207,8 +207,7 @@
     padding: 0 0 7px 0;
     border-bottom: solid #a2a2a2 3px;
     display: inline;
-    color:  #333;
-    font-weight:  bold;
+    font-size: 30pt;
 }
 .button a{
     font-size: 20px;
@@ -245,7 +244,7 @@
     margin: 0 auto;
     line-height: 40px;
     font-size: 32px;
-    font-weight: 600;
+    /* font-weight: 600; */
     color: #333;
 }
 .box{
@@ -449,10 +448,10 @@
     width: 680px;
     /* padding: 0 153px 20px 153px; */
     margin: 30px auto;
-    padding: 0 40px 0 18px;
+    /* padding: 0 40px 0 18px; */
 }
 .body3_get{
-    padding: 0 30px;
+    margin: 0 30px;
     display: inline;
 }
 .publication_choose a{
@@ -482,9 +481,8 @@
     display: none;
 }
 .list_container{
-    padding: 20px 100px 20px 20px;
+    padding: 20px 140px 20px 20px;
     font-size: 15px;
-    font-weight: 700;
     width: 680px;
     margin: 0 auto;
     color: rgba(0,0,0,0.8);
@@ -572,7 +570,7 @@
     /* text-align:  right; */
 }
 .event_title{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .events_stair1_left img{
@@ -652,14 +650,13 @@
 .member_title{
     /*color: #fff;*/
     /*text-align: center;*/
-    padding: 45px 80px;
+    padding: 89px 40px;
     width: 680px;
     margin: 0 auto;
-    position: relative;
 }
 .member_title p{
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 23pt;
+    font-weight: bold;
     padding: 0 0 2px 0;
     border-bottom: solid #a1a1a1 2px;
     display: inline;
@@ -673,7 +670,7 @@
     /*transition: all 0.5s;*/
     display: flex;
     justify-content: space-between;
-    margin: 40px auto;
+    margin: 0px auto;
     padding: 0 10%;
     width:  100%;
     flex-wrap: wrap;
