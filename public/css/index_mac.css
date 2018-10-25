@@ -130,7 +130,7 @@
     transition: all .4s ease-in-out;
     padding: 5px 12px;
     display:  inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
     /* width: 19%; */
     text-decoration: unset;
 }
@@ -142,6 +142,7 @@
 .header_items_pien a{
     font-size: 17pt;
     /* padding: 5px 15px; */
+    margin: 0 16px;
 }
 .header_items a.choose{
     color: #ffffff;
@@ -311,7 +312,7 @@
 }
 .research_item{
     width: 280px;
-    padding: 0 0 40px 0;
+    padding: 0 0 60px 0;
 }
 .research_item img{
     position: relative;
@@ -422,7 +423,7 @@
 
 .program_mobile img{
     /* height: 260px; */
-    width: 312px;
+    width: 352px;
     vertical-align:middle;
 }
 
@@ -434,7 +435,7 @@
 .program_card_title{
     text-align: center;
     height: 55px;
-    width: 312px;
+    width: 352px;
     font-size: 9pt;
     align-items: center;
     flex-flow: row wrap;
