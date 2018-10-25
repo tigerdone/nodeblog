@@ -126,7 +126,7 @@
 }
 .header_items a{
     color: #d0d0d0;
-    font-size: 15px;
+    font-size: 14pt;
     transition: all .4s ease-in-out;
     padding: 5px 12px;
     display:  inline-block;
@@ -140,12 +140,12 @@
     margin: 0 -15px 0 0;
 }
 .header_items_pien a{
-    font-size: 19px;
+    font-size: 17pt;
     /* padding: 5px 15px; */
 }
 .header_items a.choose{
     color: #ffffff;
-    font-weight: 600;
+    font-weight: bold;
 }
 .header_items a:hover{
 
@@ -386,7 +386,7 @@
     background-color: #fff;
     transition: 0.5s;
     cursor:pointer;
-    width: 128px;
+    width: 140px;
     margin: 13px 16px;
 }
 .program_card:hover{
@@ -453,14 +453,14 @@
     /* margin: 30px; */
     font-weight: bold;
     color:  #333;
-    font-size: 5pt;
+    font-size: 6pt;
     line-height: 10px;
 }
 .person_card_content{
     margin: 8px 0;
-    font-size: 4pt;
+    font-size: 6pt;
     color: #787878;
-    line-height: 9px;
+    line-height: 11px;
 }
 .body3{
     background-color: #fff;
@@ -629,7 +629,7 @@
 .leader_introduce{
     width: 60%;
     float:  right;
-    /* padding: 10px 35px 0 0; */
+    padding: 0 35px 0 0;
 }
 .leader_introduce p{
     /* padding: 20px 0 0 0; */
@@ -655,8 +655,8 @@
 
 .leader_detial{
     margin: 10px 0;
-    font-size: 7pt;
-    line-height: 15px;
+    font-size: 12pt;
+    line-height: 18px;
     color: #333;
 }
 
@@ -681,8 +681,8 @@
 .member_container{
     display: flex;
     margin: 0 auto;
-    padding: 0 9%;
-    width:  100%;
+    /* padding: 0 9%; */
+    width: 83%;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -811,12 +811,12 @@
     margin: 0 auto;
     color: #a9a9a9;
     text-align: center;
-    font-size: 8pt;
+    font-size: 9pt;
     line-height: 27px;
 }
 .footer_stair2{
     padding: 33px 0;
     color: #878787;
     text-align: center;
-    font-size: 7pt;
+    font-size: 8pt;
 }
