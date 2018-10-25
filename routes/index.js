@@ -1,8 +1,8 @@
 module.exports = function (app) {
-    app.get('/', function (req, res) {
-        // res.redirect('/posts')
-        res.render('index')
-    })
+    // app.get('/', function (req, res) {
+    //     // res.redirect('/posts')
+    //     res.render('index')
+    // })
     app.get('/secbit', function (req, res) {
         // res.redirect('/posts')
         res.render('secbit')

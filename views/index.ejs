@@ -6,30 +6,61 @@
             ims
         </title>
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/iconfont.css">
+        <link rel="stylesheet" href="css/base.css"  title="a">
+        <link rel="stylesheet" href="css/iconfont.css"  title="a">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon"  title="a">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <!--<style type="text/css">body {zoom:0.5;}</style>-->
 
-        <link rel="stylesheet" media="screen and (max-width:828px) and (min-width:650px)" href="css/mobile.css" type="text/css">
-        <link rel="stylesheet" media="screen and (max-width:650px)" href="css/mobile2.css" type="text/css">
-        <link rel="stylesheet" media="screen and (min-width:829px)"  href="css/index.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+        <link id="d"rel="stylesheet" media="screen and (max-width:828px) and (min-width:650px)" href="css/mobile.css" type="text/css">
+        <link id="c" rel="stylesheet" media="screen and (max-width:650px)" href="css/mobile2.css" type="text/css">
+        <link id="b" rel="stylesheet" media="screen and (min-width:829px)"  href="css/index.css" type="text/css">
+        <link id="a" rel="alternate" href="css/index_mac.css" type="text/css">
 
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-
+        <!--<script>-->
+            <!--if(screen.availWidth > 1900&&window.devicePixelRatio > 1.5){-->
+                <!--$("#all").css("zoom","0.5");-->
+            <!--}-->
+        <!--</script>-->
         <script>
             console.log(screen.width+"*"+screen.height);
-            var viewport = document.querySelector("meta[name=viewport]");
-            var viewport_scale = 1/window.devicePixelRatio
-            //        var x = 1/viewport_x;
-            if(viewport_scale < 0.5){
-                viewport_scale = 0.5;
+
+            if(goPAGE() == "mobile"){
+                var viewport = document.querySelector("meta[name=viewport]");
+                var viewport_scale = 1/window.devicePixelRatio
+                if(viewport_scale < 0.5){
+                    viewport_scale = 0.5;
+                }
+                viewport.setAttribute("content", "width=device-width, " +
+                    "initial-scale=" + viewport_scale + ", maximum-scale=1.0, user-scalable=no")
             }
-            viewport.setAttribute("content", "width=device-width, " +
-                "initial-scale=" + viewport_scale + ", maximum-scale=1.0, user-scalable=no")
+
+            function goPAGE(){
+                if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+                // window.location.href="移动端url";
+                    return "mobile"
+                }
+                else {
+                    // window.location.href="pc端url";
+                    return "pc"
+                }
+            }
+
+
+            if(goPAGE() == "pc"&&window.devicePixelRatio >= 2){
+                document.getElementById("a").setAttribute("rel","stylesheet");
+                document.getElementById("b").setAttribute("rel","alternate");
+                document.getElementById("c").setAttribute("rel","alternate");
+                document.getElementById("d").setAttribute("rel","alternate");
+            }
+
+
         </script>
     </head>
-    <body>
+    <body id="all">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -102,7 +133,8 @@
                     </div>
                     <div  class="font_weith">
                         <p>
-                            Not only lie in the augmented reality ,gestural interfaces , wearable computing, intelligence hardware and other technologies, but also focus on how to combine them with unique and meaningful themes to create unique experience of human-computer interactions.
+                            Not only lie in the augmented reality,
+                            gestural interfaces, wearable computing, intelligence hardware and other technologies, but also focus on how to combine them with unique and meaningful themes to create unique experience of human-computer interactions.
                         </p>
                     </div>
                 </div>
@@ -159,7 +191,57 @@
                 <div class="body2_container clearfix">
                     <a class="" target="_blank" href="program/program1.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
-                            <img src="img/program/shibi.jpg" alt="magicpaper">
+                            <img src="img/program/MagicPAPERs.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    MagicPAPER
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="" target="_blank" href="program/program2.html">
+                        <div class="program_mobile program_mobile2 prepare_fadein">
+                            <img src="img/program/Object_Recognitions.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    Object Recognition
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="" target="_blank" href="program/program3.html">
+                        <div class="program_mobile program_mobile2 prepare_fadein">
+                            <img src="img/program/Anmojis.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    Anmoji
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="" target="_blank" href="program/program4.html">
+                        <div class="program_mobile program_mobile2 prepare_fadein">
+                            <img src="img/program/See_your_voices.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    See your voice
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="" target="_blank" href="program/program5.html">
+                        <div class="program_mobile program_mobile2 prepare_fadein">
+                            <img src="img/program/Table_wars.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    Table war
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="" target="_blank" href="program/program6.html">
+                        <div class="program_mobile program_mobile2 prepare_fadein">
+                            <img src="img/program/The_Legend_of_‘Shi-Bi's.jpg" alt="magicpaper">
                             <div class="program_card_title">
                                 <p>
                                     The Legend of ‘Shi-Bi’
@@ -167,133 +249,33 @@
                             </div>
                         </div>
                     </a>
-                    <a class="" target="_blank" href="program/program2.html">
-                        <div class="program_mobile program_mobile2 prepare_fadein">
-                            <img src="img/program/MagicPAPERs.jpg" alt="magicpaper">
-                            <div class="program_card_title">
-                                <p>
-                                    MagicPAPERs
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="" target="_blank" href="program/program3.html">
-                        <div class="program_mobile program_mobile2 prepare_fadein">
-                            <img src="img/program/Hexamusics.jpg" alt="magicpaper">
-                            <div class="program_card_title">
-                                <p>
-                                    Hexamusics
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="" target="_blank" href="program/program4.html">
-                        <div class="program_mobile program_mobile2 prepare_fadein">
-                            <img src="img/program/Object-Recognitions.jpg" alt="magicpaper">
-                            <div class="program_card_title">
-                                <p>
-                                    Object-Recognitions
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="" target="_blank" href="program/program5.html">
-                        <div class="program_mobile program_mobile2 prepare_fadein">
-                            <img src="img/program/Qiangs.jpg" alt="magicpaper">
-                            <div class="program_card_title">
-                                <p>
-                                    Qiang
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="" target="_blank" href="program/program6.html">
+                    <a class="" target="_blank" href="program/program7.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/ZigBees.jpg" alt="magicpaper">
                             <div class="program_card_title">
                                 <p>
-                                    ZigBee
+                                    Intelligent Smoke Alarm System with Wireless Sensor
+                                    Network using ZigBee
                                 </p>
                             </div>
                         </div>
                     </a>
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2 prepare_fadein">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--MagicPAPER-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2 prepare_fadein">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--See your voice-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2 prepare_fadein">-->
-                            <!--<img src="img/object.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Object Recognition-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Table War-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Intelligent Smoke Alarm System with Wireless-->
-                                <!--Sensor Network using ZigBee-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2">-->
-                            <!--<img class="prepare_fadein" src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Table War-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile program_mobile2">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Intelligent Smoke Alarm System with Wireless-->
-                                <!--Sensor Network using ZigBee-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Table War-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
-                    <!--<a class="" href="program1.html">-->
-                        <!--<div class="program_mobile">-->
-                            <!--<img src="img/magicpaper.jpg" alt="magicpaper">-->
-                            <!--<p class="program_card_title">-->
-                                <!--Intelligent Smoke Alarm System with Wireless-->
-                                <!--Sensor Network using ZigBee-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</a>-->
+                    <a class="" target="_blank" href="program/program8.html">
+                        <div class="program_mobile program_mobile2 prepare_fadein">
+                            <img src="img/program/Tone_of_Qiangs.jpg" alt="magicpaper">
+                            <div class="program_card_title">
+                                <p>
+                                    Tone of Qiang
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
                 </div>
-                <h1 class="body2_stair2 button ">
+                <div class="body2_container2 clearfix">
+
+                </div>
+                <div class="body2_stair2 button display">
                     <a id="program_more" class="prepare_fadein display" href="javascript:">
                         Learn more
                     </a>
@@ -309,7 +291,7 @@
                             });
                         });
                     </script>
-                </h1>
+                </div>
             </div>
             <div id="div3" class="body3">
                 <h1 class="body1_stair1 title">
@@ -344,7 +326,12 @@
                     <div id="Publications0">
                         <div class="body3_list prominent prepare_fadein">
                             <div class="list_container">
-                                The Legend of ‘Shi-Bi’: An Augmented Reality Mobile Game Based on the Cultural Stories of the Qiang Minority
+                                <p>
+                                    Intelligent Smoke Alarm System with Wire
+                                    less Sensor Network
+                                    using ZigBee
+                                </p>
+
                                 <div class="pub_more">
                                     <a href="javascript:">
                                         <!--<i class="iconfont icon-HCI"></i>-->
@@ -357,7 +344,7 @@
                                         <!--<i class="iconfont icon-HCI"></i>-->
                                         <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
                                         <span>
-                                            video
+                                            Video
                                         </span>
                                     </a>
                                 </div>
@@ -365,27 +352,11 @@
                         </div>
                         <div class="body3_list prepare_fadein">
                             <div class="list_container">
-                                Anmoji: A Massage Robot Based on the Head and Shoulders Control
-                                <div class="pub_more">
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
-                                        <span>
-                                            Paper
-                                        </span>
-                                    </a>
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
-                                        <span>
-                                            video
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="body3_list prominent prepare_fadein">
-                            <div class="list_container">
-                                为弱听障用户提供的声音可视化互动装置
-                                ——See Your Voice
+                                <p>
+                                    See Your Voice: An Interactive Device of
+                                    Speech Visualizations for Users with A
+                                    Poor Hearing
+                                </p>
 
                                 <div class="pub_more">
                                     <a href="javascript:">
@@ -397,7 +368,31 @@
                                     <a href="javascript:">
                                         <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
                                         <span>
-                                            video
+                                            Video
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body3_list prominent prepare_fadein">
+                            <div class="list_container">
+                                <p>
+                                    Table War : A Tower-Defense Game
+                                    Device with Augmented Reality Projection
+
+                                </p>
+
+                                <div class="pub_more">
+                                    <a href="javascript:">
+                                        <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
+                                        <span>
+                                            Paper
+                                        </span>
+                                    </a>
+                                    <a href="javascript:">
+                                        <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
+                                        <span>
+                                            Video
                                         </span>
                                     </a>
                                 </div>
@@ -405,7 +400,11 @@
                         </div>
                         <div class="body3_list prepare_fadein">
                             <div class="list_container">
-                                基于羌语的语料库的建立和系统设计
+                                <p>
+                                    MagicPAPER: An Integrated Shadow-Art
+                                    Hardware Device Enabling Touch
+                                    Interaction on Paper
+                                </p>
 
                                 <div class="pub_more">
                                     <a href="javascript:">
@@ -418,7 +417,7 @@
                                         <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
 
                                         <span>
-                                            video
+                                            Video
                                         </span>
                                     </a>
                                 </div>
@@ -426,7 +425,12 @@
                         </div>
                         <div class="body3_list prominent prepare_fadein">
                             <div class="list_container">
-                                “释比传说”基于羌族传统故事的 AR 手机游戏
+                                <p>
+                                    MagicPAPER: An Integrated Shadow-Art
+                                    Hardware Device Enabling Touch
+                                    Interaction on Kraft paper
+                                </p>
+
 
                                 <div class="pub_more">
                                     <a href="javascript:">
@@ -438,130 +442,111 @@
                                     <a href="javascript:">
                                         <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
                                         <span>
-                                            video
+                                            Video
                                         </span>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="body3_list prepare_fadein">
-                            <div class="list_container">
-                                Cognition based Context-aware Cloud Computing for intelligent robotic systems in mobile education
 
-                                <div class="pub_more">
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
-                                        <span>
-                                            Paper
-                                        </span>
-                                    </a>
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
-                                        <span>
-                                            video
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="body3_list prominent prepare_fadein">
-                            <div class="list_container">
-                                Object recognition-based second language learning educational robot system for Chinese preschool children
+                        <!--<div class="body3_list prominent prepare_fadein">-->
+                            <!--<div class="list_container">-->
+                                <!--Object recognition-based second language learning educational robot system for Chinese preschool children-->
 
-                                <div class="pub_more">
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
-                                        <span>
-                                            Paper
-                                        </span>
-                                    </a>
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
-                                        <span>
-                                            video
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="display body3_list">
-                            <div class="list_container">
-                                Intelligent Smoke Alarm System with Wireless Sensor Network
-                                 using ZigBee
-                                <div class="pub_more">
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
-                                        <span>
-                                            Paper
-                                        </span>
-                                    </a>
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
-                                        <span>
-                                            video
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="display body3_list prominent">
-                            <div class="list_container">
-                                See Your Voice: An Interactive Device of Speech Visualizations for Users with A Poor Hearing
-                                <div class="pub_more">
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
-                                        <span>
-                                            Paper
-                                        </span>
-                                    </a>
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
-                                        <span>
-                                            video
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="display body3_list">
-                            <div class="list_container">
-                                Table War : A Tower-Defense Game Device with Augmented Reality Projection
+                                <!--<div class="pub_more">-->
+                                    <!--<a href="javascript:">-->
+                                        <!--<img class="paper_img" src="img/icon_paper.png" alt="icon_paper">-->
+                                        <!--<span>-->
+                                            <!--Paper-->
+                                        <!--</span>-->
+                                    <!--</a>-->
+                                    <!--<a href="javascript:">-->
+                                        <!--<img class="paper_img" src="img/icon_video.png" alt="icon_paper">-->
+                                        <!--<span>-->
+                                            <!--video-->
+                                        <!--</span>-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="display body3_list">-->
+                            <!--<div class="list_container">-->
+                                <!--Intelligent Smoke Alarm System with Wireless Sensor Network-->
+                                <!-- using ZigBee-->
+                                <!--<div class="pub_more">-->
+                                    <!--<a href="javascript:">-->
+                                        <!--<img class="paper_img" src="img/icon_paper.png" alt="icon_paper">-->
+                                        <!--<span>-->
+                                            <!--Paper-->
+                                        <!--</span>-->
+                                    <!--</a>-->
+                                    <!--<a href="javascript:">-->
+                                        <!--<img class="paper_img" src="img/icon_video.png" alt="icon_paper">-->
+                                        <!--<span>-->
+                                            <!--video-->
+                                        <!--</span>-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="display body3_list prominent">-->
+                            <!--<div class="list_container">-->
+                                <!--See Your Voice: An Interactive Device of Speech Visualizations for Users with A Poor Hearing-->
+                                <!--<div class="pub_more">-->
+                                    <!--<a href="javascript:">-->
+                                        <!--<img class="paper_img" src="img/icon_paper.png" alt="icon_paper">-->
+                                        <!--<span>-->
+                                            <!--Paper-->
+                                        <!--</span>-->
+                                    <!--</a>-->
+                                    <!--<a href="javascript:">-->
+                                        <!--<img class="paper_img" src="img/icon_video.png" alt="icon_paper">-->
+                                        <!--<span>-->
+                                            <!--video-->
+                                        <!--</span>-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="display body3_list">-->
+                            <!--<div class="list_container">-->
+                                <!--Table War : A Tower-Defense Game Device with Augmented Reality Projection-->
 
-                                <div class="pub_more">
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
-                                        <span>
-                                            Paper
-                                        </span>
-                                    </a>
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
-                                        <span>
-                                            video
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="display body3_list prominent">
-                            <div class="list_container">
-                                MagicPAPER: An Integrated Shadow-Art Hardware Device Enabling Touch Interaction on Paper
-                                <div class="pub_more">
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
-                                        <span>
-                                            Paper
-                                        </span>
-                                    </a>
-                                    <a href="javascript:">
-                                        <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
-                                        <span>
-                                            video
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                                <!--<div class="pub_more">-->
+                                    <!--<a href="javascript:">-->
+                                        <!--<img class="paper_img" src="img/icon_paper.png" alt="icon_paper">-->
+                                        <!--<span>-->
+                                            <!--Paper-->
+                                        <!--</span>-->
+                                    <!--</a>-->
+                                    <!--<a href="javascript:">-->
+                                        <!--<img class="paper_img" src="img/icon_video.png" alt="icon_paper">-->
+                                        <!--<span>-->
+                                            <!--video-->
+                                        <!--</span>-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="display body3_list prominent">-->
+                            <!--<div class="list_container">-->
+                                <!--MagicPAPER: An Integrated Shadow-Art Hardware Device Enabling Touch Interaction on Paper-->
+                                <!--<div class="pub_more">-->
+                                    <!--<a href="javascript:">-->
+                                        <!--<img class="paper_img" src="img/icon_paper.png" alt="icon_paper">-->
+                                        <!--<span>-->
+                                            <!--Paper-->
+                                        <!--</span>-->
+                                    <!--</a>-->
+                                    <!--<a href="javascript:">-->
+                                        <!--<img class="paper_img" src="img/icon_video.png" alt="icon_paper">-->
+                                        <!--<span>-->
+                                            <!--video-->
+                                        <!--</span>-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
 
                     </div>
                     <div id="Publications1" class="display">
@@ -652,8 +637,8 @@
 
                     </div>
                 </ul>
-                <h1 class="body2_stair2 button prepare_fadein">
-                    <a id="Publications_more" href="javascript:">
+                <div class="body2_stair2 button display">
+                    <a id="Publications_more" class="display" href="javascript:">
                         Learn more
                     </a>
                     <script>
@@ -674,7 +659,7 @@
 
                         });
                     </script>
-                </h1>
+                </div>
             </div>
             <div id="div4" class="body4">
                 <h1 class="body1_stair1 title body4_title">
@@ -685,11 +670,23 @@
                 <div class="body4_main">
                     <div class="body4_main_container clearfix prepare_fadein">
                         <div class="events_stair1_left">
-                            <a href="event1.html">
-                                <img src="img/event1.jpg" alt="event1">
+                            <a target="_blank" href="event6.html">
+                                <img src="img/event14.jpg" alt="event1">
                             </a>
                             <div class="event_detail">
-                                <a href="event1.html">
+                                <a target="_blank" href="event6.html">
+                                    <p class="event_title">
+                                        MagicPAPER Group come to Berlin to attend SUI!
+                                    </p>
+                                </a>
+                                <p class="event_time">
+                                    2018-10-13
+                                </p>
+                            </div>
+                        </div>
+                        <div class="events_stair1_right">
+                            <div class="event_item">
+                                <a target="_blank" href="event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -698,10 +695,8 @@
                                     2018-06-13
                                 </p>
                             </div>
-                        </div>
-                        <div class="events_stair1_right">
                             <div class="event_item">
-                                <a href="event2.html">
+                                <a target="_blank" href="event2.html">
                                     <p class="event_title">
                                         UIST Student Innovation Contest
                                     </p>
@@ -711,7 +706,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a href="event3.html">
+                                <a target="_blank" href="event3.html">
                                     <p class="event_title">
                                         SUI &UIST Demonstration
                                     </p>
@@ -730,22 +725,22 @@
                                     2018-09-03
                                 </p>
                             </div>
-                            <div class="event_item">
-                                <a href="event5.html">
-                                    <p class="event_title">
-                                        UXPA China Full paper
-                                    </p>
-                                </a>
-                                <p class="event_time">
-                                    2018-09-08
-                                </p>
-                            </div>
+                            <!--<div class="event_item">-->
+                                <!--<a target="_blank" href="event5.html">-->
+                                    <!--<p class="event_title">-->
+                                        <!--UXPA China Full paper-->
+                                    <!--</p>-->
+                                <!--</a>-->
+                                <!--<p class="event_time">-->
+                                    <!--2018-09-08-->
+                                <!--</p>-->
+                            <!--</div>-->
                         </div>
                     </div>
                     <div class="body4_main_container clearfix display">
                         <div class="events_stair1_left">
                             <div class="event_item">
-                                <a href="event1.html">
+                                <a target="_blank" href="event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -755,7 +750,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a href="event1.html">
+                                <a target="_blank" href="event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -765,7 +760,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a href="event1.html">
+                                <a target="_blank" href="event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -777,7 +772,7 @@
                         </div>
                         <div class="events_stair1_right">
                             <div class="event_item">
-                                <a href="event1.html">
+                                <a target="_blank" href="event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -787,7 +782,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a href="event1.html">
+                                <a target="_blank" href="event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -797,7 +792,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a href="event1.html">
+                                <a target="_blank" href="event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -809,7 +804,7 @@
                         </div>
                     </div>
                 </div>
-                <h1 class="body2_stair2 button prepare_fadein">
+                <h1 class="body2_stair2 button prepare_fadein display">
                     <a id="Events_more" class="display" href="javascript:">
                         View more
                     </a>
@@ -822,10 +817,8 @@
                                     .addClass("prepare_fadein").animate({opacity:1,filter:'Alpha(opacity=90)'},500);
                                 if($(".body4_main_container").length <= Events_num+1){
                                     $("#Events_more").hide()
-
                                 }
                             });
-
                         });
                     </script>
                 </h1>
@@ -841,7 +834,7 @@
                 </div>
                 <div class="body5_stair1 prepare_fadein clearfix">
                     <div class="leader_img">
-                        <img src="img/leader.jpg" alt="leader">
+                        <img src="img/leader.png" alt="leader">
                     </div>
                     <div class="leader_introduce">
                         <h1 class="body5_title">
@@ -853,17 +846,17 @@
                             Qin Wu
                         </p>
                         <h1 class="leader_detial">
-                            Wu Qin received the B.A. degree in art design from the Chengdu University of Information Technology, China, in 2012,the M.F.A. degree in information arts and design from the Tsinghua University, Beijing, China, in 2016. She is currently a Lecturer with the Department of Computer Science, Chengdu University of Information Technology, China. She is also currently a Research Assistant with the Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China. Her research interests include human-computer interaction, user experience, and interactive design.
+                            Qin Wu received the B.A. degree in art design from the Chengdu University of Information Technology, China, in 2012, the M.F.A. degree in information arts and design from the Tsinghua University, Beijing, China, in 2016. She is currently a Lecturer with the Department of Computer Science, Chengdu University of Information Technology, China. She is also currently a Research Assistant with the Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China. Her research interests include human-computer interaction, user experience, and interactive design.
                         </h1>
                     </div>
                 </div>
                 <div class="body5_stair2">
                     <div class="body5_stair2_container">
-                        <h1 class="member_title prepare_fadein">
+                        <div class="member_title prepare_fadein">
                             <p>
-                                Members
+                                Member
                             </p>
-                        </h1>
+                        </div>
                         <div class="member_container prepare_fadein">
                             <div class="program_card member_card">
                                 <div class="card_img">
@@ -871,7 +864,7 @@
                                 </div>
                                 <div class="intro">
                                     <p class="person_card_title">
-                                        Chenmei Yu（Group Leader）
+                                        Chenmei Yu(Group Leader)
                                     </p>
                                     <p class="person_card_content">
                                         Mastermind/ Designer
@@ -978,7 +971,7 @@
                                         Jiayuan Wang
                                     </p>
                                     <p class="person_card_content">
-                                        Photographer/Designer
+                                        Photographer/ Designer
                                     </p>
                                 </div>
                             </div>
@@ -991,7 +984,7 @@
                                         Mengting Wang
                                     </p>
                                     <p class="person_card_content">
-                                        Designer/Mastermind
+                                        Designer/ Mastermind
                                     </p>
                                 </div>
                             </div>
@@ -1043,7 +1036,7 @@
                                         Yalan Zhao
                                     </p>
                                     <p class="person_card_content">
-                                        Designer/Mastermind
+                                        Designer/ Mastermind
                                     </p>
                                 </div>
                             </div>
@@ -1056,7 +1049,7 @@
                                         Yangmaozhu Yin
                                     </p>
                                     <p class="person_card_content">
-                                        Designer/Mastermind
+                                        Designer/ Mastermind
                                     </p>
                                 </div>
                             </div>
@@ -1069,7 +1062,7 @@
                                         Yingjie Huang
                                     </p>
                                     <p class="person_card_content">
-                                        Mastermind/Designer
+                                        Mastermind/ Designer
                                     </p>
                                 </div>
                             </div>
@@ -1108,7 +1101,7 @@
                                         Yuwei Li
                                     </p>
                                     <p class="person_card_content">
-                                        Mastermind/Designer
+                                        Mastermind/ Designer
                                     </p>
                                 </div>
                             </div>
@@ -1173,7 +1166,7 @@
                                         Jing Wang
                                     </p>
                                     <p class="person_card_content">
-                                        Mastermind/Designer
+                                        Mastermind/ Designer
                                     </p>
                                 </div>
                             </div>
@@ -1438,15 +1431,24 @@
                                 </div>
                             </div>
                         </div>
-                        <h1 class="body2_stair2 button prepare_fadein">
+                        <div class="body2_stair2 button prepare_fadein">
                             <a id="member_container" href="javascript:">
                                 View more
                             </a>
                             <script>
                                 $(document).ready(function(){
                                     var member_num = 12;
+                                    var add_num = 8;
                                     $("#member_container").on("click", function () {
-                                        for(var i = 1; i < 7;i++){
+                                        console.log("$(window).width()"+$(window).width())
+                                        if($(window).width() > 1800){
+                                            add_num = 8
+                                        }
+                                        if($(window).width() > 1300&&$(window).width() < 1800){
+                                            add_num = 9
+                                        }
+
+                                        for(var i = 0; i < add_num;i++){
                                             member_num += 1;
                                             $(".member_card").eq(member_num).removeClass("display")
                                                 .addClass("prepare_fadein").animate({opacity:1,filter:'Alpha(opacity=90)'},500);
@@ -1458,7 +1460,7 @@
                                     });
                                 });
                             </script>
-                        </h1>
+                        </div>
                     </div>
                 </div>
             </div>
