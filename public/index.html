@@ -14,13 +14,10 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 
-        <link id="c"rel="stylesheet" media="screen and (max-width:828px) and (min-width:650px)" href="css/mobile.css" type="text/css">
-        <link id="d" rel="stylesheet" media="screen and (max-width:650px)" href="css/mobile2.css" type="text/css">
+        <link id="d"rel="stylesheet" media="screen and (max-width:828px) and (min-width:650px)" href="css/mobile.css" type="text/css">
+        <link id="c" rel="stylesheet" media="screen and (max-width:650px)" href="css/mobile2.css" type="text/css">
         <link id="b" rel="stylesheet" media="screen and (min-width:829px)"  href="css/index.css" type="text/css">
-
         <link id="a" rel="alternate" href="css/index_mac.css" type="text/css">
-        <link id="a1" rel="alternate" href="css/index_mac1.css" type="text/css">
-        <link id="a2" rel="alternate" href="css/index_mac2.css" type="text/css">
 
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
         <!--<script>-->
@@ -30,55 +27,36 @@
         <!--</script>-->
         <script>
             console.log(screen.width+"*"+screen.height);
-            var viewport = document.querySelector("meta[name=viewport]");
-            var viewport_scale = 1/window.devicePixelRatio
-            //        var x = 1/viewport_x;
-            if(viewport_scale < 0.5){
-                viewport_scale = 0.5;
-            }
-            viewport.setAttribute("content", "width=device-width, " +
-                "initial-scale=" + viewport_scale + ", maximum-scale=1.0, user-scalable=no")
 
-            if(screen.width > 1900&&window.devicePixelRatio >= 2){
-                setStyleSheet()
+            if(goPAGE() == "mobile"){
+                var viewport = document.querySelector("meta[name=viewport]");
+                var viewport_scale = 1/window.devicePixelRatio
+                if(viewport_scale < 0.5){
+                    viewport_scale = 0.5;
+                }
+                viewport.setAttribute("content", "width=device-width, " +
+                    "initial-scale=" + viewport_scale + ", maximum-scale=1.0, user-scalable=no")
             }
-            if(screen.width >= 1280 && screen.width < 1440&&window.devicePixelRatio >= 2){
-                document.getElementById("a1").setAttribute("rel","stylesheet");
-                document.getElementById("b").setAttribute("rel","alternate");
-                document.getElementById("c").setAttribute("rel","alternate");
-                document.getElementById("d").setAttribute("rel","alternate");
 
+            function goPAGE(){
+                if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+                // window.location.href="移动端url";
+                    return "mobile"
+                }
+                else {
+                    // window.location.href="pc端url";
+                    return "pc"
+                }
             }
-//            if(screen.width > 1900&&window.devicePixelRatio >= 2){
-//                setStyleSheet()
-//            }
-//            function changeStyle4() {
-//                var obj = document.getElementById("css");
-//                obj.setAttribute("href","css2.css");
-//            }
-            function setStyleSheet(){
-//                console.log("stylesheetokok");
+
+
+            if(goPAGE() == "pc"&&window.devicePixelRatio >= 2){
                 document.getElementById("a").setAttribute("rel","stylesheet");
                 document.getElementById("b").setAttribute("rel","alternate");
                 document.getElementById("c").setAttribute("rel","alternate");
                 document.getElementById("d").setAttribute("rel","alternate");
+            }
 
-
-//                $("#a").disable = true;
-//                $("#b").disable = false;
-
-//                var link_list = document.getElementsByTagName("link");
-//                if ( link_list ){
-//                    for ( var i=0;i<link_list.length;i++ ){
-//                        if ( link_list[i].getAttribute("rel").indexOf("style") != -1 ){
-//                            link_list[i].disabled = true;
-//                            if ( link_list[i].getAttribute("title") === title){
-//                                link_list[i].disabled = false;
-//                            }
-//                        }
-//                    }
-//                }
-            };
 
         </script>
     </head>

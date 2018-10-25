@@ -88,7 +88,7 @@
 .stair1_pine{
     box-shadow: 0px 0px 5px #333333;
     background-color: #7d7d7d;
-    padding: 20px 25px;
+    padding: 15px 25px;
 }
 .stair1_left{
     /*float: left;*/
@@ -98,7 +98,7 @@
 }
 .stair1_left img{
     width: 96px;
-    height: 32px;
+    /* height: 32px; */
     transition: all .4s ease-in-out;
     float: left;
     /* height: 80px; */
@@ -106,12 +106,12 @@
     /* margin: 9px 0 0 0; */
 }
 .logo_top img{
-    width: 110px;
-    height: 37px;
+    width: 132px;
+    /* height: 37px; */
 }
 
 .header_items{
-    padding: 8px 0px 0 0;
+    padding: 5px 0px 0 0;
     transition: all .4s ease-in-out;
     float: right;
     /* margin: 0 -25px 0 0; */
@@ -126,11 +126,12 @@
 }
 .header_items a{
     color: #d0d0d0;
-    font-size: 12px;
+    font-size: 15px;
     transition: all .4s ease-in-out;
     padding: 5px 12px;
     display:  inline-block;
     /* margin: 0 10px; */
+    /* width: 19%; */
     text-decoration: unset;
 }
 .header_items_pien{
@@ -139,8 +140,8 @@
     margin: 0 -15px 0 0;
 }
 .header_items_pien a{
-    font-size: 16px;
-    padding: 5px 15px;
+    font-size: 19px;
+    /* padding: 5px 15px; */
 }
 .header_items a.choose{
     color: #ffffff;
@@ -158,7 +159,7 @@
 .stair2 h1{
     text-align: center;
     /* padding: 42% 0; */
-    font-size: 36px;
+    font-size: 32px;
     color: #fff;
     position: absolute;
     top: 44%;
@@ -172,10 +173,10 @@
 }
 .border{
     border-bottom: 3px solid #FFF;
-    width: 58px;
+    width: 41px;
     position:  relative;
     left: 230px;
-    top: 25px;
+    top: 18px;
 }
 .container_box{
     position: absolute;
@@ -216,16 +217,16 @@
     padding: 0 0 6px 0;
     border-bottom: solid #b0b0b0 2px;
     display: inline;
-    font-size: 21px;
+    font-size: 20px;
 }
 .button a{
-    font-size: 11pt;
+    font-size: 10pt;
     font-weight:bold;
     border: solid #000 2px;
-    padding: 9px 0;
+    padding: 6px 0;
     transition: all .5s;
-    width: 126px;
-    height: 38px;
+    width: 109px;
+    height: 34px;
     display:  inline-block;
 }
 .button a:hover{
@@ -263,10 +264,10 @@
 .body1_stair3_box{
     width: 50%;
     text-align: center;
-    padding: 0 0 33px 0;
+    /* padding: 0 0 33px 0; */
 }
 .stair1_title{
-    padding: 45px 0 20px 0;
+    padding: 34px 0 20px 0;
 }
 /*.body1_stair3 img{*/
 /*position: absolute;*/
@@ -276,7 +277,7 @@
 /*}*/
 
 .research_stair{
-    padding: 39px 0 0 0;
+    padding: 17px 0 0 0;
     width: 80%;
     margin:   0 auto;
 }
@@ -305,8 +306,8 @@
 .Research_interests{
     border-bottom: solid #fff 2px;
     color: #fff;
-    padding: 0 0 7px 0;
-    font-size: 21px;
+    padding: 0 0 5px 0;
+    font-size: 19px;
 }
 .research_item{
     width: 280px;
@@ -314,7 +315,7 @@
 }
 .research_item img{
     position: relative;
-    width: 31px;
+    width: 24px;
 }
 
 .research_item i{
@@ -324,7 +325,7 @@
 .research_item p{
     color: #fff;
     margin: 8px 0 0 0;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .icon-container{
@@ -367,7 +368,7 @@
 }
 .body2_container a{
     /* margin: 10px; */
-    margin: 14px 34px;
+    margin: 14px 42px;
 }
 
 .body2_container2{
@@ -385,8 +386,8 @@
     background-color: #fff;
     transition: 0.5s;
     cursor:pointer;
-    width: 145px;
-    margin: 13px 20px;
+    width: 128px;
+    margin: 13px 16px;
 }
 .program_card:hover{
     box-shadow: 2px 2px 4px #88888894;
@@ -394,8 +395,8 @@
     transform: translateY(-2px);
 }
 .card_img{
-    width: 145px;
-    height: 145px;
+    width: 100%;
+    /* height: 145px; */
 }
 .program_card img{
     height: 145px;
@@ -421,7 +422,7 @@
 
 .program_mobile img{
     /* height: 260px; */
-    width: 250px;
+    width: 242px;
     vertical-align:middle;
 }
 
@@ -433,7 +434,7 @@
 .program_card_title{
     text-align: center;
     height: 55px;
-    width: 250px;
+    width: 240px;
     font-size: 9pt;
     align-items: center;
     flex-flow: row wrap;
@@ -446,19 +447,20 @@
     line-height: 20px;
 }
 .intro{
-    padding: 11px 14px;
+    padding: 11px 14px 5px 14px;
 }
 .person_card_title{
     /* margin: 30px; */
     font-weight: bold;
     color:  #333;
-    font-size: 6pt;
-    line-height: 13px;
+    font-size: 5pt;
+    line-height: 10px;
 }
 .person_card_content{
     margin: 8px 0;
-    font-size: 5pt;
+    font-size: 4pt;
     color: #787878;
+    line-height: 9px;
 }
 .body3{
     background-color: #fff;
@@ -484,7 +486,7 @@
 }
 
 .publication_button{
-    font-size: 12pt;
+    font-size: 10pt;
     font-weight:bold;
     color: #979797;
 }
@@ -504,14 +506,14 @@
     display: none;
 }
 .list_container{
-    padding: 10px 190px 10px 25px;
-    font-size: 8pt;
+    padding: 7px 173px 7px 25px;
+    font-size: 9pt;
     max-width: 700px;
     margin: 0 auto;
     color: #333;
     position: relative;
-    line-height: 17px;
-    height: 61px;
+    line-height: 14px;
+    height: 56px;
     vertical-align: middle;
     display: flex;
     align-items: center;
@@ -533,16 +535,17 @@
     position: absolute;
     right: 0px;
     top: 21px;
+    margin: 0 18px 0 0;
 }
 .paper_img{
-    width: 20px;
+    width: 14px;
     position: relative;
     top: -1px;
-    left: -4px;
+    left: 0px;
 }
 .pub_more a{
     color: #989898;
-    margin: 0 20px;
+    margin: 0 13px;
 }
 .body4_title{
     color: #fff;
@@ -574,12 +577,12 @@
 
 .event_item{
     border-top: solid #fff 1px;
-    padding: 20px 0 14px 0;
+    padding: 14px 0 9px 0;
     /* width: 360px; */
 }
 .event_item p{
     color: #fff;
-    line-height: 22px;
+    line-height: 20px;
 }
 .event_detail{
     margin: 20px 0;
@@ -589,7 +592,7 @@
     line-height: 20px;
 }
 .event_title{
-    font-size: 11pt;
+    font-size: 9pt;
     font-weight:  bold;
 }
 
@@ -618,15 +621,15 @@
     /* height: 250px; */
     overflow:  hidden;
     float:  left;
-    width: 33%;
+    width: 35%;
 }
 .leader_img img{
     width: 100%;
 }
 .leader_introduce{
-    width: 63%;
+    width: 60%;
     float:  right;
-    padding: 10px 35px 0 0;
+    /* padding: 10px 35px 0 0; */
 }
 .leader_introduce p{
     /* padding: 20px 0 0 0; */
@@ -638,14 +641,14 @@
 }
 .body5_title p{
     color:  #333;
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: bold;
     padding: 0 0 3px 0;
     border-bottom: solid #b0b0b0 2px;
     display: inline;
 }
 .leader_name{
-    font-size: 16pt;
+    font-size: 14pt;
     font-weight: bold;
     margin: 20px 0 15px 0;
 }
@@ -668,7 +671,7 @@
     position: relative;
 }
 .member_title p{
-    font-size: 15pt;
+    font-size: 13pt;
     font-weight: bold;
     padding: 0 0 5px 0;
     border-bottom: solid #b0b0b0 2px;
@@ -737,7 +740,7 @@
     cursor:  pointer;
 }
 .meeting span{
-    font-size: 13px;
+    font-size: 9px;
     font-weight: bold;
     padding: 33% 0;
     display:  inline-block;
@@ -804,16 +807,16 @@
     background-color: #535353;
 }
 .footer_stair1{
-    padding: 66px 0 0 0;
+    padding: 55px 0 0 0;
     margin: 0 auto;
     color: #a9a9a9;
     text-align: center;
-    font-size: 10pt;
+    font-size: 8pt;
     line-height: 27px;
 }
 .footer_stair2{
-    padding: 45px 0;
+    padding: 33px 0;
     color: #878787;
     text-align: center;
-    font-size: 8pt;
+    font-size: 7pt;
 }
