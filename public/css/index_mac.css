@@ -252,7 +252,7 @@
     width: 71.5%;
     margin: 0 auto;
     font-size: 20px;
-    line-height: 21px;
+    line-height: 23px;
 }
 .font_weith p{
     color:  #333;
@@ -267,7 +267,7 @@
     /* padding: 0 0 33px 0; */
 }
 .stair1_title{
-    padding: 50px 0 20px 0;
+    padding: 50px 0;
 }
 /*.body1_stair3 img{*/
 /*position: absolute;*/
@@ -277,7 +277,7 @@
 /*}*/
 
 .research_stair{
-    padding: 26px 0 0 0;
+    padding: 16px 0 0 0;
     width: 80%;
     margin:   0 auto;
 }
@@ -311,11 +311,11 @@
 }
 .research_item{
     width: 280px;
-    padding: 0 0 20px 0;
+    padding: 0 0 40px 0;
 }
 .research_item img{
     position: relative;
-    width: 29px;
+    width: 39px;
 }
 
 .research_item i{
@@ -325,7 +325,7 @@
 .research_item p{
     color: #fff;
     margin: 8px 0 0 0;
-    font-size: 11pt;
+    font-size: 12pt;
 }
 
 .icon-container{
@@ -357,7 +357,7 @@
     min-width: 540px;
 }
 .body2_container{
-    /* width: 80%; */
+    width: 80%;
     display: flex;
     margin: 0 auto;
     padding: 0 0 100px 0;
@@ -368,7 +368,7 @@
 }
 .body2_container a{
     /* margin: 10px; */
-    margin: 14px 64px;
+    margin: 14px 28px;
 }
 
 .body2_container2{
@@ -472,7 +472,8 @@
     /* width: 540px; */
     padding: 0px 0 20px 0px;
     margin: 0 auto;
-    max-width: 810px;
+    /* max-width: 810px; */
+    width: 90%;
 }
 .body3_get{
     padding: 0 30px;
@@ -508,7 +509,7 @@
 .list_container{
     padding: 7px 203px 7px 25px;
     font-size: 10pt;
-    max-width: 802px;
+    /* max-width: 872px; */
     margin: 0 auto;
     color: #333;
     position: relative;
@@ -517,6 +518,7 @@
     vertical-align: middle;
     display: flex;
     align-items: center;
+    width: 90%;
 }
 .list_container p{
     max-width: 1046px;
@@ -561,7 +563,7 @@
     margin: 0 auto;
 }
 .body4_main_container{
-    padding: 0 50px;
+    padding: 0 88px;
 }
 
 .events_stair1_left{
