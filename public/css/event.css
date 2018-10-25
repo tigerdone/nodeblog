@@ -10,7 +10,7 @@
 .event_main_container{
     margin: 80px auto;
     max-width: 1120px;
-    /* padding:  20px; */
+    padding: 0 30px;
 }
 
 .back a{
