@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76959e8b-58bb-4cef-8e4a-45afe9b19fe4" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/index_mac.css" afterPath="$PROJECT_DIR$/public/css/index_mac.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -153,8 +152,8 @@
       <file leaf-file-name="index_mac.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/index_mac.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+            <state relative-caret-position="308">
+              <caret line="123" column="20" lean-forward="true" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -462,10 +461,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179027000" />
+    <option name="totallyTimeSpent" value="179734000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="402" y="52" width="1479" height="979" extended-state="1" />
+    <frame x="402" y="52" width="1479" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15614156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -927,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/index_mac.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        <state relative-caret-position="308">
+          <caret line="123" column="20" lean-forward="true" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
           <folding />
         </state>
       </provider>

@@ -72,7 +72,7 @@
     z-index: 40;
     width: auto;
     padding: 0;
-    padding: 28px 40px 0px 40px;
+    padding: 28px 60px 0px 60px;
     /*box-shadow: 0px 0px 5px #333333;*/
     /*position: fixed;*/
     /*top: 0;*/
@@ -88,7 +88,7 @@
 .stair1_pine{
     box-shadow: 0px 0px 5px #333333;
     background-color: #7d7d7d;
-    padding: 15px 25px;
+    padding: 15px 60px;
 }
 .stair1_left{
     /*float: left;*/
@@ -159,7 +159,7 @@
 .stair2 h1{
     text-align: center;
     /* padding: 42% 0; */
-    font-size: 32px;
+    font-size: 40px;
     color: #fff;
     position: absolute;
     top: 44%;
@@ -211,13 +211,13 @@
     font-weight:bold;
     /*text-decoration: underline;*/
     /*border-bottom: solid #000 2px;*/
-    padding: 80px 0 42px 0;
+    padding: 80px 0 62px 0;
 }
 .title p{
     padding: 0 0 6px 0;
     border-bottom: solid #b0b0b0 2px;
     display: inline;
-    font-size: 20px;
+    font-size: 21pt;
 }
 .button a{
     font-size: 10pt;
@@ -251,8 +251,8 @@
 .font_weith{
     width: 71.5%;
     margin: 0 auto;
-    font-size: 12px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 21px;
 }
 .font_weith p{
     color:  #333;
@@ -267,7 +267,7 @@
     /* padding: 0 0 33px 0; */
 }
 .stair1_title{
-    padding: 34px 0 20px 0;
+    padding: 50px 0 20px 0;
 }
 /*.body1_stair3 img{*/
 /*position: absolute;*/
@@ -277,7 +277,7 @@
 /*}*/
 
 .research_stair{
-    padding: 17px 0 0 0;
+    padding: 26px 0 0 0;
     width: 80%;
     margin:   0 auto;
 }
@@ -307,7 +307,7 @@
     border-bottom: solid #fff 2px;
     color: #fff;
     padding: 0 0 5px 0;
-    font-size: 19px;
+    font-size: 20pt;
 }
 .research_item{
     width: 280px;
@@ -315,7 +315,7 @@
 }
 .research_item img{
     position: relative;
-    width: 24px;
+    width: 29px;
 }
 
 .research_item i{
@@ -325,7 +325,7 @@
 .research_item p{
     color: #fff;
     margin: 8px 0 0 0;
-    font-size: 10px;
+    font-size: 11pt;
 }
 
 .icon-container{
@@ -368,7 +368,7 @@
 }
 .body2_container a{
     /* margin: 10px; */
-    margin: 14px 42px;
+    margin: 14px 64px;
 }
 
 .body2_container2{
@@ -386,7 +386,7 @@
     background-color: #fff;
     transition: 0.5s;
     cursor:pointer;
-    width: 140px;
+    width: 10rem;
     margin: 13px 16px;
 }
 .program_card:hover{
@@ -422,7 +422,7 @@
 
 .program_mobile img{
     /* height: 260px; */
-    width: 242px;
+    width: 292px;
     vertical-align:middle;
 }
 
@@ -434,7 +434,7 @@
 .program_card_title{
     text-align: center;
     height: 55px;
-    width: 240px;
+    width: 292px;
     font-size: 9pt;
     align-items: center;
     flex-flow: row wrap;
@@ -472,7 +472,7 @@
     /* width: 540px; */
     padding: 0px 0 20px 0px;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 810px;
 }
 .body3_get{
     padding: 0 30px;
@@ -506,9 +506,9 @@
     display: none;
 }
 .list_container{
-    padding: 7px 173px 7px 25px;
-    font-size: 9pt;
-    max-width: 700px;
+    padding: 7px 203px 7px 25px;
+    font-size: 10pt;
+    max-width: 802px;
     margin: 0 auto;
     color: #333;
     position: relative;
@@ -592,7 +592,7 @@
     line-height: 20px;
 }
 .event_title{
-    font-size: 9pt;
+    font-size: 11pt;
     font-weight:  bold;
 }
 
@@ -601,7 +601,7 @@
     /* height: 494px; */
 }
 .event_time{
-    font-size: 7pt;
+    font-size: 8pt;
     margin: 5px 0;
 }
 
