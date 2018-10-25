@@ -88,7 +88,7 @@
 .stair1_pine{
     box-shadow: 0px 0px 5px #333333;
     background-color: #7d7d7d;
-    padding: 15px 60px;
+    padding: 21px 60px;
 }
 .stair1_left{
     /*float: left;*/
@@ -97,7 +97,7 @@
     text-decoration: none;
 }
 .stair1_left img{
-    width: 96px;
+    width: 106px;
     /* height: 32px; */
     transition: all .4s ease-in-out;
     float: left;
@@ -106,7 +106,7 @@
     /* margin: 9px 0 0 0; */
 }
 .logo_top img{
-    width: 132px;
+    width: 152px;
     /* height: 37px; */
 }
 
@@ -130,7 +130,7 @@
     transition: all .4s ease-in-out;
     padding: 5px 12px;
     display:  inline-block;
-    /* margin: 0 10px; */
+    margin: 0 20px;
     /* width: 19%; */
     text-decoration: unset;
 }
@@ -368,7 +368,7 @@
 }
 .body2_container a{
     /* margin: 10px; */
-    margin: 14px 28px;
+    margin: 14px 48px;
 }
 
 .body2_container2{
@@ -386,7 +386,7 @@
     background-color: #fff;
     transition: 0.5s;
     cursor:pointer;
-    width: 10rem;
+    width: 12rem;
     margin: 13px 16px;
 }
 .program_card:hover{
@@ -422,7 +422,7 @@
 
 .program_mobile img{
     /* height: 260px; */
-    width: 292px;
+    width: 312px;
     vertical-align:middle;
 }
 
@@ -434,7 +434,7 @@
 .program_card_title{
     text-align: center;
     height: 55px;
-    width: 292px;
+    width: 312px;
     font-size: 9pt;
     align-items: center;
     flex-flow: row wrap;
@@ -473,7 +473,7 @@
     padding: 0px 0 20px 0px;
     margin: 0 auto;
     /* max-width: 810px; */
-    width: 90%;
+    width: 80%;
 }
 .body3_get{
     padding: 0 30px;
@@ -518,7 +518,7 @@
     vertical-align: middle;
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 80%;
 }
 .list_container p{
     max-width: 1046px;
@@ -579,7 +579,7 @@
 
 .event_item{
     border-top: solid #fff 1px;
-    padding: 14px 0 9px 0;
+    padding: 24px 0 19px 0;
     /* width: 360px; */
 }
 .event_item p{
@@ -594,7 +594,7 @@
     line-height: 20px;
 }
 .event_title{
-    font-size: 11pt;
+    font-size: 14pt;
     font-weight:  bold;
 }
 
@@ -603,7 +603,7 @@
     /* height: 494px; */
 }
 .event_time{
-    font-size: 8pt;
+    font-size: 10pt;
     margin: 5px 0;
 }
 
@@ -631,7 +631,7 @@
 .leader_introduce{
     width: 60%;
     float:  right;
-    padding: 0 35px 0 0;
+    padding: 0 75px 0 0;
 }
 .leader_introduce p{
     /* padding: 20px 0 0 0; */
@@ -657,8 +657,8 @@
 
 .leader_detial{
     margin: 10px 0;
-    font-size: 12pt;
-    line-height: 18px;
+    font-size: 15pt;
+    line-height: 24px;
     color: #333;
 }
 
@@ -742,7 +742,7 @@
     cursor:  pointer;
 }
 .meeting span{
-    font-size: 9px;
+    font-size: 13pt;
     font-weight: bold;
     padding: 33% 0;
     display:  inline-block;
