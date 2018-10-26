@@ -221,12 +221,12 @@
     font-size: 21pt;
 }
 .button a{
-    font-size: 10pt;
+    font-size: 12pt;
     font-weight:bold;
     border: solid #000 2px;
     padding: 6px 0;
     transition: all .5s;
-    width: 109px;
+    width: 120px;
     height: 34px;
     display:  inline-block;
 }
@@ -436,10 +436,10 @@
     text-align: center;
     height: 55px;
     width: 352px;
-    font-size: 9pt;
+    font-size: 12pt;
     align-items: center;
     flex-flow: row wrap;
-    padding: 12px 0;
+    padding: 42px 20px;
     display: flex;
 }
 .program_card_title p{
@@ -448,20 +448,20 @@
     line-height: 20px;
 }
 .intro{
-    padding: 11px 14px 5px 14px;
+    padding: 14px;
 }
 .person_card_title{
     /* margin: 30px; */
     font-weight: bold;
     color:  #333;
-    font-size: 6pt;
+    font-size: 8pt;
     line-height: 10px;
 }
 .person_card_content{
     margin: 8px 0;
-    font-size: 6pt;
+    font-size: 8pt;
     color: #787878;
-    line-height: 11px;
+    line-height: 14px;
 }
 .body3{
     background-color: #fff;
@@ -474,7 +474,7 @@
     padding: 0px 0 20px 0px;
     margin: 0 auto;
     /* max-width: 810px; */
-    width: 80%;
+    width: 73%;
 }
 .body3_get{
     padding: 0 30px;
@@ -484,11 +484,11 @@
     color: #333;
     padding: 5px 0;
     border-bottom: solid #b0b0b0 2px;
-    font-size: 10pt;
+    font-size: 13pt;
 }
 
 .publication_button{
-    font-size: 10pt;
+    font-size: 13pt;
     font-weight:bold;
     color: #979797;
 }
@@ -509,7 +509,7 @@
 }
 .list_container{
     padding: 7px 203px 7px 25px;
-    font-size: 10pt;
+    font-size: 12pt;
     /* max-width: 872px; */
     margin: 0 auto;
     color: #333;
@@ -519,7 +519,7 @@
     vertical-align: middle;
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 73%;
 }
 .list_container p{
     max-width: 1046px;
@@ -541,7 +541,7 @@
     margin: 0 18px 0 0;
 }
 .paper_img{
-    width: 14px;
+    width: 17px;
     position: relative;
     top: -1px;
     left: 0px;
@@ -564,18 +564,18 @@
     margin: 0 auto;
 }
 .body4_main_container{
-    padding: 0 88px;
+    padding: 0 15%;
 }
 
 .events_stair1_left{
     float: left;
-    width: 46%;
+    width: 45%;
 }
 
 .events_stair1_right{
     float: right;
     /* padding: 0 60px 0 0; */
-    width: 46%;
+    width: 45%;
 }
 
 .event_item{
@@ -644,21 +644,21 @@
 }
 .body5_title p{
     color:  #333;
-    font-size: 12pt;
+    font-size: 16pt;
     font-weight: bold;
     padding: 0 0 3px 0;
     border-bottom: solid #b0b0b0 2px;
     display: inline;
 }
 .leader_name{
-    font-size: 14pt;
+    font-size: 16pt;
     font-weight: bold;
     margin: 20px 0 15px 0;
 }
 
 .leader_detial{
     margin: 10px 0;
-    font-size: 15pt;
+    font-size: 12pt;
     line-height: 24px;
     color: #333;
 }
@@ -674,7 +674,7 @@
     position: relative;
 }
 .member_title p{
-    font-size: 13pt;
+    font-size: 16pt;
     font-weight: bold;
     padding: 0 0 5px 0;
     border-bottom: solid #b0b0b0 2px;
@@ -685,7 +685,7 @@
     display: flex;
     margin: 0 auto;
     /* padding: 0 9%; */
-    width: 83%;
+    width: 84%;
     flex-wrap: wrap;
     justify-content: space-between;
 }
