@@ -50,12 +50,12 @@ app.locals.blog = {
 }
 
 // 添加模板必需的三个变量
-app.use(function (req, res, next) {
-    res.locals.user = req.session.user
-    res.locals.success = req.flash('success').toString()
-    res.locals.error = req.flash('error').toString()
-    next()
-})
+// app.use(function (req, res, next) {
+//     res.locals.user = req.session.user
+//     res.locals.success = req.flash('success').toString()
+//     res.locals.error = req.flash('error').toString()
+//     next()
+// })
 
 // 正常请求的日志
 app.use(expressWinston.logger({
@@ -71,8 +71,8 @@ app.use(expressWinston.logger({
 }))
 // 路由
 routes(app)
+
 // 错误请求的日志
-//test
 app.use(expressWinston.errorLogger({
     transports: [
         new winston.transports.Console({
@@ -89,7 +89,7 @@ app.use(expressWinston.errorLogger({
 app.use(function (err, req, res, next) {
     console.error(err)
     req.flash('error', err.message)
-    res.redirect('/posts')
+    res.redirect('/')
 })
 
 

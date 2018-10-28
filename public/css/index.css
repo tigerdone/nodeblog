@@ -6,13 +6,13 @@
 }
 .stair2{
 
-/* margin: 30px; */
+    /* margin: 30px; */
 }
 
 /*#wrapper {*/
-    /*animation: fade-in;!*动画名称*!*/
-    /*animation-duration: 1.5s;!*动画持续时间*!*/
-    /*-webkit-animation:fade-in 1.5s;!*针对webkit内核*!*/
+/*animation: fade-in;!*动画名称*!*/
+/*animation-duration: 1.5s;!*动画持续时间*!*/
+/*-webkit-animation:fade-in 1.5s;!*针对webkit内核*!*/
 /*}*/
 
 .my_fadein{
@@ -106,8 +106,8 @@
     /* margin: 9px 0 0 0; */
 }
 .logo_top img{
-     width: 220px;
-     height:  74px;
+    width: 220px;
+    height:  74px;
 }
 
 .header_items{
@@ -177,7 +177,7 @@
     top: 55px;
 }
 .container_box{
-     position: absolute;
+    position: absolute;
 
 }
 
@@ -268,10 +268,10 @@
     padding: 90px 0 40px 0;
 }
 /*.body1_stair3 img{*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*right: 0;*/
-    /**/
+/*position: absolute;*/
+/*top: 0;*/
+/*right: 0;*/
+/**/
 /*}*/
 
 .research_stair{
@@ -489,10 +489,10 @@
 }
 
 .button{
-     font-weight:bold;
-     color: #979797;
-     padding: 90px 0 160px 0;
- }
+    font-weight:bold;
+    color: #979797;
+    padding: 90px 0 160px 0;
+}
 .prominent{
     background-color: #e5e5e5;
 }
@@ -503,18 +503,18 @@
     display: none;
 }
 .list_container{
-     padding: 20px 380px 20px 50px;
-     font-size: 16pt;
-     max-width: 1400px;
-     margin: 0 auto;
-     color: #333;
-     position: relative;
-     line-height: 34px;
-     height: 122px;
-     vertical-align: middle;
-     display: flex;
-     align-items: center;
- }
+    padding: 20px 380px 20px 50px;
+    font-size: 16pt;
+    max-width: 1400px;
+    margin: 0 auto;
+    color: #333;
+    position: relative;
+    line-height: 34px;
+    height: 122px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
 .list_container p{
     max-width: 1046px;
 }
@@ -777,13 +777,13 @@
 
 .video img{
 
-/* max-height: 700px; */
+    /* max-height: 700px; */
 
-/* max-width: 500px; */
+    /* max-width: 500px; */
 
-width:  100%;
+    width:  100%;
 
-height:  100%;
+    height:  100%;
 }
 
 .video_intro{
@@ -817,3 +817,18 @@ height:  100%;
     text-align: center;
     font-size: 16pt;
 }
+
+
+.leader_pdf{
+    width: 230px;
+    /* height: 44px; */
+    padding: 13px;
+    margin: 20px 0;
+    font-size: 14pt;
+    display: inline-block;
+    border: 3px #333333a6 solid;
+    border-radius: 5px;
+    color: #333333a6;
+}
+
+

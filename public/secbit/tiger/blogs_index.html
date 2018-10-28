@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="http://oxhbygzr8.bkt.clouddn.com/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="blogs/css/base.css" type="text/css">
+    <link rel="stylesheet" href="blogs/css/blogs_index.css" type="text/css">
+
+    <title>myblog</title>
+</head>
+<body>
+<img class="bg_foot" src="http://oxhbygzr8.bkt.clouddn.com/bg_foot.png" alt="">
+<div class="header">
+    <div class="header-container">
+        <img src="http://oxhbygzr8.bkt.clouddn.com/banner.gif" alt="">
+        <p>
+            tiger
+        </p>
+    </div>
+</div>
+<div class="nav">
+    <div class="nav-container">
+        <a href="../tiger">首页</a>
+        <a href="../tiger">联系</a>
+        <a href="../tiger">订阅</a>
+        <a href="javascript:">blogs</a>
+    </div>
+</div>
+<div class="blog-container">
+    <h1>
+        我的博客
+    </h1>
+    <hr>
+    <ul id="first">
+        {% for article in articles %}
+        <li>
+            <a href="article_page.html">{{ article.title }}</a>
+            <span id="time">
+            </span>
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>
+<script>
+    var time = document.getElementById("time");
+    var d = new Date()
+//    var timeValue = new Array(3);
+//    var test = new Array();
+    
+//
+//    timeValue[0] = d.getFullYear();
+//    timeValue[1] = d.getMonth();
+//    timeValue[2] = d.getDate();
+
+    time.firstChild.nodeValue = d.getFullYear() + "/"
+        + d.getMonth() + "/" + d.getDate();
+
+//    timeValue = timeValue.concat("--12",":30");
+//    timeValue.push("--12",":30",":222");
+//    timeValue.pop();
+//    timeValue.unshift("时间是：");
+//    timeValue.shift();
+//    timeValue.reverse();
+//    timeValue.sort();
+    
+//    for(var i = 0;i < 10 ;i++){
+//        test.push(10 - i);
+//    }
+//    test[5] = 1000;
+    
+//    test.reverse();
+
+//    test.sort(sortby);
+//    function sortby(i,j) {
+//        return i - j;
+//    }
+//
+//    var tt = "";
+//    var tt_test = "";
+//    var box = "";
+//    for(var i = 0; i < test.length; i++ ){
+//        tt_test += test[i];
+//        if(i < test.length-1){
+//            tt_test += "-";
+//
+//        }
+//    }
+//    for(var i = 0; i < timeValue.length; i++ ){
+//        tt += timeValue[i];
+//        if(i < timeValue.length-3 && i>0){
+//            tt += "/";
+//
+//        }
+//    }
+
+//    var b = 1;
+//
+//    function ex() {
+//        if(b == 1){
+//            box = tt;
+//            b = 0;
+//        }
+//        else{
+//            box = tt_test;
+//            b = 1;
+//        }
+//        time.firstChild.nodeValue = box;
+////        document.write(box);
+//
+//    }
+////
+//    window.onload = function () {
+//        setInterval(ex,1000);
+////        setTimeout(ex,2000);
+//    };
+
+//    var node1 = document.createTextNode(tt);
+//    var node2 = document.createElement("li");
+//    var node3 = document.createElement("p");
+//    var node4 = document.createTextNode(tt_test);
+//    node2.appendChild(node1);
+//    node3.appendChild(node4);
+//    var add = document.getElementById("first");
+//
+////    add.appendChild(node2);
+//    add.insertBefore(node3, add.childNodes[0]);
+//
+
+
+</script>
+
+</body>
+</html>
+

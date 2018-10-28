@@ -11,6 +11,7 @@ $(document).ready(function() {
 
         slideIn(scrollTop);
         miao(scrollTop);
+
     })
     function slideIn(scrollTop){
 

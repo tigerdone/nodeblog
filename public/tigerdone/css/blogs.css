@@ -1,0 +1,29 @@
+body{
+    min-height: 1249px;
+    position: relative;
+    background-color: rgba(136,185,208,1);
+}
+.bg_foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.header{
+    background-color: #d3eef4;
+}
+.header-container{
+    margin: 0 auto;
+    width: 1002px;
+}
+.nav{
+    background-color: #816d65;
+}
+.nav-container{
+    margin: 0 auto;
+    width: 1002px;
+
+}
+.blog-container{
+    width: 1002px;
+    margin: 0 auto;
+}

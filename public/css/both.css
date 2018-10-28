@@ -1,0 +1,70 @@
+
+.nav {
+    margin-bottom: 20px;
+    color: #999;
+    text-align: center;
+}
+
+.nav h1 {
+    color: #4fc08d;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* ---------- nav-setting ---------- */
+
+.nav-setting {
+    position: fixed;
+    right: 30px;
+    top: 35px;
+    z-index: 999;
+}
+
+.nav-setting .ui.dropdown.button {
+    /* padding: 10px 10px 0 10px; */
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.nav-setting .ui.dropdown.button:focus {
+    box-shadow: none !important;
+}
+.nav-setting .icon.bars {
+    color: #f0f0f0;
+    font-size: 38px;
+}
+
+/* ---------- post-content ---------- */
+.post-content{
+
+}
+
+
+
+.post-content h3 a {
+    color: #4fc08d !important;
+}
+
+.post-content .tag {
+    font-size: 13px;
+    margin-right: 5px;
+    color: #999;
+}
+
+.post-content .tag.right {
+    float: right;
+    margin-right: 0;
+}
+
+.post-content .tag.right a {
+    color: #999;
+}
+.iframe_box{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.ui.segment.a_bg{
+    background-color: rgba(255,255,255,0.1);
+}
+
+

@@ -7,6 +7,9 @@
         </title>
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/base.css"  title="a">
+
+        <link rel="stylesheet" href="css/both.css">
+
         <link rel="stylesheet" href="css/iconfont.css"  title="a">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon"  title="a">
 
@@ -19,12 +22,17 @@
         <link id="b" rel="stylesheet" media="screen and (min-width:829px)"  href="css/index.css" type="text/css">
         <link id="a" rel="alternate" href="css/index_mac.css" type="text/css">
 
+        <!--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.6/semantic.min.css"/>-->
+
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+        <!--<script src="//cdn.bootcss.com/semantic-ui/2.1.8/semantic.min.js"></script>-->
         <!--<script>-->
-            <!--if(screen.availWidth > 1900&&window.devicePixelRatio > 1.5){-->
-                <!--$("#all").css("zoom","0.5");-->
-            <!--}-->
+            <!--$(document).ready(function(){-->
+                <!--$('.ui.dropdown').dropdown();-->
+            <!--});-->
         <!--</script>-->
+
         <script>
             console.log(screen.width+"*"+screen.height);
 
@@ -68,44 +76,95 @@
 
         <!--<div class="stair1_box">-->
         <div id="the_header" class="stair1">
-                <a href="#" id="logo" class="stair1_left logo_top">
-                    <img class="my_fadein" src="img/ims.png" alt="logo">
+            <a href="#" id="logo" class="stair1_left logo_top">
+                <img class="my_fadein" src="img/ims.png" alt="logo">
+            </a>
+            <nav id="header_nav"  class="header_items my_fadein header_items_pien">
+                <a id="div1Link" class="choose" href="javascript:">
+                    Home
                 </a>
-                <nav id="header_nav"  class="header_items my_fadein header_items_pien">
-                    <a id="div1Link" class="choose" href="javascript:">
-                        Home
-                    </a>
-                    <a id="div2Link" href="javascript:">
-                        Programs
-                    </a>
-                    <a id="div3Link" href="javascript:">
-                        Publications
-                    </a>
-                    <a id="div4Link" href="javascript:">
-                        Events
-                    </a>
-                    <a id="div5Link" href="javascript:">
-                        About
-                    </a>
-                </nav>
-                <script type="text/javascript">
-                    window.onscroll = function() {
-                        var scrollY = window.scrollY;
-                        if(scrollY <= 0){
+                <a id="div2Link" href="javascript:">
+                    Programs
+                </a>
+                <a id="div3Link" href="javascript:">
+                    Publications
+                </a>
+                <a id="div4Link" href="javascript:">
+                    Events
+                </a>
+                <a id="div5Link" href="javascript:">
+                    About
+                </a>
+            </nav>
+            <script type="text/javascript">
+                window.onscroll = function() {
+                    var scrollY = window.scrollY;
+                    if(scrollY <= 0){
 //                            console.log("okok")
-                            $("#logo").addClass("logo_top");
-                            $("#header_nav").addClass("header_items_pien");
-                            $("#the_header").removeClass("stair1_pine");
-                        }
-                        else {
-                            $("#logo").removeClass("logo_top");
-                            $("#header_nav").removeClass("header_items_pien");
-                            $("#the_header").addClass("stair1_pine");
-                        }
+                        $("#logo").addClass("logo_top");
+                        $("#header_nav").addClass("header_items_pien");
+                        $("#the_header").removeClass("stair1_pine");
                     }
-                </script>
-            </div>
-        <!--</div>-->
+                    else {
+                        $("#logo").removeClass("logo_top");
+                        $("#header_nav").removeClass("header_items_pien");
+                        $("#the_header").addClass("stair1_pine");
+                    }
+                }
+            </script>
+
+            <!--面包屑导航-->
+            <!--<div id="min_header_nav" class="nav-setting display">-->
+                <!--<div class="ui buttons">-->
+                    <!--<div class="ui floating dropdown button">-->
+                        <!--<i class="icon bars"></i>-->
+                        <!--<div class="menu ui segment a_bg">-->
+                            <!--<a id="" class="item" href="javascript:">-->
+                                <!--Home-->
+                            <!--</a>-->
+                            <!--<a id="" class="item" href="javascript:">-->
+                                <!--Programs-->
+                            <!--</a>-->
+                            <!--<a id="" class="item" href="javascript:">-->
+                                <!--Publications-->
+                            <!--</a>-->
+                            <!--<a id="" class="item" href="javascript:">-->
+                                <!--Events-->
+                            <!--</a>-->
+                            <!--<a id="" class="item" href="javascript:">-->
+                                <!--About-->
+                            <!--</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<script>-->
+                <!--$(document).ready(function() {-->
+                    <!--if(goPAGE() == "pc"){-->
+                        <!--var currentWidth = $(window).width();-->
+                        <!--if(currentWidth < 1460){-->
+                            <!--$("#header_nav").addClass("display");-->
+                            <!--$("#min_header_nav").removeClass("display");-->
+                        <!--}else{-->
+                            <!--$("#header_nav").removeClass("display");-->
+                            <!--$("#min_header_nav").addClass("display");-->
+                        <!--}-->
+                        <!--$(window).resize(function () {-->
+                            <!--var currentWidth = $(window).width();-->
+                            <!--if(currentWidth < 1460){-->
+                                <!--$("#header_nav").addClass("display");-->
+                                <!--$("#min_header_nav").removeClass("display");-->
+                            <!--}else{-->
+                                <!--$("#header_nav").removeClass("display");-->
+                                <!--$("#min_header_nav").addClass("display");-->
+                            <!--}-->
+                        <!--})-->
+                    <!--}-->
+                <!--})-->
+            <!--</script>-->
+
+        </div>
+
         <div id="div1" class="main_box">
             <div class="main_header">
                 <div id="wrapper" class="stair2 my_fadein">
@@ -282,10 +341,10 @@
                     <script>
                         $(document).ready(function(){
                             var view_num = 2;
-                            console.log("view_num"+view_num);
+//                            console.log("view_num"+view_num);
                             $("#program_more").on("click", function () {
                                 view_num += 1;
-                                console.log("okoko");
+//                                console.log("okoko");
                                 $(".body2_container").eq(view_num).removeClass("display")
                                     .addClass("prepare_fadein").animate({opacity:1,filter:'Alpha(opacity=90)'},500);
                             });
@@ -379,9 +438,7 @@
                                 <p>
                                     Table War : A Tower-Defense Game
                                     Device with Augmented Reality Projection
-
                                 </p>
-
                                 <div class="pub_more">
                                     <a href="javascript:">
                                         <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
@@ -848,6 +905,9 @@
                         <h1 class="leader_detial">
                             Qin Wu received the B.A. degree in art design from the Chengdu University of Information Technology, China, in 2012, the M.F.A. degree in information arts and design from the Tsinghua University, Beijing, China, in 2016. She is currently a Lecturer with the Department of Computer Science, Chengdu University of Information Technology, China. She is also currently a Research Assistant with the Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China. Her research interests include human-computer interaction, user experience, and interactive design.
                         </h1>
+                        <a href="pdf" class="leader_pdf">
+                            Curriculum Vitae (PDF)
+                        </a>
                     </div>
                 </div>
                 <div class="body5_stair2">
@@ -1574,6 +1634,7 @@
                     return false;});
             });
         </script>
+
 
     </body>
 </html>

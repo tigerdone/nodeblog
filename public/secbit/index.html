@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>
+        SECBIT
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+
+    <link rel="stylesheet" media="screen and (min-width:829px)"  href="css/index.css" type="text/css">
+
+    <link rel="stylesheet" href="css/iconfont.css" type="text/css">
+
+    <link  sizes="any"  rel="icon" href="secbit_m.ico" >
+
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:828px)" href="css/mobile.css">
+    <script>
+
+        var viewport = document.querySelector("meta[name=viewport]");
+        var viewport_scale = 1/window.devicePixelRatio
+
+//        var x = 1/viewport_x;
+        if(viewport_scale < 0.5){
+            viewport_scale = 0.5;
+        }
+//        console.log(viewport_scale)
+
+        viewport.setAttribute("content", "width=device-width, initial-scale=" + viewport_scale + ", maximum-scale=1.0, user-scalable=no")
+
+    </script>
+
+</head>
+<body>
+<header>
+    <div class="head">
+        <div class="head_container">
+            <div class="head_container_left">
+                <a href="#">
+                    <img src="images/logo.png" alt="logo_s">
+                </a>
+            </div>
+            <div class="head_container_right">
+                <a class="nav_link" href="#">
+                    Service
+                </a>
+                <a class="nav_link"  href="#">
+                    Partners
+                </a>
+                <div class="icons">
+                    <a class="icon" href="twitter.com">
+                        <i class="icon iconfont icon-twitter"></i>
+                    </a>
+                    <a class="icon" href="facebook.com">
+                        <i class="icon iconfont icon-facebook"></i>
+                    </a>
+                    <a class="icon" href="#">
+                        <i class="icon iconfont icon-email"></i>
+                    </a>
+                    <a class="icon" href="medium.com">
+                        <i class="icon iconfont icon-medium"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<div class="main_head">
+
+    <div class="bg2_container">
+        <img id="ball_nebula" src="images/ball_nebula2.png" alt="ball_nebula">
+    </div>
+
+    <div class="main_head_container">
+        <div id="main_head" class="head_content">
+            <h4  id="main_head1">
+                Axiom Principle_of_Explosion : forall P Q:Prop, P ^ ~ P -> Q.
+            </h4>
+            <h4  id="main_head2">
+                From Contradiction, Anything Follows.
+            </h4>
+            <img  id="main_head3" src="images/logo_b.png" alt="secbit">
+            <h5  id="main_head4">
+                FORMALIZING A SECURE BIT WORLD
+            </h5>
+            <h5  id="main_head5">
+                STARTING FROM FORMALIZING SMART CONTRACTS
+            </h5>
+        </div>
+    </div>
+</div>
+<div class="bg_content">
+    <div class="main_content1">
+        <div class="main_container">
+            <div class="content1_left">
+                <h4>
+                    <b>
+                        PLATFORM FOR SMART CONTRACT SECURITY
+                    </b>
+                </h4>
+                <h5>
+                    The security of smart contracts is of great importance to a healthy Ethereum ecosystem. However, it is not a trivial task to develop secure smart contacts using languages such as Solidity, due to their inherent issues and vulnerabilities. We present SECBIT, a framework that could fundamentally change smart contract security landscape. Backed by the full strength of formal specifications and mathematical proofs, SECBIT incorporates three levels of auditing services to address all aspects of security issues in smart contracts.
+                </h5>
+            </div>
+            <div id="animate2" class="content1_right">
+
+                <img src="images/animate1_04.png" alt="animate1_08.png">
+                <img id="content1_img5" src="images/animate1_05.png" alt="animate1_09.png">
+                <div id="img_bg" class="img_bg">
+                    <img id="content1_img1" src="images/animate1_01.png" alt="animate1_05.png">
+                    <img id="content1_img2" src="images/animate1_02.png" alt="animate1_06.png">
+                    <img id="content1_img3" src="images/animate1_03.png" alt="animate1_07.png">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="main_content2">
+        <div class="main_container">
+            <div class="content2_left">
+                <h4>
+                    SEMI-AUTOMATED VERIFICATION
+                </h4>
+                <h5>
+                    The first level of SECBIT is a semi-automatic verification service that identifies common issues and vulnerabilities in smart contracts. This is done using state-of-the-art automatic formal analysis tools, in combination with manual triaging based on our expert understanding of the intention and implementation of the contract-under-auditing. The findings are provided in a detailed source-code-level security auditing report with remediation advises.
+                </h5>
+            </div>
+            <div id="content2_right" class="content2_right">
+                <div class="codeframe">
+                    <div class="codeframe_container">
+                        <img id="code" src="images/sol.png" alt="animate1_09.png">
+                    </div>
+                </div>
+                <img id="result" src="images/design_report.png" alt="animate1_09.png">
+            </div>
+        </div>
+    </div>
+    <div class="main_content3">
+        <div class="main_container">
+
+
+            <div id="a" class="content3_left">
+                <div class="content3_codeframe">
+                    <div class="codeframe_container">
+                        <img id="content3_code3" src="images/reentrancy_spec.png" alt="animate1_09.png">
+                        <img id="content3_code2" src="images/reentrancy_sol.png" alt="animate1_09.png">
+                        <img id="content3_code1" src="images/spec.png" alt="animate1_09.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="b" class="content3_right">
+                <h4>
+                    FURTHER VERIFICATION WITH FORMAL SPECIFICATION
+                </h4>
+                <h5>
+                    This service extends our first level of offering with a customized process to formalize the requirement and logic of a contract with our innovative formal specification language. The process not only provides a rigorous examination of the contract to reveal deep logical defects, but also helps to guide our tools to conduct more accurate verification, resulting in a higher-level of assurance in the findings provided in the auditing report.                </h5>
+                <hr color="#183041">
+                <h3>
+                    All instances of smart contract theft or loss – in fact, the very definition of smart contract theft or loss, is fundamentally about differences between implementation and intent.
+                </h3>
+                <h2>
+                    - Vitalik Buterin
+                </h2>
+            </div>
+
+        </div>
+    </div>
+    <div class="main_content4">
+        <div class="main_container">
+            <div class="content4_left">
+                <h4>
+                    FULL FORMAL VERIFICATION
+                </h4>
+                <h5>
+                    Our highest level of service consists of a complete formalization of a smart contract in our specification language, as well as a formal security proof at instruction-level with minimal Trusted Computing Base and maximal assurance. Advanced smart contract properties, such as fairness, would also be proven using techniques from Game Theory, such as proving the existence of a Nash equilibria. The result of this service would be a EAL7-level security auditing report.
+                </h5>
+            </div>
+            <div class="content4_right">
+                <div class="content4_codeframe">
+                    <div id="content4_animate" class="codeframe_container">
+
+                        <img id="content4_code1" src="images/coq.png" alt="animate1_09">
+                        <img id="content4_code2" src="images/vault_spec.png" alt="animate1_09">
+                        <img id="content4_code3" src="images/vault_sol.png" alt="animate1_09">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="main_tail">
+        <div class="main_tail_container">
+            <h1>
+                PARTNERS
+            </h1>
+            <div class="tail_img_box">
+                <img src="images/360ioc.jpg" alt="360ioc.jpg">
+                <img src="images/360ioc.jpg" alt="360ioc.jpg">
+                <img src="images/360ioc.jpg" alt="360ioc.jpg">
+                <img src="images/360ioc.jpg" alt="360ioc.jpg">
+                <img src="images/360ioc.jpg" alt="360ioc.jpg">
+                <img src="images/360ioc.jpg" alt="360ioc.jpg">
+            </div>
+        </div>
+    </div>
+    <footer class="copyright">
+        <h1>
+            Copyright ©
+            2018 SECBIT. All Rights Reserved.
+        </h1>
+    </footer>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.rotate.min.js"></script>
+
+<script type="text/javascript" src="js/animate1.js"></script>
+
+
+</body>
+</html>

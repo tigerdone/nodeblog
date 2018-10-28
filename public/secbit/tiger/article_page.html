@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="blogs/images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="blogs/css/base.css" type="text/css">
+    <link rel="stylesheet" href="blogs/css/blogs_index.css" type="text/css">
+
+    <title>myblog</title>
+</head>
+<body>
+<img class="bg_foot" src="blogs/images/bg_foot_1.png" alt="">
+<div class="header">
+    <div class="header-container">
+        <img src="blogs/images/banner.gif" alt="">
+        <p>
+            tiger
+        </p>
+    </div>
+</div>
+<div class="nav">
+    <div class="nav-container">
+        <a href="../../tiger">首页</a>
+        <a href="../../tiger">联系</a>
+        <a href="../../tiger">订阅</a>
+        <a href="../blogs">blogs</a>
+    </div>
+</div>
+<div class="blog-container">
+    <h1>
+        {{ article.title }}
+    </h1>
+    <hr>
+    <h2>
+        {{ article.content }}<br>
+        {{ article.content }}<br>
+        {{ article.content }}<br>
+        {{ article.content }}<br>
+        {{ article.content }}<br>
+        {{ article.content }}<br>
+        {{ article.content }}<br>
+        {{ article.content }}<br>
+        {{ article.content }}<br>
+    </h2>
+
+    <p id="time" >
+
+    </p>
+</div>
+
+<script>
+    var time = document.getElementById("time");
+    var d = new Date()
+    time.firstChild.nodeValue = d.getFullYear() + "/"
+        + d.getMonth() + "/" + d.getDate();
+
+</script>
+
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript" src="http://v1.jiathis.com/code/jiathis_r.js?move=0" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+</body>
+</html>
