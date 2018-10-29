@@ -826,9 +826,9 @@
     margin: 20px 0;
     font-size: 14pt;
     display: inline-block;
-    border: 3px #333333a6 solid;
+    border: 2px #000 solid;
     border-radius: 5px;
-    color: #333333a6;
+    color: #000;
 }
 
 
