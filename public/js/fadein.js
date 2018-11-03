@@ -29,6 +29,7 @@ $(document).ready(function() {
             }
         }
     };
+
     function re_window() {
         if (window.innerHeight)
         {
@@ -39,6 +40,7 @@ $(document).ready(function() {
         }
         $(".stair2").css({"height":winHeight + "px"});
     }
+
 
     function miao(scrollTop) {
         var miaos = $("#header_nav > a");

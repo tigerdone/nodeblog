@@ -1,5 +1,6 @@
 const express = require('express')
 const path = require('path')
+const poster = require('./poster')
 
 
 module.exports = function (app) {
@@ -16,9 +17,12 @@ module.exports = function (app) {
     app.get('/tigerdone', function (req, res) {
         app.use(express.static(path.join(__dirname, 'public/tigerdone')))
     })
+
     app.get('/pdf', function (req, res) {
         res.download(path.join(__dirname, '../public/pdf/CV_QinWu_October_2018.pdf'));
     })
+
+    poster(app)
 
 
     // app.use('/message', require('./message'))

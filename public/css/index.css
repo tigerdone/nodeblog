@@ -70,8 +70,7 @@
     /* background-color: #a0a0a0; */
     transition: all .4s ease-in-out;
     z-index: 40;
-    width: auto;
-    padding: 0;
+    /* width: auto; */
     padding: 55px 80px 0px 80px;
     /*box-shadow: 0px 0px 5px #333333;*/
     /*position: fixed;*/
@@ -87,7 +86,7 @@
 }
 .stair1_pine{
     box-shadow: 0px 0px 5px #333333;
-    background-color: #7d7d7d;
+    background-color: #535353;
     padding: 20px 50px;
 }
 .stair1_left{
@@ -114,7 +113,11 @@
     padding: 18px 0px 0 0;
     transition: all .4s ease-in-out;
     float: right;
-    /* margin: 0 -25px 0 0; */
+    /* margin: 0 10px; */
+    width: 69%;
+    justify-content: space-between;
+    display:  flex;
+    max-width: 840px;
 }
 .header_items li{
     transition: all .4s ease-in-out;
@@ -128,18 +131,20 @@
     color: #d0d0d0;
     font-size: 24px;
     transition: all .4s ease-in-out;
-    padding: 10px 25px;
+    padding: 10px 0;
     display:  inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 .header_items_pien{
     /* height: 83px; */
     padding: 17px 0 0 0;
-    margin:  0 -30px 0 0;
+    /* margin:  0 -30px 0 0; */
+    width: 71%;
+    max-width: 1080px;
 }
 .header_items_pien a{
     font-size: 32px;
-    padding: 10px 30px;
+    padding: 10px 0;
 }
 .header_items a.choose{
     color: #ffffff;
@@ -243,7 +248,7 @@
     justify-content: space-around;
 }
 .body1_stair3{
-    background-color: #a0a0a0;
+    background-color: #626262;
     margin: 160px 0 0 0;
 }
 .font_weith{
@@ -353,20 +358,27 @@
 .body2{
     background-color: #eee;
     min-width: 1080px;
+    padding: 0 0 130px 0;
 }
+
 .body2_container{
     /* width: 80%; */
     display: flex;
     margin: 0 auto;
-    padding: 0 0 200px 0;
     transition: 1s;
     flex-wrap: wrap;
+    /* text-align:  center; */
     flex-flow: row wrap;
     justify-content: center;
 }
+.clone{
+    opacity: 0;
+}
+
 .body2_container a{
     /* margin: 10px; */
-    margin: 28px 78px;
+    margin: 28px 38px;
+    /* float:  left; */
 }
 
 .body2_container2{
@@ -459,10 +471,12 @@
     font-size: 11pt;
     color: #787878;
 }
+
+
 .body3{
     background-color: #fff;
     min-width: 1080px;
-    padding: 0 0 240px 0;
+    padding: 0 0 160px 0;
 }
 
 .body3_item{
@@ -470,6 +484,7 @@
     padding: 0 0 50px 20px;
     margin: 0 auto;
     max-width: 1400px;
+    text-align:  center;
 }
 .body3_get{
     padding: 0 30px;
@@ -602,7 +617,7 @@
 }
 
 .body4{
-    background-color: #a0a0a0;
+    background-color: #7d7d7d;
     /*height: 500px;!*test*!*/
     padding: 0 0 200px 0;
 }
@@ -801,7 +816,7 @@
 }
 .main_footer{
     /*height: 70px;*/
-    background-color: #535353;
+    background-color: #434343;
 }
 .footer_stair1{
     padding: 132px 0 0 0;

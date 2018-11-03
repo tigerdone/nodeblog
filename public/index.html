@@ -79,6 +79,8 @@
             <a href="#" id="logo" class="stair1_left logo_top">
                 <img class="my_fadein" src="img/ims.png" alt="logo">
             </a>
+
+
             <nav id="header_nav"  class="header_items my_fadein header_items_pien">
                 <a id="div1Link" class="choose" href="javascript:">
                     Home
@@ -96,6 +98,7 @@
                     About
                 </a>
             </nav>
+
             <script type="text/javascript">
                 window.onscroll = function() {
                     var scrollY = window.scrollY;
@@ -247,7 +250,7 @@
                         Programs
                     </p>
                 </h1>
-                <div class="body2_container clearfix">
+                <div id="clone" class="body2_container clearfix">
                     <a class="" target="_blank" href="program/program1.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/MagicPAPERs.jpg" alt="magicpaper">
@@ -319,7 +322,7 @@
                             </div>
                         </div>
                     </a>
-                    <a class="" target="_blank" href="program/program8.html">
+                    <a id="cloneed" class="" target="_blank" href="program/program8.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/Tone_of_Qiangs.jpg" alt="magicpaper">
                             <div class="program_card_title">
@@ -330,6 +333,27 @@
                         </div>
                     </a>
 
+                    <script>
+                        var added = false;
+                        add()
+                        $(window).resize(function () {
+                            add()
+                        })
+                        function add() {
+                            if(!added &&$(window).width() > 1743){
+                                console.log("okok")
+                                $("#clone").append($("#cloneed").clone().addClass("clone").attr("href","javascript:"))
+                                added = true;
+                            }
+                            if(added &&$(window).width() < 1743){
+                                $(".clone").remove();
+                                added = false;
+                            }
+                        }
+
+
+
+                    </script>
                 </div>
                 <div class="body2_container2 clearfix">
 
@@ -352,6 +376,7 @@
                     </script>
                 </div>
             </div>
+
             <div id="div3" class="body3">
                 <h1 class="body1_stair1 title">
                     <p class="prepare_fadein">
@@ -418,7 +443,7 @@
                                 </p>
 
                                 <div class="pub_more">
-                                    <a href="javascript:">
+                                    <a href="https://dl.acm.org/citation.cfm?id=3202684">
                                         <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
                                         <span>
                                             Paper
@@ -440,7 +465,7 @@
                                     Device with Augmented Reality Projection
                                 </p>
                                 <div class="pub_more">
-                                    <a href="javascript:">
+                                    <a href="https://dl.acm.org/citation.cfm?id=3202690">
                                         <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
                                         <span>
                                             Paper
@@ -464,13 +489,13 @@
                                 </p>
 
                                 <div class="pub_more">
-                                    <a href="javascript:">
+                                    <a href="https://dl.acm.org/results.cfm?query=MagicPAPER&Go.x=22&Go.y=12">
                                         <img class="paper_img" src="img/icon_paper.png" alt="icon_paper">
                                         <span>
                                             Paper
                                         </span>
                                     </a>
-                                    <a href="javascript:">
+                                    <a href="https://www.youtube.com/watch?v=Uio0PEk3DmI">
                                         <img class="paper_img" src="img/icon_video.png" alt="icon_paper">
 
                                         <span>
@@ -718,6 +743,7 @@
                     </script>
                 </div>
             </div>
+
             <div id="div4" class="body4">
                 <h1 class="body1_stair1 title body4_title">
                     <p class="prepare_fadein">
@@ -887,7 +913,20 @@
                     </p>
                 </h1>
                 <div class="video prepare_fadein">
-                    <img src="img/video.jpg" alt="video">
+                    <!--<img src="img/video.jpg" alt="video">-->
+
+                    <!--<iframe height=498 width=510 src='http://player.youku.com/embed/XMjkxNjQ2NjY5Ng==' frameborder=0 'allowfullscreen'></iframe>-->
+
+                    <video width="100%" height="100%" controls autoplay>
+                        <source src="media/movie.mp4" type="video/mp4">
+                        <!--<source src="media/movie.mov" type="video/mp4">-->
+                        <!--<source src="media/movie.mov" type="video/webm">-->
+                        <object data="media/movie.mp4" width="100%" height="100%">
+                            <embed width="100%" height="100%" src="media/movie.mp4">
+                        </object>
+                    </video>
+
+
                 </div>
                 <div class="body5_stair1 prepare_fadein clearfix">
                     <div class="leader_img">
@@ -944,16 +983,29 @@
                                     </p>
                                 </div>
                             </div>
+                            <!--<div class="program_card member_card">-->
+                                <!--<div class="card_img">-->
+                                    <!--<img src="img/person/黄吉.jpg" alt="magicpaper">-->
+                                <!--</div>-->
+                                <!--<div class="intro">-->
+                                    <!--<p class="person_card_title">-->
+                                        <!--Ji Huang (Group Leader)-->
+                                    <!--</p>-->
+                                    <!--<p class="person_card_content">-->
+                                        <!--Hardware Developer/ Software Developer/ Mastermind-->
+                                    <!--</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
                             <div class="program_card member_card">
                                 <div class="card_img">
-                                    <img src="img/person/黄吉.jpg" alt="magicpaper">
+                                    <img src="img/person/秦子雄.jpg" alt="magicpaper">
                                 </div>
                                 <div class="intro">
                                     <p class="person_card_title">
-                                        Ji Huang (Group Leader)
+                                        Zixiong Qin (Group Leader)
                                     </p>
                                     <p class="person_card_content">
-                                        Hardware Developer/ Software Developer/ Mastermind
+                                        Hardware Developer/ Software Developer
                                     </p>
                                 </div>
                             </div>
@@ -1386,19 +1438,19 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="program_card member_card display">
-                                <div class="card_img">
-                                    <img src="img/person/秦子雄.jpg" alt="magicpaper">
-                                </div>
-                                <div class="intro">
-                                    <p class="person_card_title">
-                                        Zixiong Qin
-                                    </p>
-                                    <p class="person_card_content">
-                                        Hardware Developer/ Software Developer
-                                    </p>
-                                </div>
-                            </div>
+                            <!--<div class="program_card member_card display">-->
+                                <!--<div class="card_img">-->
+                                    <!--<img src="img/person/秦子雄.jpg" alt="magicpaper">-->
+                                <!--</div>-->
+                                <!--<div class="intro">-->
+                                    <!--<p class="person_card_title">-->
+                                        <!--Zixiong Qin-->
+                                    <!--</p>-->
+                                    <!--<p class="person_card_content">-->
+                                        <!--Hardware Developer/ Software Developer-->
+                                    <!--</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
                             <div class="program_card member_card display">
                                 <div class="card_img">
                                     <img src="img/person/姚嘉玉.jpg" alt="magicpaper">
@@ -1605,7 +1657,11 @@
         </div>
 
         <script src="js/fadein.js"></script>
+
         <script src="js/ex_tab.js"></script>
+
+
+        <!--导航，点击切换-->
         <script type="text/javascript">
             $(document).ready(function() {
                 $("#div1Link").click(function() {
