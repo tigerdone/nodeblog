@@ -12,7 +12,7 @@ module.exports = function (app) {
         res.download(path.join(__dirname, '../public/pdf/program/See-your-voice.jpg'));
     })
     app.get('/poster_table', function (req, res) {
-        res.download(path.join(__dirname, '../public/pdf/program/Table-War.pdf'));
+        res.download(path.join(__dirname, '../public/pdf/program/tablewar.jpg'));
     })
     app.get('/poster_shibi', function (req, res) {
         res.download(path.join(__dirname, '../public/pdf/program/shibi.jpg'));
