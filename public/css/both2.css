@@ -3,5 +3,11 @@
     background: url("../img/banner01.png") no-repeat center;
     background-size: cover;
 }
-
+.adv_video{
+    background:transparent url('../img/adv.jpg') no-repeat 0 0;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
 
