@@ -821,14 +821,14 @@
 .footer_stair1{
     padding: 132px 0 0 0;
     margin: 0 auto;
-    color: #a9a9a9;
+    color: #fff;
     text-align: center;
     font-size: 17pt;
     line-height: 45px;
 }
 .footer_stair2{
     padding: 90px 0;
-    color: #878787;
+    color: #a9a9a9;
     text-align: center;
     font-size: 16pt;
 }
