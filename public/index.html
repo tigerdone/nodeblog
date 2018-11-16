@@ -1431,13 +1431,14 @@
 //                                        }
 
                                         for(; member_num < $(".member_card").length;){
-                                            member_num += 1;
                                             $(".member_card").eq(member_num).removeClass("display")
                                                 .addClass("prepare_fadein").animate({opacity:1,filter:'Alpha(opacity=90)'},500);
                                             if($(".member_card").length <= member_num+1){
                                                 $("#member_container").hide()
 
                                             }
+                                            member_num += 1;
+
                                         }
                                     });
                                 });
