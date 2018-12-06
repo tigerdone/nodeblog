@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76959e8b-58bb-4cef-8e4a-45afe9b19fe4" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/event/event9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/event/iss20181206_1.jpg" afterPath="$PROJECT_DIR$/public/img/event/iss20181206_1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/event/event7.html" afterPath="$PROJECT_DIR$/public/event/event7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/event/event8.html" afterPath="$PROJECT_DIR$/public/event/event8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/program/program3.html" afterPath="$PROJECT_DIR$/public/program/program3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="918" column="30" lean-forward="true" selection-start-line="918" selection-start-column="30" selection-end-line="918" selection-end-column="30" />
+            <state relative-caret-position="261">
+              <caret line="922" column="68" lean-forward="true" selection-start-line="922" selection-start-column="68" selection-end-line="922" selection-end-column="68" />
               <folding>
                 <element signature="n#a#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#a#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -133,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event7.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="event7.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/event/event7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="154">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -146,7 +140,7 @@
       <file leaf-file-name="event9.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/event/event9.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="1431">
               <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
               <folding />
             </state>
@@ -156,8 +150,8 @@
       <file leaf-file-name="event8.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/event/event8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+            <state relative-caret-position="396">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -277,10 +271,10 @@
         <option value="$PROJECT_DIR$/public/css/event.css" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/program/program3.html" />
-        <option value="$PROJECT_DIR$/public/event/event7.html" />
-        <option value="$PROJECT_DIR$/public/event/event8.html" />
         <option value="$PROJECT_DIR$/public/event/event9.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/event/event8.html" />
+        <option value="$PROJECT_DIR$/public/event/event7.html" />
       </list>
     </option>
   </component>
@@ -303,8 +297,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="241" />
-    <option name="y" value="70" />
+    <option name="x" value="541" />
+    <option name="y" value="26" />
     <option name="width" value="1473" />
     <option name="height" value="1088" />
   </component>
@@ -500,15 +494,15 @@
       <workItem from="1542621810396" duration="1495000" />
       <workItem from="1542803447081" duration="2429000" />
       <workItem from="1542979821213" duration="1345000" />
-      <workItem from="1544097573782" duration="9111000" />
+      <workItem from="1544097573782" duration="9639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256152000" />
+    <option name="totallyTimeSpent" value="256680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="241" y="70" width="1473" height="1088" extended-state="0" />
+    <frame x="541" y="26" width="1473" height="1088" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15261324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -879,34 +873,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/event/event8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/event/event9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/event/event7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="918" column="30" lean-forward="true" selection-start-line="918" selection-start-column="30" selection-end-line="918" selection-end-column="30" />
+        <state relative-caret-position="261">
+          <caret line="922" column="68" lean-forward="true" selection-start-line="922" selection-start-column="68" selection-end-line="922" selection-end-column="68" />
           <folding>
             <element signature="n#a#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -968,6 +938,30 @@
             <marker date="1544109263558" expanded="true" signature="80467:80499" ph="..." />
             <marker date="1544109263558" expanded="true" signature="80568:80600" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/event/event8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/event/event9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/event/event7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
