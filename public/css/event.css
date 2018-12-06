@@ -52,7 +52,7 @@
     color: #6c6c6c;
 }
 
-.event_content img{width: 100%;margin: 20px 0;}
+.event_content img{width: 100%;margin: 20px auto;}
 
 
 
@@ -67,6 +67,15 @@
     line-height: 30px;
     color: #6c6c6c;
 }
+.min_img{
+    text-align:  center;
+    /* width: 76%; */
+}
+.min_img img{
+    text-align:  center;
+    width: 71%;
+}
+
 .right_box{
     float: right;
     width: 233px;
