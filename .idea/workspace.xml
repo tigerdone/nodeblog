@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76959e8b-58bb-4cef-8e4a-45afe9b19fe4" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/event/event7.html" afterPath="$PROJECT_DIR$/public/event/event7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/event/event8.html" afterPath="$PROJECT_DIR$/public/event/event8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="922" column="68" lean-forward="true" selection-start-line="922" selection-start-column="68" selection-end-line="922" selection-end-column="68" />
+            <state relative-caret-position="371">
+              <caret line="784" column="110" lean-forward="false" selection-start-line="784" selection-start-column="110" selection-end-line="784" selection-end-column="110" />
               <folding>
                 <element signature="n#a#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#a#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -78,10 +77,10 @@
                 <element signature="n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1544109263558" expanded="true" signature="80225:80257" ph="..." />
-                <marker date="1544109263558" expanded="true" signature="80326:80358" ph="..." />
-                <marker date="1544109263558" expanded="true" signature="80467:80499" ph="..." />
-                <marker date="1544109263558" expanded="true" signature="80568:80600" ph="..." />
+                <marker date="1544110104394" expanded="true" signature="80279:80311" ph="..." />
+                <marker date="1544110104394" expanded="true" signature="80380:80412" ph="..." />
+                <marker date="1544110104394" expanded="true" signature="80521:80553" ph="..." />
+                <marker date="1544110104394" expanded="true" signature="80622:80654" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event7.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="event7.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/event/event7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="198">
+              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -150,8 +149,8 @@
       <file leaf-file-name="event8.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/event/event8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="462">
+              <caret line="24" column="92" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -272,9 +271,9 @@
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/program/program3.html" />
         <option value="$PROJECT_DIR$/public/event/event9.html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/event/event8.html" />
         <option value="$PROJECT_DIR$/public/event/event7.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -297,8 +296,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="541" />
-    <option name="y" value="26" />
+    <option name="x" value="401" />
+    <option name="y" value="37" />
     <option name="width" value="1473" />
     <option name="height" value="1088" />
   </component>
@@ -494,15 +493,15 @@
       <workItem from="1542621810396" duration="1495000" />
       <workItem from="1542803447081" duration="2429000" />
       <workItem from="1542979821213" duration="1345000" />
-      <workItem from="1544097573782" duration="9639000" />
+      <workItem from="1544097573782" duration="9783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256680000" />
+    <option name="totallyTimeSpent" value="256824000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="541" y="26" width="1473" height="1088" extended-state="0" />
+    <frame x="401" y="37" width="1473" height="1088" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15261324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -873,10 +872,34 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/event/event9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/event/event7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/event/event8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="92" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="922" column="68" lean-forward="true" selection-start-line="922" selection-start-column="68" selection-end-line="922" selection-end-column="68" />
+        <state relative-caret-position="371">
+          <caret line="784" column="110" lean-forward="false" selection-start-line="784" selection-start-column="110" selection-end-line="784" selection-end-column="110" />
           <folding>
             <element signature="n#a#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -933,35 +956,11 @@
             <element signature="n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1544109263558" expanded="true" signature="80225:80257" ph="..." />
-            <marker date="1544109263558" expanded="true" signature="80326:80358" ph="..." />
-            <marker date="1544109263558" expanded="true" signature="80467:80499" ph="..." />
-            <marker date="1544109263558" expanded="true" signature="80568:80600" ph="..." />
+            <marker date="1544110104394" expanded="true" signature="80279:80311" ph="..." />
+            <marker date="1544110104394" expanded="true" signature="80380:80412" ph="..." />
+            <marker date="1544110104394" expanded="true" signature="80521:80553" ph="..." />
+            <marker date="1544110104394" expanded="true" signature="80622:80654" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/event/event8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/event/event9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/event/event7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
