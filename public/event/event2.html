@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>event</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link id="b" rel="stylesheet" href="../css/event.css">
+    <link id="a" rel="alternate" href="../css/event_mac.css">
+    <link id="a1" rel="alternate" href="../css/event_mac1.css">
+
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/mac.js"></script>
+
+</head>
+<body>
+    <div class="event_main_container">
+        <div class="back">
+            <a href="../index.html">
+                Back
+            </a>
+        </div>
+        <div class="title_container">
+            <p class="title">
+                UIST Student Innovation Contest
+            </p>
+            <p class="time">
+                2018-08-04
+            </p>
+        </div>
+        <div class="event_container">
+            <div class="event_content_container clearfix">
+                <div class="event_content">
+                    <p class="tuige">
+                        The Anmoji-planning has been accepted to the 2018 UIST Student Innovation Contest. During the next two month, we will develop the system by using the own device and the make-block that provided by the UIST sponsor. And the most exciting, as the only team in China, we will demonstrate our anmoji system in the conference and compete with top100 universities around the world in Berlin 9-13 October in 2018.Such a wonderful chance! More information, please pay attention to the relevant details!
+                        Prototype video (waiting for link)
+                    </p>
+
+                </div>
+                <div class="right_box">
+                    <div class="other_linker">
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="../img/icon_detail.png" alt="icon_paper">
+                                Program detail
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="../img/icon_paper.png" alt="icon_paper">
+                                Detail
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="javascript:">
+                                <img class="paper_img" src="../img/icon_video.png" alt="icon_paper">
+                                video
+                            </a>
+                        </div>
+                        <script src="../js/movelink.js"></script>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="other other2">
+                <a class="other_arrow last" href="event1.html">
+                    <img src="../img/arrow.png" alt="last">
+                </a>
+                <a class="other_arrow next" href="event3.html">
+                    <img src="../img/arrow.png" alt="next">
+                </a>
+                <script>
+                    $(document).keydown(function(event){
+                        //判断当event.keyCode 为37时（即左方面键），执行函数to_left();
+                        //判断当event.keyCode 为39时（即右方面键），执行函数to_right();
+                        if(event.keyCode == 37){
+                            //do somethings;
+                            $(".last").click();
+                        }else if (event.keyCode == 39){
+                            //do somethings;
+                            $(".next").click();
+
+                        }
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+
+</body>
+</html>

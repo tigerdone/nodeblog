@@ -744,7 +744,7 @@
 .meeting{
     position: absolute;
     color: rgba(255,255,255,0);
-    transition: all 1s;
+    transition: all .6s;
     top: 0;
     left: 0;
     right: 0;
@@ -752,9 +752,9 @@
     cursor:  pointer;
 }
 .meeting span{
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 600;
-    padding: 33% 0;
+    padding: 31% 0;
     display:  inline-block;
 }
 
