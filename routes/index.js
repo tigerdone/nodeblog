@@ -19,7 +19,7 @@ module.exports = function (app) {
     })
 
     app.get('/pdf', function (req, res) {
-        res.download(path.join(__dirname, '../public/pdf/CV_QinWu_October_2018.pdf'));
+        res.download(path.join(__dirname, '../public/pdf/CV_QinWu_November6 2018.pdf'));
     })
 
     poster(app)
