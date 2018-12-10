@@ -132,7 +132,7 @@
 .other_arrow{
     border: solid #000 2px;
     padding: 4px;
-    transition: all 1s;
+    /* transition: all 1s; */
     display:  inline-block;
     width: 37px;
     height: 37px;

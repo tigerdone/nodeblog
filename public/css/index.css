@@ -251,12 +251,20 @@
     background-color: #626262;
     margin: 160px 0 0 0;
 }
+
 .font_weith{
-    width: 62.5%;
     margin: 0 auto;
     font-size: 25px;
     line-height: 38px;
+    max-width: 1200px;
 }
+
+@media only screen and (max-width: 1400px) {
+    .font_weith{
+        max-width: 800px;
+    }
+}
+
 .font_weith p{
     color:  #333;
 }
@@ -530,6 +538,11 @@
     display: flex;
     align-items: center;
 }
+.list_container2{
+    padding: 20px 40px 20px 50px;
+
+}
+
 .list_container p{
     max-width: 1046px;
 }
@@ -545,7 +558,7 @@
 
 .pub_more{
     position: absolute;
-    right: 0px;
+    right: 20px;
     top: 45px;
 }
 .paper_img{

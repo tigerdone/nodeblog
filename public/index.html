@@ -5,6 +5,7 @@
         <title>
             Interactive Media Studio
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/base.css"  title="a">
 
@@ -13,29 +14,16 @@
         <link rel="stylesheet" href="css/iconfont.css"  title="a">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon"  title="a">
 
-        <!--<style type="text/css">body {zoom:0.5;}</style>-->
-
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 
         <link id="d" rel="stylesheet" media="screen and (max-width:828px) and (min-width:650px)" href="css/mobile.css" type="text/css">
         <link id="c" rel="stylesheet" media="screen and (max-width:650px)" href="css/mobile2.css" type="text/css">
 
         <link id="b" rel="stylesheet" media="screen and (min-width:829px)" href="css/index.css" type="text/css">
-        <link id="a" rel="alternate" href="css/index_mac.css" type="text/css">
+        <link id="a" rel="alternate" media="screen and (min-width:800px)" href="css/index_mac.css" type="text/css">
 
         <link rel="stylesheet" href="css/both2.css" type="text/css">
-        <link rel="stylesheet" href="css/both3.css" type="text/css">
-
-        <!--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.6/semantic.min.css"/>-->
 
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-
-        <!--<script src="//cdn.bootcss.com/semantic-ui/2.1.8/semantic.min.js"></script>-->
-        <!--<script>-->
-            <!--$(document).ready(function(){-->
-                <!--$('.ui.dropdown').dropdown();-->
-            <!--});-->
-        <!--</script>-->
 
         <script>
             console.log(screen.width+"*"+screen.height);
@@ -61,12 +49,11 @@
                 }
             }
 
-
             if(goPAGE() == "pc"&&window.devicePixelRatio >= 1.5){
                 document.getElementById("a").setAttribute("rel","stylesheet");
                 document.getElementById("b").setAttribute("rel","alternate");
-                document.getElementById("c").setAttribute("rel","alternate");
-                document.getElementById("d").setAttribute("rel","alternate");
+//                document.getElementById("c").setAttribute("rel","alternate");
+//                document.getElementById("d").setAttribute("rel","alternate");
             }
 
 
@@ -107,7 +94,6 @@
                 window.onscroll = function() {
                     var scrollY = window.scrollY;
                     if(scrollY <= 0){
-//                            console.log("okok")
                         $("#logo").addClass("logo_top");
                         $("#header_nav").addClass("header_items_pien");
                         $("#the_header").removeClass("stair1_pine");
@@ -119,57 +105,6 @@
                     }
                 }
             </script>
-
-            <!--面包屑导航-->
-            <!--<div id="min_header_nav" class="nav-setting display">-->
-                <!--<div class="ui buttons">-->
-                    <!--<div class="ui floating dropdown button">-->
-                        <!--<i class="icon bars"></i>-->
-                        <!--<div class="menu ui segment a_bg">-->
-                            <!--<a id="" class="item" href="javascript:">-->
-                                <!--Home-->
-                            <!--</a>-->
-                            <!--<a id="" class="item" href="javascript:">-->
-                                <!--Programs-->
-                            <!--</a>-->
-                            <!--<a id="" class="item" href="javascript:">-->
-                                <!--Publications-->
-                            <!--</a>-->
-                            <!--<a id="" class="item" href="javascript:">-->
-                                <!--Events-->
-                            <!--</a>-->
-                            <!--<a id="" class="item" href="javascript:">-->
-                                <!--About-->
-                            <!--</a>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<script>-->
-                <!--$(document).ready(function() {-->
-                    <!--if(goPAGE() == "pc"){-->
-                        <!--var currentWidth = $(window).width();-->
-                        <!--if(currentWidth < 1460){-->
-                            <!--$("#header_nav").addClass("display");-->
-                            <!--$("#min_header_nav").removeClass("display");-->
-                        <!--}else{-->
-                            <!--$("#header_nav").removeClass("display");-->
-                            <!--$("#min_header_nav").addClass("display");-->
-                        <!--}-->
-                        <!--$(window).resize(function () {-->
-                            <!--var currentWidth = $(window).width();-->
-                            <!--if(currentWidth < 1460){-->
-                                <!--$("#header_nav").addClass("display");-->
-                                <!--$("#min_header_nav").removeClass("display");-->
-                            <!--}else{-->
-                                <!--$("#header_nav").removeClass("display");-->
-                                <!--$("#min_header_nav").addClass("display");-->
-                            <!--}-->
-                        <!--})-->
-                    <!--}-->
-                <!--})-->
-            <!--</script>-->
-
         </div>
 
         <div id="div1" class="main_box">
@@ -255,7 +190,7 @@
                     </p>
                 </h1>
                 <div id="clone" class="body2_container clearfix">
-                    <a class="" target="_blank" href="program/program1.html">
+                    <a class=""  href="program/program1.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/MagicPAPERs.jpg" alt="magicpaper">
                             <div class="program_card_title">
@@ -265,7 +200,7 @@
                             </div>
                         </div>
                     </a>
-                    <a class="" target="_blank" href="program/program2.html">
+                    <a class=""  href="program/program2.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/Object_Recognitions.jpg" alt="magicpaper">
                             <div class="program_card_title">
@@ -275,7 +210,7 @@
                             </div>
                         </div>
                     </a>
-                    <a class="" target="_blank" href="program/program3.html">
+                    <a class=""  href="program/program3.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/Anmojis.jpg" alt="magicpaper">
                             <div class="program_card_title">
@@ -285,7 +220,7 @@
                             </div>
                         </div>
                     </a>
-                    <a class="" target="_blank" href="program/program4.html">
+                    <a class=""  href="program/program4.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/See_your_voices.jpg" alt="magicpaper">
                             <div class="program_card_title">
@@ -295,7 +230,7 @@
                             </div>
                         </div>
                     </a>
-                    <a class="" target="_blank" href="program/program5.html">
+                    <a class=""  href="program/program5.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/Table_wars.jpg" alt="magicpaper">
                             <div class="program_card_title">
@@ -305,7 +240,7 @@
                             </div>
                         </div>
                     </a>
-                    <a class="" target="_blank" href="program/program6.html">
+                    <a class=""  href="program/program6.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/The_Legend_of_‘Shi-Bi's.jpg" alt="magicpaper">
                             <div class="program_card_title">
@@ -315,7 +250,7 @@
                             </div>
                         </div>
                     </a>
-                    <a class="" target="_blank" href="program/program7.html">
+                    <a class=""  href="program/program7.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/ZigBees.jpg" alt="magicpaper">
                             <div class="program_card_title">
@@ -326,7 +261,7 @@
                             </div>
                         </div>
                     </a>
-                    <a id="cloneed" class="" target="_blank" href="program/program8.html">
+                    <a id="cloneed" class=""  href="program/program8.html">
                         <div class="program_mobile program_mobile2 prepare_fadein">
                             <img src="img/program/Tone_of_Qiangs.jpg" alt="magicpaper">
                             <div class="program_card_title">
@@ -410,7 +345,7 @@
                 <ul>
                     <div id="Publications0">
                         <div class="body3_list prominent prepare_fadein">
-                            <div class="list_container">
+                            <div class="list_container ">
                                 <p>
                                     Intelligent Smoke Alarm System with Wire
                                     less Sensor Network
@@ -532,110 +467,12 @@
                             </div>
                         </div>
 
-                        <!--<div class="body3_list prominent prepare_fadein">-->
-                            <!--<div class="list_container">-->
-                                <!--Object recognition-based second language learning educational robot system for Chinese preschool children-->
-
-                                <!--<div class="pub_more">-->
-                                    <!--<a href="javascript:">-->
-                                        <!--<img class="paper_img" src="img/icon_paper.png" alt="icon_paper">-->
-                                        <!--<span>-->
-                                            <!--Paper-->
-                                        <!--</span>-->
-                                    <!--</a>-->
-                                    <!--<a href="javascript:">-->
-                                        <!--<img class="paper_img" src="img/icon_video.png" alt="icon_paper">-->
-                                        <!--<span>-->
-                                            <!--video-->
-                                        <!--</span>-->
-                                    <!--</a>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="display body3_list">-->
-                            <!--<div class="list_container">-->
-                                <!--Intelligent Smoke Alarm System with Wireless Sensor Network-->
-                                <!-- using ZigBee-->
-                                <!--<div class="pub_more">-->
-                                    <!--<a href="javascript:">-->
-                                        <!--<img class="paper_img" src="img/icon_paper.png" alt="icon_paper">-->
-                                        <!--<span>-->
-                                            <!--Paper-->
-                                        <!--</span>-->
-                                    <!--</a>-->
-                                    <!--<a href="javascript:">-->
-                                        <!--<img class="paper_img" src="img/icon_video.png" alt="icon_paper">-->
-                                        <!--<span>-->
-                                            <!--video-->
-                                        <!--</span>-->
-                                    <!--</a>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="display body3_list prominent">-->
-                            <!--<div class="list_container">-->
-                                <!--See Your Voice: An Interactive Device of Speech Visualizations for Users with A Poor Hearing-->
-                                <!--<div class="pub_more">-->
-                                    <!--<a href="javascript:">-->
-                                        <!--<img class="paper_img" src="img/icon_paper.png" alt="icon_paper">-->
-                                        <!--<span>-->
-                                            <!--Paper-->
-                                        <!--</span>-->
-                                    <!--</a>-->
-                                    <!--<a href="javascript:">-->
-                                        <!--<img class="paper_img" src="img/icon_video.png" alt="icon_paper">-->
-                                        <!--<span>-->
-                                            <!--video-->
-                                        <!--</span>-->
-                                    <!--</a>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="display body3_list">-->
-                            <!--<div class="list_container">-->
-                                <!--Table War : A Tower-Defense Game Device with Augmented Reality Projection-->
-
-                                <!--<div class="pub_more">-->
-                                    <!--<a href="javascript:">-->
-                                        <!--<img class="paper_img" src="img/icon_paper.png" alt="icon_paper">-->
-                                        <!--<span>-->
-                                            <!--Paper-->
-                                        <!--</span>-->
-                                    <!--</a>-->
-                                    <!--<a href="javascript:">-->
-                                        <!--<img class="paper_img" src="img/icon_video.png" alt="icon_paper">-->
-                                        <!--<span>-->
-                                            <!--video-->
-                                        <!--</span>-->
-                                    <!--</a>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="display body3_list prominent">-->
-                            <!--<div class="list_container">-->
-                                <!--MagicPAPER: An Integrated Shadow-Art Hardware Device Enabling Touch Interaction on Paper-->
-                                <!--<div class="pub_more">-->
-                                    <!--<a href="javascript:">-->
-                                        <!--<img class="paper_img" src="img/icon_paper.png" alt="icon_paper">-->
-                                        <!--<span>-->
-                                            <!--Paper-->
-                                        <!--</span>-->
-                                    <!--</a>-->
-                                    <!--<a href="javascript:">-->
-                                        <!--<img class="paper_img" src="img/icon_video.png" alt="icon_paper">-->
-                                        <!--<span>-->
-                                            <!--video-->
-                                        <!--</span>-->
-                                    <!--</a>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
 
                     </div>
                     <div id="Publications1" class="display">
                         <div class="body3_list prominent">
                             <div class="list_container">
-                                A desktop projection interaction technology (utility model) with an air-touch operation
+                                A desktop projection interaction technology with an air-touch operation (utility model)
                             </div>
                         </div>
                         <div class="body3_list">
@@ -645,29 +482,33 @@
                         </div>
                         <div class="body3_list prominent">
                             <div class="list_container">
-                                A new media art device (utility model) for projection interaction
+                                A new media art device for projection interaction (utility model)
                             </div>
                         </div>
                         <div class="body3_list">
                             <div class="list_container">
-                                A new media art device (utility model) for augmented reality light and shadow interaction
+                                A new media art device for augmented reality light and shadow interaction (utility model)
                             </div>
                         </div>
-
+                        <div class="body3_list prominent">
+                            <div class="list_container">
+                                A Voice Visualization Music Interactive Device (utility model)
+                            </div>
+                        </div>
                     </div>
                     <div id="Publications2" class="display">
                         <div class="body3_list prominent">
-                            <div class="list_container">
+                            <div class="list_container list_container2">
                                 The official website of the School of Computer Science, Chengdu University of Information Science and Technology
                             </div>
                         </div>
                         <div class="body3_list">
-                            <div class="list_container">
+                            <div class="list_container list_container2">
                                 Carrying forward the Yi culture - the Yi people's mythology mobile game App
                             </div>
                         </div>
                         <div class="body3_list prominent">
-                            <div class="list_container">
+                            <div class="list_container list_container2">
                                 Video Go - Short Video Social App App
                             </div>
                         </div>
@@ -676,13 +517,13 @@
                     <div id="Publications3" class="display">
                         <div class="body3_list prominent">
                             <div class="list_container">
-                                The 3rd Fengyungu Cup Internet + Innovation and Entrepreneurship Competition(2017)
+                                “the Single award of interaction design” in Life Geek 2018
                                 <div class="pub_more2">
                                     <a href="javascript:">
                                         <!--<i class="iconfont icon-HCI"></i>-->
-                                        <img class="paper_img" src="img/icon_detail.png" alt="icon_paper">
+                                        <img class="paper_img" src="img/icon_pdf.png" alt="icon_paper">
                                         <span>
-                                            Program detail
+                                            PDF
                                         </span>
                                     </a>
                                 </div>
@@ -690,13 +531,13 @@
                         </div>
                         <div class="body3_list">
                             <div class="list_container">
-                                National Science Competition(2017)
+                                “the Best demo honorable mention award” in ISS 2018
                                 <div class="pub_more2">
                                     <a href="javascript:">
                                         <!--<i class="iconfont icon-HCI"></i>-->
-                                        <img class="paper_img" src="img/icon_detail.png" alt="icon_paper">
+                                        <img class="paper_img" src="img/icon_pdf.png" alt="icon_paper">
                                         <span>
-                                            Program detail
+                                            PDF
                                         </span>
                                     </a>
                                 </div>
@@ -704,13 +545,27 @@
                         </div>
                         <div class="body3_list prominent">
                             <div class="list_container">
-                                Computer Application Design Competition(2017)
+                                “the SIC People’s Choice Honorable mention award” in UIST 2018
                                 <div class="pub_more2">
                                     <a href="javascript:">
                                         <!--<i class="iconfont icon-HCI"></i>-->
-                                        <img class="paper_img" src="img/icon_detail.png" alt="icon_paper">
+                                        <img class="paper_img" src="img/icon_pdf.png" alt="icon_paper">
                                         <span>
-                                            Program detail
+                                            PDF
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body3_list">
+                            <div class="list_container">
+                                “the Honorable Mentioned Award” in SUI 2018
+                                <div class="pub_more2">
+                                    <a href="javascript:">
+                                        <!--<i class="iconfont icon-HCI"></i>-->
+                                        <img class="paper_img" src="img/icon_pdf.png" alt="icon_paper">
+                                        <span>
+                                            PDF
                                         </span>
                                     </a>
                                 </div>
@@ -754,11 +609,11 @@
                 <div class="body4_main">
                     <div class="body4_main_container clearfix prepare_fadein">
                         <div class="events_stair1_left">
-                            <a target="_blank" href="event/event9.html">
+                            <a  href="event/event9.html">
                                 <img src="img/event/geek3.jpg" alt="event1">
                             </a>
                             <div class="event_detail">
-                                <a target="_blank" href="event/event9.html">
+                                <a  href="event/event9.html">
                                     <p class="event_title">
                                         The MagicPAPER Group won “the Single award of interaction design” in Life Geek 2018
                                     </p>
@@ -770,7 +625,7 @@
                         </div>
                         <div class="events_stair1_right">
                             <div class="event_item">
-                                <a target="_blank" href="event/event8.html">
+                                <a  href="event/event8.html">
                                     <p class="event_title">
                                         The MagicPAPER group won “the Best demo honorable mention award” in ISS 2018
                                     </p>
@@ -780,7 +635,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a target="_blank" href="event/event7.html">
+                                <a  href="event/event7.html">
                                     <p class="event_title">
                                         The Anmoji group won “the SIC People’s Choice Honorable mention award” in UIST2018
                                     </p>
@@ -790,7 +645,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a target="_blank" href="event/event6.html">
+                                <a  href="event/event6.html">
                                     <p class="event_title">
                                         MagicPAPER Group has come to SUI&UIST
                                     </p>
@@ -810,7 +665,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a target="_blank" href="event/event3.html">
+                                <a  href="event/event3.html">
                                     <p class="event_title">
                                         SUI &UIST Demonstration
                                     </p>
@@ -820,7 +675,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a target="_blank" href="event/event2.html">
+                                <a  href="event/event2.html">
                                     <p class="event_title">
                                         UIST Student Innovation Contest
                                     </p>
@@ -830,9 +685,9 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a target="_blank" href="event/event1.html">
+                                <a  href="event/event1.html">
                                     <p class="event_title">
-                                        MagicPAPER Group come to ACM SIGCHI DIS 2018!
+                                        MagicPAPER Group come to ACM SIGCHI DIS 2018
                                     </p>
                                 </a>
                                 <p class="event_time">
@@ -841,7 +696,7 @@
                             </div>
 
                             <!--<div class="event_item">-->
-                                <!--<a target="_blank" href="event5.html">-->
+                                <!--<a  href="event5.html">-->
                                     <!--<p class="event_title">-->
                                         <!--UXPA China Full paper-->
                                     <!--</p>-->
@@ -855,7 +710,7 @@
                     <div class="body4_main_container clearfix display">
                         <div class="events_stair1_left">
                             <div class="event_item">
-                                <a target="_blank" href="event/event1.html">
+                                <a  href="event/event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -865,7 +720,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a target="_blank" href="event/event1.html">
+                                <a  href="event/event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -875,7 +730,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a target="_blank" href="event/event1.html">
+                                <a  href="event/event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -887,7 +742,7 @@
                         </div>
                         <div class="events_stair1_right">
                             <div class="event_item">
-                                <a target="_blank" href="event/event1.html">
+                                <a  href="event/event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -897,7 +752,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a target="_blank" href="event/event1.html">
+                                <a  href="event/event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -907,7 +762,7 @@
                                 </p>
                             </div>
                             <div class="event_item">
-                                <a target="_blank" href="event/event1.html">
+                                <a  href="event/event1.html">
                                     <p class="event_title">
                                         MagicPAPER Group come to ACM SIGCHI DIS 2018!
                                     </p>
@@ -1556,9 +1411,8 @@
 
         <script src="js/ex_tab.js"></script>
 
+        <!--构造clone 人物卡片-->
         <script>
-            //                            var added = false;
-
             if(goPAGE() == "pc"&&window.devicePixelRatio >= 1.5){
                 $("#clone2").append("<div class='clone2' style=\"width: 12rem; margin: 13px 16px;\"></div>")
                     .append("<div class='clone2' style=\"width: 12rem; margin: 13px 16px;\"></div>")
@@ -1568,23 +1422,7 @@
                     .append("<div class='clone2' style=\"width: 290px; margin: 27px 40px;\"></div>")
 
             }
-//            width: 12rem;
-//            margin: 13px 16px;
 
-
-
-            //                            add2()
-            //                            $(window).resize(function () {
-            //                                add2()
-            //                            })
-            //                            function add2() {
-            //                                if($(window).width() > 1743){
-            //                                    console.log("okok")
-            //
-            //                                    added = true;
-            //                                }
-            //
-            //                            }
         </script>
 
         <!--导航，点击切换-->

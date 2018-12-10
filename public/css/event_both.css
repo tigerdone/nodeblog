@@ -1,0 +1,20 @@
+.tuige{
+    text-align: justify;
+
+}
+.other_linker2{
+    position: fixed;
+    top: 0;
+}
+
+.other_linker{
+    /* position: absolute; */
+    /* top: 10px; */
+    /* right: 2px; */
+    /* float:  right; */
+    padding: 120px 0;
+}
+.link_nothing{
+    opacity: 0.5;
+}
+
