@@ -242,8 +242,8 @@
 .font_weith{
     width: 610px;
     margin: 0 auto;
-    line-height: 40px;
-    font-size: 32px;
+    line-height: 27px;
+    font-size: 14px;
     /* font-weight: 600; */
     color: #333;
 }
@@ -487,6 +487,10 @@
     margin: 0 auto;
     color: rgba(0,0,0,0.8);
     position: relative;
+}
+.list_container2{
+    padding: 20px;
+
 }
 .pub_more{
     position: absolute;

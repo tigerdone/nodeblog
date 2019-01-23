@@ -115,6 +115,9 @@
     transition: all .4s ease-in-out;
     float: right;
     /* margin: 0 -25px 0 0; */
+    width: 55%;
+    display:  flex;
+    justify-content:  space-around;
 }
 .header_items li{
     transition: all .4s ease-in-out;
@@ -130,7 +133,7 @@
     transition: all .4s ease-in-out;
     padding: 5px 12px;
     display:  inline-block;
-    margin: 0 10px;
+    /* margin: 0 10px; */
     /* width: 19%; */
     text-decoration: unset;
 }
@@ -138,11 +141,12 @@
     /* height: 83px; */
     padding: 8px 0 0 0;
     margin: 0 -15px 0 0;
+    width: 67%;
 }
 .header_items_pien a{
     font-size: 17pt;
     /* padding: 5px 15px; */
-    margin: 0 16px;
+    /* margin: 0 16px; */
 }
 .header_items a.choose{
     color: #ffffff;

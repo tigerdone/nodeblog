@@ -1413,8 +1413,10 @@
 
         <!--构造clone 人物卡片-->
         <script>
-            if(goPAGE() == "pc"&&window.devicePixelRatio >= 1.5){
-                $("#clone2").append("<div class='clone2' style=\"width: 12rem; margin: 13px 16px;\"></div>")
+            if( goPAGE() == "pc"
+                &&window.devicePixelRatio >= 1.5){
+                $("#clone2")
+                    .append("<div class='clone2' style=\"width: 12rem; margin: 13px 16px;\"></div>")
                     .append("<div class='clone2' style=\"width: 12rem; margin: 13px 16px;\"></div>")
             }
             else{
@@ -1430,8 +1432,13 @@
             $(document).ready(function() {
                 $("#div1Link").click(function() {
                     $("html, body").animate({
-                        scrollTop: $("#div1").offset().top }, {duration: 500,easing: "swing"});
-                    return false;});
+                        scrollTop: $("#div1").offset().top
+                    }, {
+                        duration: 500,
+                        easing: "swing"
+                    });
+                    return false;
+                });
 
                 $("#div2Link").click(function() {
                     $("html, body").animate({

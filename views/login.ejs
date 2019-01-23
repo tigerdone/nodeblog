@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+{% load static from staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        登录
+    </title>
+
+    <link rel="stylesheet" href="{% static 'myApp/css/login.css' %}" >
+    <link rel="stylesheet" href="{% static 'myApp/css/base.css' %}">
+    <script src="{% static 'myApp/js/register.js' %}"></script>
+    <script src="{% static 'myApp/js/jquery.min.js' %}"></script>
+
+    <style>
+        html {
+            background: url("{% static 'myApp/image/login.jpg' %}") center top no-repeat;
+        }
+        .body {
+            background-color: rgba(237, 240, 245, 0);
+        }
+    </style>
+
+</head>
+<body class="body">
+
+<div class="bg_box bg1">
+</div>
+<div class="bg_box bg2">
+</div>
+<div class="bg_box bg3">
+
+</div>
+
+<p class="firm_title">
+    管制员在岗状态监测系统
+</p>
+<div class="container">
+    <div class="login_box">
+        <p class="item">
+            登录
+        </p>
+        <form action="../" class="input_box" method="post">
+            <div class="input_item">
+                <div class="the_icon">
+                    <img src="{% static 'myApp/image/user.jpg'%}" alt="user">
+                </div>
+                <input class="username" required="required" type="text" placeholder="账号" name="name" >
+            </div>
+            <div class="input_item">
+                <div class="the_icon">
+                    <img src="{% static 'myApp/image/password.jpg'%}" alt="user">
+                </div>
+                <input  type="password" required="required" placeholder="密码" name="password">
+            </div>
+
+            <div class="input_item radio">
+                <div class="radio_item">
+                    <label>
+                        <input  required="required" value="员工" name="login_type" type="radio" checked>
+                        <span>
+                                员工
+                            </span>
+                    </label>
+
+                </div>
+                <div class="radio_item">
+                    <label>
+                        <input  required="required" value="管理员"  name="login_type" type="radio">
+                        <span>
+                            管理员
+                        </span>
+                    </label>
+
+                </div>
+                <div class="radio_item">
+                    <label>
+                        <input  required="required" value="超级管理员"  name="login_type" type="radio">
+                        <span>
+                            超级管理员
+                        </span>
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <div class="attention">
+                {{ attention }}
+            </div>
+
+            <div class="btn_item">
+                <button class="button login_in">
+                    登录
+                </button>
+                <button class="button" type="button" onclick="window.location.href='../login_to_register'">
+                    注册
+                </button>
+
+                <script>
+                    $('.login_in').click(function () {
+                        var name = $('.username').val();
+                        console.log(name);
+                        setCookie('username',name,3);
+                    })
+                    function setCookie(cname,cvalue,exdays){
+                        var d = new Date();
+                        d.setTime(d.getTime()+(exdays*24*60*60*1000));
+                        var expires = "expires="+d.toGMTString();
+                        document.cookie = cname+"="+cvalue+"; "+expires;
+                    }
+                </script>
+
+            </div>
+        </form>
+
+    </div>
+</div>
+<script type="text/javascript" src="{% static 'myApp/js/time_bg.js' %}"></script>
+
+</body>
+</html>

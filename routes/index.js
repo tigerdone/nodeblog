@@ -3,14 +3,28 @@ const path = require('path')
 const poster = require('./poster')
 
 
+var MongoClient = require('mongodb').MongoClient
+var db;
+
+MongoClient.connect('mongodb://localhost:27017/myblog', function (err, client) {
+    if (err) throw err
+    db = client.db('ims')
+
+})
+
+
 module.exports = function (app) {
     // app.get('/', function (req, res) {
     //     // res.redirect('/posts')
     //     res.render('index')
     // })
+
     app.get('/', function (req, res) {
-        app.use(express.static(path.join(__dirname, 'public')))
+        // app.use(express.static(path.join(__dirname, 'public')))
+        res.render('index')
+
     })
+
     app.get('/secbit', function (req, res) {
         app.use(express.static(path.join(__dirname, 'public/secbit')))
     })
@@ -25,17 +39,27 @@ module.exports = function (app) {
     poster(app)
 
 
-    // app.use('/message', require('./message'))
-    // app.use('/signup', require('./signup'))
-    // app.use('/signin', require('./signin'))
-    // app.use('/signout', require('./signout'))
-    // app.use('/posts', require('./posts'))
-    // app.use('/comments', require('./comments'))
+    app.get('/db_test', function (req, res) {
+        // 传递的是一个对象，使用时直接访问对象内容
+        var data = {};
+        const collection = db.collection('papers');
+        collection.find({"paper":"none"}).toArray(function (err, result) {
+            if (err) throw err
+            // console.log(result)
+            data.result = result;
+            res.render('ejstest',data)
+        })
+    })
 
-    // 404 page
-    // app.use(function (req, res) {
-    //     if (!res.headersSent) {
-    //         res.status(404).render('404')
-    //     }
-    // })
+    app.get('/insert', function (req, res) {
+        const collection = db.collection('papers');
+        collection.insertMany([{a:1}]);
+        res.render('admin')
+    })
+
+    app.get('/insert', function (req,res) {
+
+    })
+    
+    
 }
