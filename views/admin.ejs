@@ -1,10 +1,348 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ZH">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>
+        starbctech
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!--<link rel="stylesheet" href="css/base.css">-->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+        body{
+            /*background-color: #edf0f5;*/
+            background: url("img/cloud1.jpg") no-repeat  center fixed;
+        }
+        thead{
+            background-color: #f5f5f5;
+        }
+    </style>
 </head>
-<body>
-    插入成功
+<body class="body_bg">
+
+<div class="bg_box bg1">
+</div>
+<div class="bg_box bg2">
+</div>
+<div class="bg_box bg3">
+
+</div>
+
+<div class="main">
+    <div class="stir_header">
+        <div class="stir1 clearfix">
+            <div id="test11" class="stir1_left">
+                管制员在岗状态监测系统
+            </div>
+            <div class="stir1_right">
+                <a href="../">
+                    <button type="button" class="btn btn-success btn-lg">
+                        注销
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="list">
+        <ul class="nav nav-tabs" id="myTab">
+            <li class="active">
+                <a href="#home">
+                    Papers
+                </a>
+            </li>
+            <li class="">
+                <a href="#profile">
+                    Patent
+                </a>
+            </li>
+            <li class="">
+                <a href="#Software_copyright">
+                    Software_copyright
+                </a>
+            </li>
+            <li class="">
+                <a href="#Awards">
+                    Awards
+                </a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="profile">
+                <div class="">
+                    <table class="table table-bordered mytable">
+                        <!--<caption>上下文表格布局</caption>-->
+                        <thead>
+                            <tr>
+                                <th class="td">
+                                    <p class="t_header">
+                                        item
+                                    </p>
+                                </th>
+                                <th class="td">
+                                    <p class="t_header">
+                                        paper link
+                                    </p>
+                                </th>
+                                <th class="td">
+                                    <p class="t_header">
+                                        video link
+                                    </p>
+                                </th>
+                                <th colspan="2">
+                                    <p class="t_header">
+                                        操作
+                                    </p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="my_tbody">
+                        <% for(var i in data.result){ %>
+                            <tr class="active">
+                                <td>
+                                    <p class="body_item">
+                                        <%= data.result[i].item %>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p class="body_item">
+                                        <%= data.result[i].paper %>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p class="body_item">
+                                        <%= data.result[i].video %>
+                                    </p>
+                                </td>
+                                <td>
+                                    <button name=""  type="button" class="btn btn-success edit_id" data-toggle="modal" data-target="#myModal">
+                                        修改
+                                    </button>
+                                </td>
+                                <td>
+                                    <button name=""  type="button" class="btn btn-success delete_id" data-toggle="modal" data-target="#myModal2">
+                                        删除
+                                    </button>
+                                </td>
+                            </tr>
+                        <% } %>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(function () {
+                $('#myTab a:first').tab('show');
+            })
+            $('#myTab a').click(function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+            })
+        </script>
+
+        <!-- 修改模态框 -->
+        <div class="modal fade add_modal_super_boss" id="myModal" data-keyboard="false" data-backdrop="false">
+            <div class="modal-dialog super_boss_repower">
+                <div class="modal-content">
+                    <!-- 模态框头部 -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            <span id="member">
+                                张三
+                            </span>
+                            的权限
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- 模态框主体 -->
+                    <div class="modal-body">
+                        <!--模态框内容..-->
+                        <select id="power_value">
+                            <option value="0">NULL</option>
+                            <option value="3">员工</option>
+                            <option value="2">管理员</option>
+                            <option value="1">超级管理员</option>
+                        </select>
+
+                        <div>
+                            <div>
+                                <h1>Paper</h1>
+                                <ul>
+                                    <% for(var i in data.result){ %>
+                                    <li><%= data.result[i].item %>--<%= data.result[i].video %></li>
+                                    <% } %>
+                                </ul>
+                            </div>
+                            <div>
+                                <h1>Patent</h1>
+                                <ul>
+                                    <% for(var i in data.result){ %>
+                                    <li><%= data.result[i].item %>--<%= data.result[i].video %></li>
+                                    <% } %>
+                                </ul>
+                            </div>
+                            <div>
+                                <h1>Software</h1>
+                                <ul>
+                                    <% for(var i in data.result){ %>
+                                    <li><%= data.result[i].item %>--<%= data.result[i].video %></li>
+                                    <% } %>
+                                </ul>
+                            </div>
+                            <div>
+                                <h1>Awards</h1>
+                                <ul>
+                                    <% for(var i in data.result){ %>
+                                    <li><%= data.result[i].item %>--<%= data.result[i].video %></li>
+                                    <% } %>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- 模态框底部 -->
+                    <div class="modal-footer">
+                        <button id="submit_power" type="button" class="btn btn-secondary" data-dismiss="modal">
+                            提交
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            取消
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--删除模态框-->
+        <div class="modal fade add_modal_super_boss" id="myModal2" data-keyboard="false" data-backdrop="false">
+            <div class="modal-dialog super_boss_repower">
+                <div class="modal-content">
+                    <!-- 模态框头部 -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            确认删除
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- 模态框主体 -->
+                    <div class="modal-body">
+                        <!--模态框内容..-->
+                        确认删除
+                        <span id="delete_member_id"></span>
+                        号成员吗？
+                    </div>
+
+                    <!-- 模态框底部 -->
+                    <div class="modal-footer">
+                        <button id="submit_delete" type="button" class="btn btn-secondary" data-dismiss="modal">
+                            确定
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            取消
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var id_box;
+        var id_box2;
+        var power;
+        $(".edit_id").click(function () {
+            id_box = $(this).parent().parent().children().eq(0).children(".body_item");
+            power = $(this).parent().parent().children().eq(1).children(".body_item").text().replace(/\ +/g,"").replace(/[\r\n]/g,"");
+            console.log(power)
+            $("#member").text(id_box.text());
+            if(power === '员工'){
+                $("#power_value").val("3");
+            }
+            if(power === '管理员'){
+                $("#power_value").val("2");
+            }
+            if(power === '超级管理员'){
+                $("#power_value").val("1");
+            }
+
+            <!--$("#power_value").find("option:contains(员工)").attr("selected",true);-->
+            <!--$("#power_value").find("option:contains("+power+")").attr("selected",true);-->
+            <!--$("#power_value").find("option:contains('管理员')").attr("selected",true);-->
+
+
+
+        })
+
+        $("#submit_power").click(function () {
+            var mem_num = id_box.children(".member_id").text().replace(/\ +/g,"").replace(/[\r\n]/g,"")
+            var mem_id = $("#power_value").val();
+
+            $.ajax({
+                url: "../revise_worker_class",
+                type: "POST",
+                data: {mem_num:mem_num, mem_id:mem_id},
+                success: function(data){
+                    if(data == 1){
+                        window.location.reload()
+                    }
+                }
+            })
+        })
+        $(".delete_id").click(function () {
+            id_box2 = $(this).parent().parent().children().eq(0).children(".body_item").children(".member_id");
+            console.log(id_box2.text().replace(/\ +/g,"").replace(/[\r\n]/g,""))
+            $("#delete_member_id").text(id_box2.text().replace(/\ +/g,"").replace(/[\r\n]/g,""));
+        })
+
+        $("#submit_delete").click(function () {
+            var mem_id2 = id_box2.text().replace(/\ +/g,"").replace(/[\r\n]/g,"")
+
+            console.log(mem_id2)
+
+            $.ajax({
+                url: "../delete_worker_class",
+                type: "POST",
+                data: {mem_num:mem_id2},
+                success: function(data){
+                    if(data == 1){
+                        window.location.reload()
+                    }
+                }
+            })
+        })
+        var winHeight;
+        $(window).resize(re_window())
+        function re_window() {
+            if (window.innerHeight)
+            {
+                winHeight = window.innerHeight;
+            }
+            else if ((document.body) && (document.body.clientHeight)){
+                winHeight = document.body.clientHeight;
+            }
+            winHeight = winHeight/2 - 173/2;
+            $(".add_modal_super_boss").css({"height":winHeight + "px"});
+        }
+        re_window()
+    </script>
+</div>
+<script type="text/javascript" src="js/time_bg.js"></script>
+
 </body>
 </html>
+
+
+
+
+
+
+

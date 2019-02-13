@@ -1,5 +1,9 @@
 const express = require('express')
 const path = require('path')
+
+
+console.log("okok")
+
 module.exports = function (app) {
 
     app.get('/poster_magic', function (req, res) {
